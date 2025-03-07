@@ -1,0 +1,8 @@
+1 anche se questo è in sql, si potrebbe prendere spunto per eventuali ragionamenti
+https://github.com/TUMFTM/f1-timing-database?tab=readme-ov-file
+
+2 Optimizing pit stop strategies in Formula 1 with dynamic programming and game theory
+https://www.sciencedirect.com/science/article/abs/pii/S0377221724005484
+
+3 Ers
+https://www.motorbox.com/auto/sport/f1/news/dizionario-f1-che-cosa-ers-differenza-kers

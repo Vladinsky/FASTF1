@@ -1,0 +1,119 @@
+Configurazione e impostazioni
+fastf1.Cache.enable_cache(path)
+Abilita la cache per memorizzare i dati scaricati e ridurre i tempi di caricamento nelle sessioni successive.
+
+path: Percorso della directory dove salvare i dati in cache.
+
+fastf1.Cache.clear_cache(path=None)
+Cancella i dati memorizzati nella cache.
+
+path: Se non specificato, cancella tutta la cache.
+
+fastf1.set_log_level(level)
+Imposta il livello di logging (utile per il debug).
+
+level: Livello di logging (es. DEBUG, INFO, WARNING, ERROR).
+
+Caricamento dei dati
+fastf1.get_session(year, event, session)
+Crea un oggetto Session per una specifica sessione di Formula 1.
+
+year: Anno della stagione (es. 2023).
+
+event: Nome del Gran Premio (es. 'Monaco').
+
+session: Tipo di sessione (es. 'Q' per le qualifiche, 'R' per la gara).
+
+session.load()
+Carica i dati della sessione (tempi di giro, telemetria, ecc.). Puoi specificare parametri aggiuntivi come telemetry=True per caricare anche i dati di telemetria.
+
+fastf1.get_event_schedule(year)
+Ottiene il calendario completo di una stagione specifica.
+
+Dati delle sessioni
+session.laps
+Restituisce un DataFrame con tutti i tempi di giro della sessione.
+
+session.results
+Restituisce un DataFrame con i risultati della sessione (posizioni, tempi, ecc.).
+
+session.drivers
+Restituisce un elenco dei piloti partecipanti alla sessione.
+
+session.get_driver(driver_abbreviation)
+Ottiene informazioni specifiche su un pilota.
+
+driver_abbreviation: Sigla del pilota (es. 'HAM' per Lewis Hamilton).
+
+session.weather_data
+Restituisce un DataFrame con i dati meteorologici durante la sessione.
+
+Analisi dei tempi di giro
+laps.pick_driver(driver_abbreviation)
+Filtra i tempi di giro per un pilota specifico.
+
+laps.pick_quicklaps(threshold=None)
+Filtra i tempi di giro più veloci (utile per analisi delle prestazioni).
+
+laps.pick_tyre(compound)
+Filtra i tempi di giro in base al tipo di pneumatico utilizzato.
+
+laps.pick_lap(lap_number)
+Filtra i tempi di giro per un numero di giro specifico.
+
+Telemetria
+lap.get_telemetry()
+Restituisce i dati di telemetria per un giro specifico (velocità, RPM, posizione, ecc.).
+
+fastf1.api.telemetry
+Funzioni di basso livello per accedere ai dati di telemetria.
+
+Visualizzazione dei dati
+fastf1.plotting.setup_mpl()
+Configura matplotlib per una migliore visualizzazione dei dati.
+
+fastf1.plotting.driver_color(driver_abbreviation)
+Restituisce il colore associato a un pilota (utile per grafici).
+
+fastf1.plotting.lap_number_heatmap(laps)
+Crea una mappa termica dei tempi di giro.
+
+Funzionalità avanzate
+fastf1.api
+Modulo di basso livello per accedere direttamente alle API di Formula 1.
+
+fastf1.utils
+Funzioni utili per la manipolazione dei dati, come la conversione di tempi e distanze.
+
+fastf1.legacy
+Supporto per funzionalità legacy o deprecate.
+
+Esempi di utilizzo avanzato
+Confronto tempi di giro tra piloti:
+
+python
+Copy
+import fastf1 as ff1
+
+ff1.Cache.enable_cache('cache_dir')
+session = ff1.get_session(2023, 'Monaco', 'Q')
+session.load()
+
+ham_laps = session.laps.pick_driver('HAM')
+ver_laps = session.laps.pick_driver('VER')
+
+print(ham_laps['LapTime'].min(), ver_laps['LapTime'].min())
+Grafico della velocità in un giro:
+
+python
+Copy
+import matplotlib.pyplot as plt
+
+lap = session.laps.pick_driver('HAM').pick_fastest()
+telemetry = lap.get_telemetry()
+
+plt.plot(telemetry['Distance'], telemetry['Speed'], label='HAM')
+plt.xlabel('Distanza (m)')
+plt.ylabel('Velocità (km/h)')
+plt.legend()
+plt.show()
