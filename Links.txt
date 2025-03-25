@@ -6,3 +6,6 @@ https://www.sciencedirect.com/science/article/abs/pii/S0377221724005484
 
 3 Ers
 https://www.motorbox.com/auto/sport/f1/news/dizionario-f1-che-cosa-ers-differenza-kers
+
+4 Fast F! API
+https://docs.fastf1.dev/core.html#api-reference
