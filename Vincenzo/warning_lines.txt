@@ -57,3 +57,293 @@
 2018 United States Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['8', '14']
 2018 United States Grand Prix: WARNING - fastf1.fastf1.core - Driver 18: Lap timing integrity check failed for 1 lap(s)
 2018 Brazilian Grand Prix: WARNING - fastf1.api - Driver 27: Encountered 1 timing integrity error(s) near lap(s): [2].
+2019 Australian Grand Prix: WARNING - fastf1.fastf1.core - Driver 16: Lap timing integrity check failed for 1 lap(s)
+2019 French Grand Prix: WARNING - fastf1.fastf1.core - Driver 27: Lap timing integrity check failed for 1 lap(s)
+2019 British Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['20']
+2019 German Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['11']
+2019 Belgian Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['55']
+2019 Singapore Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['55']
+2019 Singapore Grand Prix: WARNING - fastf1.fastf1.core - Driver 18: Lap timing integrity check failed for 1 lap(s)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver  5: Ignoring late data for a previously processed lap.The data may contain errors (previous: 52; current 53)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 16: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 77: Ignoring late data for a previously processed lap.The data may contain errors (previous: 52; current 53)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 44: Ignoring late data for a previously processed lap.The data may contain errors (previous: 52; current 53)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 23: Ignoring late data for a previously processed lap.The data may contain errors (previous: 52; current 53)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 55: Ignoring late data for a previously processed lap.The data may contain errors (previous: 52; current 53)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver  4: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 10: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver  8: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 99: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 18: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver  7: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 26: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 27: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver  3: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 63: Ignoring late data for a previously processed lap.The data may contain errors (previous: 50; current 51)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 20: Ignoring late data for a previously processed lap.The data may contain errors (previous: 51; current 52)
+2019 Japanese Grand Prix: WARNING - fastf1.api - Driver 88: Ignoring late data for a previously processed lap.The data may contain errors (previous: 50; current 51)
+2019 Mexican Grand Prix: WARNING - fastf1.fastf1.core - Driver  5: Lap timing integrity check failed for 1 lap(s)
+2019 United States Grand Prix: WARNING - fastf1.fastf1.core - Driver  4: Lap timing integrity check failed for 1 lap(s)
+2019 Brazilian Grand Prix: WARNING - fastf1.api - Driver 20: Encountered 1 timing integrity error(s) near lap(s): [7].
+2019 Brazilian Grand Prix: WARNING - fastf1.fastf1.core - Driver 20: Lap timing integrity check failed for 1 lap(s)
+2019 Abu Dhabi Grand Prix: WARNING - fastf1.api - Driver 63: Ignoring late data for a previously processed lap.The data may contain errors (previous: 34; current 35)
+2019 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Driver  4: Lap timing integrity check failed for 1 lap(s)
+2019 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Driver 55: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.api - Driver 63: Encountered 1 timing integrity error(s) near lap(s): [9].
+2020 Austrian Grand Prix: WARNING - fastf1.api - Driver  7: Encountered 1 timing integrity error(s) near lap(s): [9].
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 77: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 16: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver  4: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 44: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 55: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 11: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 10: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 31: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 99: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver  5: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 26: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 23: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver  8: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 20: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver 18: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.fastf1.core - Driver  3: Lap timing integrity check failed for 1 lap(s)
+2020 Austrian Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Austrian Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Austrian Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Styrian Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['5']
+2020 Styrian Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Styrian Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Styrian Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 British Grand Prix: WARNING - fastf1.api - Driver  4: Ignoring late data for a previously processed lap.The data may contain errors (previous: 35; current 36)
+2020 British Grand Prix: WARNING - fastf1.api - Driver  8: Encountered 1 timing integrity error(s) near lap(s): [15].
+2020 British Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['20']
+2020 British Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 British Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 British Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Belgian Grand Prix: WARNING - fastf1.api - Driver 26: Ignoring late data for a previously processed lap.The data may contain errors (previous: 40; current 41)
+2020 Belgian Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Belgian Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Belgian Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Italian Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Italian Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Italian Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Tuscan Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Tuscan Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Tuscan Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Russian Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Russian Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Russian Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Eifel Grand Prix: WARNING - fastf1.api - Driver  7: Ignoring late data for a previously processed lap.The data may contain errors (previous: 37; current 38)
+2020 Eifel Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Eifel Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Eifel Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Portuguese Grand Prix: WARNING - fastf1.api - Driver 77: Ignoring late data for a previously processed lap.The data may contain errors (previous: 62; current 63)
+2020 Emilia Romagna Grand Prix: WARNING - fastf1.fastf1.core - Driver 23: Lap timing integrity check failed for 1 lap(s)
+2020 Emilia Romagna Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Emilia Romagna Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Emilia Romagna Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Bahrain Grand Prix: WARNING - fastf1.api - Driver 55: Encountered 1 timing integrity error(s) near lap(s): [48].
+2020 Bahrain Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['18']
+2020 Bahrain Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Bahrain Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Bahrain Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Sakhir Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Sakhir Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Sakhir Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2020 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Driver  6: Lap timing integrity check failed for 1 lap(s)
+2020 Abu Dhabi Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2020 Abu Dhabi Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2020 Abu Dhabi Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2021 Portuguese Grand Prix: WARNING - fastf1.api - Driver 44: Ignoring late data for a previously processed lap.The data may contain errors (previous: 61; current 62)
+2021 Portuguese Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['7']
+2021 Portuguese Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2021 Portuguese Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2021 Portuguese Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2021 Spanish Grand Prix: WARNING - fastf1.api - Driver 55: Ignoring late data for a previously processed lap.The data may contain errors (previous: 28; current 29)
+2021 Spanish Grand Prix: WARNING - fastf1.api - Driver 22: Ignoring late data for a previously processed lap.The data may contain errors (previous: 2; current 3)
+2021 Spanish Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2021 Spanish Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2021 Spanish Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2021 Azerbaijan Grand Prix: WARNING - fastf1.api - Driver 47: Ignoring late data for a previously processed lap.The data may contain errors (previous: 42; current 43)
+2021 Azerbaijan Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2021 Azerbaijan Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2021 Azerbaijan Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2021 Styrian Grand Prix: WARNING - fastf1.api - Driver 18: Encountered 1 timing integrity error(s) near lap(s): [33].
+2021 Styrian Grand Prix: WARNING - fastf1.api - Failed to align laps for drivers: ['10']
+2021 Austrian Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2021 Austrian Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2021 Austrian Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2021 British Grand Prix: WARNING - fastf1.api - Driver  4: Ignoring late data for a previously processed lap.The data may contain errors (previous: 43; current 44)
+2021 British Grand Prix: WARNING - fastf1.api - Driver 55: Ignoring late data for a previously processed lap.The data may contain errors (previous: 7; current 8)
+2021 British Grand Prix: WARNING - fastf1.api - Driver 241: Position data is incomplete!
+2021 British Grand Prix: WARNING - fastf1.api - Driver 242: Position data is incomplete!
+2021 British Grand Prix: WARNING - fastf1.api - Driver 243: Position data is incomplete!
+2021 British Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Hungarian Grand Prix: WARNING - requests_cache.session - Request for URL https://api.jolpi.ca/ergast/f1/2021/11/results.json failed; using cached response
+2021 Hungarian Grand Prix:     raise RateLimitExceededError(self._info)
+2021 Hungarian Grand Prix: fastf1.req.RateLimitExceededError: any API: 500 calls/h
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Hungarian Grand Prix: WARNING - requests_cache.session - Request for URL https://api.jolpi.ca/ergast/f1/2021/11/laps/1.json failed; using cached response
+2021 Hungarian Grand Prix:     raise RateLimitExceededError(self._info)
+2021 Hungarian Grand Prix: fastf1.req.RateLimitExceededError: any API: 500 calls/h
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast for drivers: ['44', '31', '5', '55', '22', '6', '14', '63', '33', '7', '47', '10', '9', '3', '4', '99']
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Hungarian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Belgian Grand Prix: WARNING - requests_cache.session - Request for URL https://api.jolpi.ca/ergast/f1/2021/12/results.json failed; using cached response
+2021 Belgian Grand Prix:     raise RateLimitExceededError(self._info)
+2021 Belgian Grand Prix: fastf1.req.RateLimitExceededError: any API: 500 calls/h
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Belgian Grand Prix: WARNING - requests_cache.session - Request for URL https://api.jolpi.ca/ergast/f1/2021/12/laps/1.json failed; using cached response
+2021 Belgian Grand Prix:     raise RateLimitExceededError(self._info)
+2021 Belgian Grand Prix: fastf1.req.RateLimitExceededError: any API: 500 calls/h
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast for drivers: ['33', '63', '44', '3', '5', '10', '31', '16', '6', '55', '14', '77', '99', '4', '22', '47', '9', '18', '7', '11']
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Belgian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Dutch Grand Prix: WARNING - requests_cache.session - Request for URL https://api.jolpi.ca/ergast/f1/2021/13/results.json failed; using cached response
+2021 Dutch Grand Prix:     raise RateLimitExceededError(self._info)
+2021 Dutch Grand Prix: fastf1.req.RateLimitExceededError: any API: 500 calls/h
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Dutch Grand Prix: WARNING - requests_cache.session - Request for URL https://api.jolpi.ca/ergast/f1/2021/13/laps/1.json failed; using cached response
+2021 Dutch Grand Prix:     raise RateLimitExceededError(self._info)
+2021 Dutch Grand Prix: fastf1.req.RateLimitExceededError: any API: 500 calls/h
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast for drivers: ['33', '44', '77', '10', '16', '55', '14', '31', '3', '99', '63', '18', '4', '22', '5', '88', '9', '47', '11', '6']
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Dutch Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Italian Grand Prix: WARNING - requests_cache.session - Request for URL https://api.jolpi.ca/ergast/f1/2021/14/results.json failed; using cached response
+2021 Italian Grand Prix:     raise RateLimitExceededError(self._info)
+2021 Italian Grand Prix: fastf1.req.RateLimitExceededError: any API: 500 calls/h
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Italian Grand Prix: WARNING - requests_cache.session - Request for URL https://api.jolpi.ca/ergast/f1/2021/14/laps/1.json failed; using cached response
+2021 Italian Grand Prix:     raise RateLimitExceededError(self._info)
+2021 Italian Grand Prix: fastf1.req.RateLimitExceededError: any API: 500 calls/h
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast for drivers: ['3', '33', '4', '44', '16', '55', '11', '18', '14', '31', '6', '5', '63', '88', '47', '77', '9', '10', '99']
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Italian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load result data from Ergast!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - No result data for this session available on Ergast! (This is expected for recent sessions)
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load driver list and session results!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Russian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load result data from Ergast!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - No result data for this session available on Ergast! (This is expected for recent sessions)
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load driver list and session results!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Turkish Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load result data from Ergast!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - No result data for this session available on Ergast! (This is expected for recent sessions)
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load driver list and session results!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 United States Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load result data from Ergast!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - No result data for this session available on Ergast! (This is expected for recent sessions)
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load driver list and session results!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Mexico City Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load result data from Ergast!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - No result data for this session available on Ergast! (This is expected for recent sessions)
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load driver list and session results!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 São Paulo Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load result data from Ergast!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - No result data for this session available on Ergast! (This is expected for recent sessions)
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load driver list and session results!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Qatar Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load result data from Ergast!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - No result data for this session available on Ergast! (This is expected for recent sessions)
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load driver list and session results!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Saudi Arabian Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session info data!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load extended driver information!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load result data from Ergast!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - No result data for this session available on Ergast! (This is expected for recent sessions)
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load driver list and session results!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load session status data!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load total lap count!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load track status data!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load timing data!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to add first lap time from Ergast!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load telemetry data!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load weather data!
+2021 Abu Dhabi Grand Prix: WARNING - fastf1.fastf1.core - Failed to load race control messages!
