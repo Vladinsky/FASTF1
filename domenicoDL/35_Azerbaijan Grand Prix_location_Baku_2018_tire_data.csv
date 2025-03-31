@@ -1,0 +1,2 @@
+Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
+35,1.0,1.0,1.0,6003,SUPERSOFT,True,

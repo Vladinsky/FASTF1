@@ -1,0 +1,2 @@
+Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
+8,1.0,1.0,4.0,23392,SOFT,False,

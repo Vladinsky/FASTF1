@@ -1,0 +1,9 @@
+Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
+20,1.0,,,0,nan,True,0 days 00:01:43.721000
+20,2.0,1.0,1.0,5807,SOFT,True,
+20,3.0,2.0,1.0,5807,MEDIUM,True,
+20,4.0,2.0,2.0,11614,MEDIUM,True,0 days 00:02:22.671000
+20,5.0,2.0,3.0,17421,MEDIUM,True,0 days 00:02:21.142000
+20,6.0,2.0,4.0,23228,MEDIUM,True,0 days 00:01:39.908000
+20,7.0,2.0,5.0,29035,MEDIUM,True,0 days 00:01:40.239000
+20,8.0,2.0,6.0,34842,MEDIUM,True,0 days 00:01:50.631000
