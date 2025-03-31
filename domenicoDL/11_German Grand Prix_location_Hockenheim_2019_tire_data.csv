@@ -1,0 +1,3 @@
+Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
+11,1.0,1.0,1.0,4574,WET,True,0 days 00:01:52.843000
+11,2.0,1.0,2.0,9148,WET,True,

@@ -1,0 +1,10 @@
+Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
+8,1.0,1.0,1.0,5891,SOFT,True,0 days 00:02:09.704000
+8,2.0,2.0,1.0,5891,HARD,True,0 days 00:02:04.009000
+8,3.0,2.0,2.0,11782,HARD,True,0 days 00:01:37.851000
+8,4.0,2.0,3.0,17673,HARD,True,0 days 00:01:34.350000
+8,5.0,2.0,4.0,23564,HARD,True,0 days 00:01:34.711000
+8,6.0,2.0,5.0,29455,HARD,True,0 days 00:01:34.696000
+8,7.0,2.0,6.0,35346,HARD,True,0 days 00:01:34.458000
+8,8.0,2.0,7.0,41237,HARD,True,0 days 00:01:34.953000
+8,9.0,2.0,8.0,47128,HARD,True,0 days 00:01:42.949000

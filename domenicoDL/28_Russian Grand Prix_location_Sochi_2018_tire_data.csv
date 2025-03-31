@@ -1,0 +1,5 @@
+Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
+28,1.0,,,0,nan,True,0 days 00:01:55.199000
+28,2.0,1.0,1.0,5848,HYPERSOFT,True,0 days 00:01:45.852000
+28,3.0,1.0,2.0,11696,HYPERSOFT,True,0 days 00:01:48.294000
+28,4.0,2.0,1.0,5848,SOFT,True,
