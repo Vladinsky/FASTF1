@@ -1,7 +1,7 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-5,German Grand Prix,1.0,WET,2.0,9148
-5,German Grand Prix,2.0,INTERMEDIATE,21.0,96054
-5,German Grand Prix,3.0,SOFT,5.0,22870
-5,German Grand Prix,4.0,INTERMEDIATE,13.0,59462
-5,German Grand Prix,5.0,INTERMEDIATE,6.0,27444
-5,German Grand Prix,6.0,SOFT,17.0,77758
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+5,VET,German Grand Prix,1.0,WET,2.0,9148
+5,VET,German Grand Prix,2.0,INTERMEDIATE,21.0,96054
+5,VET,German Grand Prix,3.0,SOFT,5.0,22870
+5,VET,German Grand Prix,4.0,INTERMEDIATE,13.0,59462
+5,VET,German Grand Prix,5.0,INTERMEDIATE,6.0,27444
+5,VET,German Grand Prix,6.0,SOFT,17.0,77758

@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-26,British Grand Prix,1.0,SOFT,12.0,70692
-26,British Grand Prix,2.0,MEDIUM,9.0,53019
-26,British Grand Prix,3.0,HARD,31.0,182621
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+26,KVY,British Grand Prix,1.0,SOFT,12.0,70692
+26,KVY,British Grand Prix,2.0,MEDIUM,9.0,53019
+26,KVY,British Grand Prix,3.0,HARD,31.0,182621

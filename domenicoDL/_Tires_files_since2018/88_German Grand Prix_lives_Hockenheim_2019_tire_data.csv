@@ -1,7 +1,7 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-88,German Grand Prix,1.0,WET,7.0,32018
-88,German Grand Prix,2.0,INTERMEDIATE,16.0,73184
-88,German Grand Prix,3.0,INTERMEDIATE,8.0,36592
-88,German Grand Prix,4.0,INTERMEDIATE,15.0,68610
-88,German Grand Prix,5.0,SOFT,11.0,50314
-88,German Grand Prix,6.0,SOFT,10.0,45740
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+88,KUB,German Grand Prix,1.0,WET,7.0,32018
+88,KUB,German Grand Prix,2.0,INTERMEDIATE,16.0,73184
+88,KUB,German Grand Prix,3.0,INTERMEDIATE,8.0,36592
+88,KUB,German Grand Prix,4.0,INTERMEDIATE,15.0,68610
+88,KUB,German Grand Prix,5.0,SOFT,11.0,50314
+88,KUB,German Grand Prix,6.0,SOFT,10.0,45740

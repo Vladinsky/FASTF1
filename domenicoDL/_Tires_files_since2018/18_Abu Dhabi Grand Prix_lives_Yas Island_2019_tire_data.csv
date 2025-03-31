@@ -1,2 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-18,Abu Dhabi Grand Prix,3.0,SOFT,22.0,0
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+18,STR,Abu Dhabi Grand Prix,1.0,MEDIUM,5.0,26405
+18,STR,Abu Dhabi Grand Prix,2.0,HARD,18.0,95058
+18,STR,Abu Dhabi Grand Prix,3.0,SOFT,22.0,116182

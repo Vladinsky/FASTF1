@@ -1,3 +1,3 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-26,Hungarian Grand Prix,1.0,MEDIUM,21.0,92001
-26,Hungarian Grand Prix,2.0,HARD,47.0,205907
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+26,KVY,Hungarian Grand Prix,1.0,MEDIUM,21.0,92001
+26,KVY,Hungarian Grand Prix,2.0,HARD,47.0,205907

@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-16,German Grand Prix,1.0,WET,3.0,13722
-16,German Grand Prix,2.0,INTERMEDIATE,12.0,54888
-16,German Grand Prix,3.0,INTERMEDIATE,12.0,54888
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+16,LEC,German Grand Prix,1.0,WET,3.0,13722
+16,LEC,German Grand Prix,2.0,INTERMEDIATE,12.0,54888
+16,LEC,German Grand Prix,3.0,INTERMEDIATE,12.0,54888

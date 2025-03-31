@@ -1,2 +1,2 @@
-Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
-55,1.0,1.0,1.0,7004,SOFT,True,0 days 00:03:14.682000
+DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
+55,SAI,1.0,1.0,1.0,7004,SOFT,True,0 days 00:03:14.682000

@@ -1,2 +1,2 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-10,Azerbaijan Grand Prix,1.0,MEDIUM,39.0,234117
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+10,GAS,Azerbaijan Grand Prix,1.0,MEDIUM,39.0,234117

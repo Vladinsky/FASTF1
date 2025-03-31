@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-77,Canadian Grand Prix,1.0,MEDIUM,33.0,143913
-77,Canadian Grand Prix,2.0,HARD,37.0,161357
-77,Canadian Grand Prix,3.0,SOFT,5.0,21805
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+77,BOT,Canadian Grand Prix,1.0,MEDIUM,33.0,143913
+77,BOT,Canadian Grand Prix,2.0,HARD,37.0,161357
+77,BOT,Canadian Grand Prix,3.0,SOFT,5.0,21805

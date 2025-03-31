@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-20,United States Grand Prix,1.0,MEDIUM,18.0,99234
-20,United States Grand Prix,2.0,HARD,23.0,126799
-20,United States Grand Prix,3.0,SOFT,13.0,71669
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+20,MAG,United States Grand Prix,1.0,MEDIUM,18.0,99234
+20,MAG,United States Grand Prix,2.0,HARD,23.0,126799
+20,MAG,United States Grand Prix,3.0,SOFT,13.0,71669

@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-16,Azerbaijan Grand Prix,1.0,SUPERSOFT,23.0,138069
-16,Azerbaijan Grand Prix,2.0,SOFT,16.0,96048
-16,Azerbaijan Grand Prix,3.0,ULTRASOFT,11.0,66033
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+16,LEC,Azerbaijan Grand Prix,1.0,SUPERSOFT,23.0,138069
+16,LEC,Azerbaijan Grand Prix,2.0,SOFT,16.0,96048
+16,LEC,Azerbaijan Grand Prix,3.0,ULTRASOFT,11.0,66033

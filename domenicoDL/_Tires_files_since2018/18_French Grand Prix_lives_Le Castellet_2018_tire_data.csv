@@ -1,2 +1,2 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-18,French Grand Prix,2.0,SOFT,48.0,280416
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+18,STR,French Grand Prix,2.0,SOFT,48.0,280416

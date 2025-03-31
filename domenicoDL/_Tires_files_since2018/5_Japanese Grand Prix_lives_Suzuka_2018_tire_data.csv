@@ -1,3 +1,3 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-5,Japanese Grand Prix,1.0,SUPERSOFT,28.0,162596
-5,Japanese Grand Prix,2.0,SOFT,27.0,156789
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+5,VET,Japanese Grand Prix,1.0,SUPERSOFT,28.0,162596
+5,VET,Japanese Grand Prix,2.0,SOFT,27.0,156789

@@ -1,3 +1,3 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-5,Russian Grand Prix,1.0,ULTRASOFT,15.0,87720
-5,Russian Grand Prix,2.0,SOFT,40.0,233920
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+5,VET,Russian Grand Prix,1.0,ULTRASOFT,15.0,87720
+5,VET,Russian Grand Prix,2.0,SOFT,40.0,233920
