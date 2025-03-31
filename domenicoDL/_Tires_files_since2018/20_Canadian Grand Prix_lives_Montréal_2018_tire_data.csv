@@ -1,3 +1,3 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-20,Canadian Grand Prix,1.0,ULTRASOFT,21.0,91581
-20,Canadian Grand Prix,2.0,SUPERSOFT,47.0,204967
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+20,MAG,Canadian Grand Prix,1.0,ULTRASOFT,21.0,91581
+20,MAG,Canadian Grand Prix,2.0,SUPERSOFT,47.0,204967

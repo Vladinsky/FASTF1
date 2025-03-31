@@ -1,3 +1,3 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-5,German Grand Prix,1.0,ULTRASOFT,26.0,118924
-5,German Grand Prix,2.0,SOFT,27.0,123498
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+5,VET,German Grand Prix,1.0,ULTRASOFT,26.0,118924
+5,VET,German Grand Prix,2.0,SOFT,27.0,123498

@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-5,Belgian Grand Prix,1.0,SOFT,18.0,126072
-5,Belgian Grand Prix,2.0,MEDIUM,18.0,126072
-5,Belgian Grand Prix,3.0,SOFT,15.0,105060
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+5,VET,Belgian Grand Prix,1.0,SOFT,18.0,126072
+5,VET,Belgian Grand Prix,2.0,MEDIUM,18.0,126072
+5,VET,Belgian Grand Prix,3.0,SOFT,15.0,105060

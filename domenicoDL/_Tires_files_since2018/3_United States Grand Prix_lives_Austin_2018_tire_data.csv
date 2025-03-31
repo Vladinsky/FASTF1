@@ -1,2 +1,2 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-3,United States Grand Prix,1.0,SUPERSOFT,12.0,66156
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+3,RIC,United States Grand Prix,1.0,SUPERSOFT,12.0,66156

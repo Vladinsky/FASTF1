@@ -1,5 +1,5 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-18,Monaco Grand Prix,1.0,ULTRASOFT,8.0,26696
-18,Monaco Grand Prix,2.0,SUPERSOFT,26.0,86762
-18,Monaco Grand Prix,3.0,HYPERSOFT,25.0,83425
-18,Monaco Grand Prix,4.0,HYPERSOFT,17.0,56729
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+18,STR,Monaco Grand Prix,1.0,ULTRASOFT,8.0,26696
+18,STR,Monaco Grand Prix,2.0,SUPERSOFT,26.0,86762
+18,STR,Monaco Grand Prix,3.0,HYPERSOFT,25.0,83425
+18,STR,Monaco Grand Prix,4.0,HYPERSOFT,17.0,56729

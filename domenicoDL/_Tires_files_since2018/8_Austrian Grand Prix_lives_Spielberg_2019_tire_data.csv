@@ -1,3 +1,3 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-8,Austrian Grand Prix,1.0,MEDIUM,34.0,146812
-8,Austrian Grand Prix,2.0,HARD,36.0,155448
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+8,GRO,Austrian Grand Prix,1.0,MEDIUM,34.0,146812
+8,GRO,Austrian Grand Prix,2.0,HARD,36.0,155448

@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-20,Spanish Grand Prix,1.0,SOFT,26.0,121082
-20,Spanish Grand Prix,2.0,MEDIUM,22.0,102454
-20,Spanish Grand Prix,3.0,SOFT,24.0,111768
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+20,MAG,Spanish Grand Prix,1.0,SOFT,26.0,121082
+20,MAG,Spanish Grand Prix,2.0,MEDIUM,22.0,102454
+20,MAG,Spanish Grand Prix,3.0,SOFT,24.0,111768

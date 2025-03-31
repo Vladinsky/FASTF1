@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-20,Singapore Grand Prix,1.0,ULTRASOFT,25.0,123500
-20,Singapore Grand Prix,2.0,SOFT,10.0,49400
-20,Singapore Grand Prix,3.0,HYPERSOFT,23.0,113620
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+20,MAG,Singapore Grand Prix,1.0,ULTRASOFT,25.0,123500
+20,MAG,Singapore Grand Prix,2.0,SOFT,10.0,49400
+20,MAG,Singapore Grand Prix,3.0,HYPERSOFT,23.0,113620

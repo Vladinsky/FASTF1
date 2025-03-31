@@ -1,2 +1,2 @@
-Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
-27,1.0,1.0,1.0,7004,SOFT,True,
+DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
+27,HUL,1.0,1.0,1.0,7004,SOFT,True,

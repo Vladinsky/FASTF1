@@ -1,3 +1,3 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-10,Australian Grand Prix,1.0,MEDIUM,37.0,195286
-10,Australian Grand Prix,2.0,SOFT,20.0,105560
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+10,GAS,Australian Grand Prix,1.0,MEDIUM,37.0,195286
+10,GAS,Australian Grand Prix,2.0,SOFT,20.0,105560

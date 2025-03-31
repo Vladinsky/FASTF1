@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-27,German Grand Prix,1.0,ULTRASOFT,20.0,91480
-27,German Grand Prix,2.0,MEDIUM,33.0,150942
-27,German Grand Prix,4.0,ULTRASOFT,15.0,68610
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+27,HUL,German Grand Prix,1.0,ULTRASOFT,20.0,91480
+27,HUL,German Grand Prix,2.0,MEDIUM,33.0,150942
+27,HUL,German Grand Prix,4.0,ULTRASOFT,15.0,68610

@@ -1,4 +1,4 @@
-Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
-77,United States Grand Prix,1.0,MEDIUM,17.0,93721
-77,United States Grand Prix,2.0,HARD,21.0,115773
-77,United States Grand Prix,3.0,MEDIUM,21.0,115773
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+77,BOT,United States Grand Prix,1.0,MEDIUM,17.0,93721
+77,BOT,United States Grand Prix,2.0,HARD,21.0,115773
+77,BOT,United States Grand Prix,3.0,MEDIUM,21.0,115773
