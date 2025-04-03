@@ -1,4 +1,4 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
 20,MAG,Japanese Grand Prix,1.0,MEDIUM,17.0,98719
 20,MAG,Japanese Grand Prix,2.0,HARD,30.0,174210
 20,MAG,Japanese Grand Prix,3.0,SOFT,5.0,29035

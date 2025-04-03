@@ -1,3 +1,3 @@
-DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
-11,PER,1.0,1.0,1.0,4574,WET,True,0 days 00:01:52.843000
-11,PER,2.0,1.0,2.0,9148,WET,True,
+DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,DriverMeters,LapTime
+11,PER,1.0,1.0,1.0,4574,WET,True,4574,0 days 00:01:52.843000
+11,PER,2.0,1.0,2.0,9148,WET,True,9148,

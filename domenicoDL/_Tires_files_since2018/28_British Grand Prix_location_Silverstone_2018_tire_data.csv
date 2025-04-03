@@ -1,2 +1,2 @@
-DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
-28,HAR,1.0,,,0,nan,True,0 days 00:02:54.472000
+DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,DriverMeters,LapTime
+28,HAR,1.0,,,0,nan,True,0,0 days 00:02:54.472000

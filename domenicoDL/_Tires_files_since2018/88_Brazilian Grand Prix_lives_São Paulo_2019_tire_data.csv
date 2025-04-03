@@ -1,4 +1,4 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
 88,KUB,Brazilian Grand Prix,1.0,MEDIUM,20.0,86180
 88,KUB,Brazilian Grand Prix,2.0,MEDIUM,16.0,68944
 88,KUB,Brazilian Grand Prix,3.0,HARD,17.0,73253

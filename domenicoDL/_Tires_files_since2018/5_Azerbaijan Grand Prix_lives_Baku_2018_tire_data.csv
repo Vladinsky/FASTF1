@@ -1,4 +1,4 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
 5,VET,Azerbaijan Grand Prix,1.0,SUPERSOFT,32.0,192096
 5,VET,Azerbaijan Grand Prix,2.0,SOFT,10.0,60030
 5,VET,Azerbaijan Grand Prix,3.0,ULTRASOFT,11.0,66033

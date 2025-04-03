@@ -1,4 +1,4 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
 23,ALB,United States Grand Prix,1.0,SOFT,4.0,22052
 23,ALB,United States Grand Prix,2.0,MEDIUM,19.0,104747
 23,ALB,United States Grand Prix,3.0,MEDIUM,20.0,110260
