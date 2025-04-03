@@ -1,4 +1,5 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+4,NOR,Chinese Grand Prix,1.0,MEDIUM,1.0,5451
 4,NOR,Chinese Grand Prix,2.0,HARD,16.0,87216
 4,NOR,Chinese Grand Prix,3.0,MEDIUM,18.0,98118
 4,NOR,Chinese Grand Prix,4.0,SOFT,16.0,87216

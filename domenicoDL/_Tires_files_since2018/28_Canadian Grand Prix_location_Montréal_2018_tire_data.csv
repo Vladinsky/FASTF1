@@ -1,2 +1,2 @@
-DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,LapTime
-28,HAR,1.0,1.0,1.0,4361,HYPERSOFT,True,
+DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,DriverMeters,LapTime
+28,HAR,1.0,1.0,1.0,4361,HYPERSOFT,True,4361,

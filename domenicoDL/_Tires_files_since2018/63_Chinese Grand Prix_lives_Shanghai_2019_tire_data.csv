@@ -1,4 +1,4 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
 63,RUS,Chinese Grand Prix,1.0,MEDIUM,22.0,119922
 63,RUS,Chinese Grand Prix,2.0,HARD,27.0,147177
 63,RUS,Chinese Grand Prix,3.0,SOFT,5.0,27255

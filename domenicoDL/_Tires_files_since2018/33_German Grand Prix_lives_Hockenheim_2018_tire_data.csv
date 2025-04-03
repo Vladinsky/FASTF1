@@ -1,4 +1,5 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
 33,VER,German Grand Prix,1.0,ULTRASOFT,31.0,141794
 33,VER,German Grand Prix,2.0,SOFT,17.0,77758
+33,VER,German Grand Prix,3.0,INTERMEDIATE,4.0,18296
 33,VER,German Grand Prix,4.0,ULTRASOFT,20.0,91480

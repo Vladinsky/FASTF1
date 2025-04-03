@@ -1,4 +1,4 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
 33,VER,Brazilian Grand Prix,1.0,SOFT,24.0,103416
 33,VER,Brazilian Grand Prix,2.0,SOFT,23.0,99107
 33,VER,Brazilian Grand Prix,3.0,MEDIUM,10.0,43090

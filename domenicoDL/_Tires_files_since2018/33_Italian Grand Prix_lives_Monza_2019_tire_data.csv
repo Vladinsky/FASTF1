@@ -1,3 +1,4 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+33,VER,Italian Grand Prix,1.0,MEDIUM,1.0,5793
 33,VER,Italian Grand Prix,2.0,SOFT,26.0,150618
 33,VER,Italian Grand Prix,3.0,MEDIUM,27.0,156411

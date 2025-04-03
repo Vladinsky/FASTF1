@@ -1,3 +1,4 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+28,HAR,Mexican Grand Prix,1.0,SUPERSOFT,1.0,4304
 28,HAR,Mexican Grand Prix,2.0,ULTRASOFT,23.0,98992
 28,HAR,Mexican Grand Prix,3.0,SUPERSOFT,45.0,193680

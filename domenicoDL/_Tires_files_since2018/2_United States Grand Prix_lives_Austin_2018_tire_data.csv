@@ -1,4 +1,4 @@
-DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeteres
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
 2,VAN,United States Grand Prix,1.0,SUPERSOFT,10.0,55130
 2,VAN,United States Grand Prix,2.0,SOFT,30.0,165390
 2,VAN,United States Grand Prix,3.0,SOFT,15.0,82695
