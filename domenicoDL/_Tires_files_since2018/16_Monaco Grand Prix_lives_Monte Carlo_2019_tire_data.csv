@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+16,LEC,Monaco Grand Prix,1.0,MEDIUM,9.0,30033
+16,LEC,Monaco Grand Prix,2.0,HARD,7.0,23359
+16,LEC,Monaco Grand Prix,3.0,SOFT,1.0,3337

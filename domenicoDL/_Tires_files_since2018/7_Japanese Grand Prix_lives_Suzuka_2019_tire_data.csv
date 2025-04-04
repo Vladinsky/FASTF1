@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+7,RAI,Japanese Grand Prix,1.0,MEDIUM,15.0,87105
+7,RAI,Japanese Grand Prix,2.0,HARD,21.0,121947
+7,RAI,Japanese Grand Prix,3.0,SOFT,16.0,92912

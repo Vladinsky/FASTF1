@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+99,GIO,Russian Grand Prix,1.0,SOFT,2.0,11696
+99,GIO,Russian Grand Prix,2.0,HARD,25.0,146200
+99,GIO,Russian Grand Prix,3.0,MEDIUM,26.0,152048

@@ -1,0 +1,2 @@
+DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,DriverMeters,LapTime
+35,SIR,1.0,1.0,1.0,6003,SUPERSOFT,True,6003,

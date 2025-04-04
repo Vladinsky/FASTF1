@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+16,LEC,British Grand Prix,1.0,SOFT,16.0,94256
+16,LEC,British Grand Prix,2.0,MEDIUM,11.0,64801
+16,LEC,British Grand Prix,3.0,HARD,31.0,182621

@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+16,LEC,Mexican Grand Prix,1.0,MEDIUM,18.0,77472
+16,LEC,Mexican Grand Prix,2.0,MEDIUM,28.0,120512
+16,LEC,Mexican Grand Prix,3.0,HARD,28.0,120512

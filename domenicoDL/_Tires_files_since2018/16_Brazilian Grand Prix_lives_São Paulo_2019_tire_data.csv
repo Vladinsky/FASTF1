@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+16,LEC,Brazilian Grand Prix,1.0,MEDIUM,32.0,137888
+16,LEC,Brazilian Grand Prix,2.0,HARD,25.0,107725
+16,LEC,Brazilian Grand Prix,3.0,SOFT,12.0,51708
