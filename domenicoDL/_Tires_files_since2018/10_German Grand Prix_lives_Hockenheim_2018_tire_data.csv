@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+10,GAS,German Grand Prix,1.0,SOFT,42.0,192108
+10,GAS,German Grand Prix,2.0,WET,3.0,13722
+10,GAS,German Grand Prix,3.0,ULTRASOFT,20.0,91480

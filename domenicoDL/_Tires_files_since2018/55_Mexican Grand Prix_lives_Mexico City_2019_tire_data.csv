@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+55,SAI,Mexican Grand Prix,1.0,SOFT,18.0,77472
+55,SAI,Mexican Grand Prix,2.0,HARD,20.0,86080
+55,SAI,Mexican Grand Prix,3.0,MEDIUM,35.0,150640

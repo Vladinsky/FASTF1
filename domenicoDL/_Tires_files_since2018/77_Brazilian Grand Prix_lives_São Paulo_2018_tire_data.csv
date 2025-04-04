@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+77,BOT,Brazilian Grand Prix,1.0,SUPERSOFT,21.0,90489
+77,BOT,Brazilian Grand Prix,2.0,MEDIUM,41.0,176669
+77,BOT,Brazilian Grand Prix,3.0,SOFT,12.0,51708

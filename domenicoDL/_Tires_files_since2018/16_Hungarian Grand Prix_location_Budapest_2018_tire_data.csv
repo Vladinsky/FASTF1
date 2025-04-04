@@ -1,0 +1,2 @@
+DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,DriverMeters,LapTime
+16,LEC,1.0,1.0,1.0,4381,SOFT,True,4381,

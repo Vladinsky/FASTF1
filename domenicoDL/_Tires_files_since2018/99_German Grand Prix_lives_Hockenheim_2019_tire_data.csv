@@ -1,0 +1,6 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+99,GIO,German Grand Prix,1.0,WET,3.0,13722
+99,GIO,German Grand Prix,2.0,INTERMEDIATE,23.0,105202
+99,GIO,German Grand Prix,3.0,MEDIUM,2.0,9148
+99,GIO,German Grand Prix,4.0,INTERMEDIATE,19.0,86906
+99,GIO,German Grand Prix,5.0,SOFT,17.0,77758

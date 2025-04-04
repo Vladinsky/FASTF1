@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+99,GIO,Abu Dhabi Grand Prix,1.0,SOFT,8.0,42248
+99,GIO,Abu Dhabi Grand Prix,2.0,HARD,18.0,95058
+99,GIO,Abu Dhabi Grand Prix,3.0,MEDIUM,28.0,147868

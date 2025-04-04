@@ -1,0 +1,4 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+99,GIO,Singapore Grand Prix,1.0,MEDIUM,34.0,167960
+99,GIO,Singapore Grand Prix,2.0,HARD,2.0,9880
+99,GIO,Singapore Grand Prix,3.0,SOFT,25.0,123500

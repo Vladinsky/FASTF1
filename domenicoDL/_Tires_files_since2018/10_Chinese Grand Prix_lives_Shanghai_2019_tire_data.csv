@@ -1,0 +1,5 @@
+DriverID,Driver,GranPrix,Stint,Compound,TireLife,TireMeters
+10,GAS,Chinese Grand Prix,1.0,SOFT,22.0,119922
+10,GAS,Chinese Grand Prix,2.0,HARD,20.0,109020
+10,GAS,Chinese Grand Prix,3.0,MEDIUM,14.0,76314
+10,GAS,Chinese Grand Prix,4.0,SOFT,5.0,27255
