@@ -1,5 +1,0 @@
-DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,DriverMeters,LapTime
-14,ALO,1.0,1.0,1.0,4304,ULTRASOFT,True,4304,0 days 00:01:34.715000
-14,ALO,2.0,1.0,2.0,8608,ULTRASOFT,True,8608,0 days 00:01:25.044000
-14,ALO,3.0,1.0,3.0,12912,ULTRASOFT,True,12912,0 days 00:01:24.197000
-14,ALO,4.0,1.0,4.0,17216,ULTRASOFT,True,17216,

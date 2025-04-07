@@ -1,5 +1,0 @@
-DriverID,Driver,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,DriverMeters,LapTime
-10,GAS,1.0,,,0,nan,True,0,0 days 00:01:55.680000
-10,GAS,2.0,1.0,1.0,5848,SOFT,True,11696,0 days 00:01:45.883000
-10,GAS,3.0,1.0,2.0,11696,SOFT,True,17544,0 days 00:01:44.071000
-10,GAS,4.0,1.0,3.0,17544,SOFT,True,23392,0 days 00:02:15.482000
