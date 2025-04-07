@@ -1,0 +1,54 @@
+LapNumber,LapTime_LEC,Team_LEC,LapTime_seconds_LEC,LapTime_BOT,Team_BOT,LapTime_seconds_BOT,LapTime_PER,Team_PER,LapTime_seconds_PER,Event,Session,Year,Reference_Driver
+1.0,0 days 00:01:48.161000,Ferrari,108.161,0 days 00:02:01.031000,Mercedes,121.031,0 days 00:01:50.352000,Red Bull Racing,110.352,Italian Grand Prix,Race,2021,LEC
+2.0,0 days 00:01:27.990000,Ferrari,87.99,0 days 00:01:28.071000,Mercedes,88.071,0 days 00:01:27.606000,Red Bull Racing,87.606,Italian Grand Prix,Race,2021,LEC
+3.0,0 days 00:01:26.073000,Ferrari,86.073,0 days 00:01:26.545000,Mercedes,86.545,0 days 00:01:26.741000,Red Bull Racing,86.741,Italian Grand Prix,Race,2021,LEC
+4.0,0 days 00:01:26.580000,Ferrari,86.58,0 days 00:01:27.601000,Mercedes,87.601,0 days 00:01:27.002000,Red Bull Racing,87.002,Italian Grand Prix,Race,2021,LEC
+5.0,0 days 00:01:26.473000,Ferrari,86.473,0 days 00:01:26.378000,Mercedes,86.378,0 days 00:01:27.049000,Red Bull Racing,87.049,Italian Grand Prix,Race,2021,LEC
+6.0,0 days 00:01:26.493000,Ferrari,86.493,0 days 00:01:26.180000,Mercedes,86.18,0 days 00:01:27.019000,Red Bull Racing,87.019,Italian Grand Prix,Race,2021,LEC
+7.0,0 days 00:01:26.765000,Ferrari,86.765,0 days 00:01:26.771000,Mercedes,86.771,0 days 00:01:26.971000,Red Bull Racing,86.971,Italian Grand Prix,Race,2021,LEC
+8.0,0 days 00:01:26.613000,Ferrari,86.613,0 days 00:01:28.351000,Mercedes,88.351,0 days 00:01:26.823000,Red Bull Racing,86.823,Italian Grand Prix,Race,2021,LEC
+9.0,0 days 00:01:26.506000,Ferrari,86.506,0 days 00:01:26.988000,Mercedes,86.988,0 days 00:01:27.595000,Red Bull Racing,87.595,Italian Grand Prix,Race,2021,LEC
+10.0,0 days 00:01:26.585000,Ferrari,86.585,0 days 00:01:27.445000,Mercedes,87.445,0 days 00:01:26.623000,Red Bull Racing,86.623,Italian Grand Prix,Race,2021,LEC
+11.0,0 days 00:01:26.543000,Ferrari,86.543,0 days 00:01:26.700000,Mercedes,86.7,0 days 00:01:26.322000,Red Bull Racing,86.322,Italian Grand Prix,Race,2021,LEC
+12.0,0 days 00:01:26.622000,Ferrari,86.622,0 days 00:01:27.456000,Mercedes,87.456,0 days 00:01:26.387000,Red Bull Racing,86.387,Italian Grand Prix,Race,2021,LEC
+13.0,0 days 00:01:26.652000,Ferrari,86.652,0 days 00:01:26.596000,Mercedes,86.596,0 days 00:01:26.529000,Red Bull Racing,86.529,Italian Grand Prix,Race,2021,LEC
+14.0,0 days 00:01:27.043000,Ferrari,87.043,0 days 00:01:26.871000,Mercedes,86.871,0 days 00:01:26.536000,Red Bull Racing,86.536,Italian Grand Prix,Race,2021,LEC
+15.0,0 days 00:01:27.301000,Ferrari,87.301,0 days 00:01:26.951000,Mercedes,86.951,0 days 00:01:26.499000,Red Bull Racing,86.499,Italian Grand Prix,Race,2021,LEC
+16.0,0 days 00:01:27.194000,Ferrari,87.194,0 days 00:01:26.964000,Mercedes,86.964,0 days 00:01:26.946000,Red Bull Racing,86.946,Italian Grand Prix,Race,2021,LEC
+17.0,0 days 00:01:26.985000,Ferrari,86.985,0 days 00:01:26.777000,Mercedes,86.777,0 days 00:01:26.855000,Red Bull Racing,86.855,Italian Grand Prix,Race,2021,LEC
+18.0,0 days 00:01:26.993000,Ferrari,86.993,0 days 00:01:26.631000,Mercedes,86.631,0 days 00:01:26.880000,Red Bull Racing,86.88,Italian Grand Prix,Race,2021,LEC
+19.0,0 days 00:01:26.643000,Ferrari,86.643,0 days 00:01:26.664000,Mercedes,86.664,0 days 00:01:26.859000,Red Bull Racing,86.859,Italian Grand Prix,Race,2021,LEC
+20.0,0 days 00:01:26.964000,Ferrari,86.964,0 days 00:01:27.056000,Mercedes,87.056,0 days 00:01:26.882000,Red Bull Racing,86.882,Italian Grand Prix,Race,2021,LEC
+21.0,0 days 00:01:27.415000,Ferrari,87.415,0 days 00:01:28.008000,Mercedes,88.008,0 days 00:01:27.377000,Red Bull Racing,87.377,Italian Grand Prix,Race,2021,LEC
+22.0,0 days 00:01:27.285000,Ferrari,87.285,0 days 00:01:26.438000,Mercedes,86.438,0 days 00:01:27.679000,Red Bull Racing,87.679,Italian Grand Prix,Race,2021,LEC
+23.0,0 days 00:01:27.224000,Ferrari,87.224,0 days 00:01:26.638000,Mercedes,86.638,0 days 00:01:26.919000,Red Bull Racing,86.919,Italian Grand Prix,Race,2021,LEC
+24.0,0 days 00:01:27.353000,Ferrari,87.353,0 days 00:01:26.248000,Mercedes,86.248,0 days 00:01:27.257000,Red Bull Racing,87.257,Italian Grand Prix,Race,2021,LEC
+25.0,0 days 00:01:27.225000,Ferrari,87.225,0 days 00:01:26.821000,Mercedes,86.821,0 days 00:01:27.273000,Red Bull Racing,87.273,Italian Grand Prix,Race,2021,LEC
+26.0,0 days 00:01:44.442000,Ferrari,104.442,0 days 00:01:50.032000,Mercedes,110.032,0 days 00:01:45.619000,Red Bull Racing,105.619,Italian Grand Prix,Race,2021,LEC
+27.0,,Ferrari,,,Mercedes,,,Red Bull Racing,,Italian Grand Prix,Race,2021,LEC
+28.0,,Ferrari,,,Mercedes,,,Red Bull Racing,,Italian Grand Prix,Race,2021,LEC
+29.0,,Ferrari,,0 days 00:02:29.590000,Mercedes,149.59,0 days 00:02:29.828000,Red Bull Racing,149.828,Italian Grand Prix,Race,2021,LEC
+30.0,,Ferrari,,0 days 00:02:25.925000,Mercedes,145.925,0 days 00:02:29.721000,Red Bull Racing,149.721,Italian Grand Prix,Race,2021,LEC
+31.0,0 days 00:01:28,Ferrari,88.0,0 days 00:01:28.061000,Mercedes,88.061,0 days 00:01:27.677000,Red Bull Racing,87.677,Italian Grand Prix,Race,2021,LEC
+32.0,0 days 00:01:27.935000,Ferrari,87.935,0 days 00:01:26.597000,Mercedes,86.597,0 days 00:01:26.594000,Red Bull Racing,86.594,Italian Grand Prix,Race,2021,LEC
+33.0,0 days 00:01:26.537000,Ferrari,86.537,0 days 00:01:26.669000,Mercedes,86.669,0 days 00:01:25.645000,Red Bull Racing,85.645,Italian Grand Prix,Race,2021,LEC
+34.0,0 days 00:01:26.696000,Ferrari,86.696,0 days 00:01:24.827000,Mercedes,84.827,0 days 00:01:26.151000,Red Bull Racing,86.151,Italian Grand Prix,Race,2021,LEC
+35.0,0 days 00:01:25.697000,Ferrari,85.697,0 days 00:01:25.756000,Mercedes,85.756,0 days 00:01:26.038000,Red Bull Racing,86.038,Italian Grand Prix,Race,2021,LEC
+36.0,0 days 00:01:26.016000,Ferrari,86.016,0 days 00:01:25.971000,Mercedes,85.971,0 days 00:01:26.045000,Red Bull Racing,86.045,Italian Grand Prix,Race,2021,LEC
+37.0,0 days 00:01:26.157000,Ferrari,86.157,0 days 00:01:26.197000,Mercedes,86.197,0 days 00:01:26.209000,Red Bull Racing,86.209,Italian Grand Prix,Race,2021,LEC
+38.0,0 days 00:01:25.801000,Ferrari,85.801,0 days 00:01:26.549000,Mercedes,86.549,0 days 00:01:26.373000,Red Bull Racing,86.373,Italian Grand Prix,Race,2021,LEC
+39.0,0 days 00:01:26.359000,Ferrari,86.359,0 days 00:01:25.848000,Mercedes,85.848,0 days 00:01:25.718000,Red Bull Racing,85.718,Italian Grand Prix,Race,2021,LEC
+40.0,0 days 00:01:26.088000,Ferrari,86.088,0 days 00:01:25.942000,Mercedes,85.942,0 days 00:01:26.134000,Red Bull Racing,86.134,Italian Grand Prix,Race,2021,LEC
+41.0,0 days 00:01:25.826000,Ferrari,85.826,0 days 00:01:25.928000,Mercedes,85.928,0 days 00:01:25.860000,Red Bull Racing,85.86,Italian Grand Prix,Race,2021,LEC
+42.0,0 days 00:01:25.730000,Ferrari,85.73,0 days 00:01:25.692000,Mercedes,85.692,0 days 00:01:25.919000,Red Bull Racing,85.919,Italian Grand Prix,Race,2021,LEC
+43.0,0 days 00:01:26.881000,Ferrari,86.881,0 days 00:01:27.569000,Mercedes,87.569,0 days 00:01:27.040000,Red Bull Racing,87.04,Italian Grand Prix,Race,2021,LEC
+44.0,0 days 00:01:44.866000,Ferrari,104.866,0 days 00:01:44.645000,Mercedes,104.645,0 days 00:01:44.518000,Red Bull Racing,104.518,Italian Grand Prix,Race,2021,LEC
+45.0,0 days 00:01:25.993000,Ferrari,85.993,0 days 00:01:25.500000,Mercedes,85.5,0 days 00:01:25.965000,Red Bull Racing,85.965,Italian Grand Prix,Race,2021,LEC
+46.0,0 days 00:01:25.606000,Ferrari,85.606,0 days 00:01:25.723000,Mercedes,85.723,0 days 00:01:25.361000,Red Bull Racing,85.361,Italian Grand Prix,Race,2021,LEC
+47.0,0 days 00:01:25.956000,Ferrari,85.956,0 days 00:01:25.632000,Mercedes,85.632,0 days 00:01:25.553000,Red Bull Racing,85.553,Italian Grand Prix,Race,2021,LEC
+48.0,0 days 00:01:25.941000,Ferrari,85.941,0 days 00:01:25.726000,Mercedes,85.726,0 days 00:01:25.800000,Red Bull Racing,85.8,Italian Grand Prix,Race,2021,LEC
+49.0,0 days 00:01:25.619000,Ferrari,85.619,0 days 00:01:25.287000,Mercedes,85.287,0 days 00:01:25.603000,Red Bull Racing,85.603,Italian Grand Prix,Race,2021,LEC
+50.0,0 days 00:01:25.511000,Ferrari,85.511,0 days 00:01:25.593000,Mercedes,85.593,0 days 00:01:25.448000,Red Bull Racing,85.448,Italian Grand Prix,Race,2021,LEC
+51.0,0 days 00:01:25.517000,Ferrari,85.517,0 days 00:01:25.649000,Mercedes,85.649,0 days 00:01:25.274000,Red Bull Racing,85.274,Italian Grand Prix,Race,2021,LEC
+52.0,0 days 00:01:25.664000,Ferrari,85.664,0 days 00:01:25.191000,Mercedes,85.191,0 days 00:01:25.281000,Red Bull Racing,85.281,Italian Grand Prix,Race,2021,LEC
+53.0,0 days 00:01:25.319000,Ferrari,85.319,0 days 00:01:25.270000,Mercedes,85.27,0 days 00:01:25.156000,Red Bull Racing,85.156,Italian Grand Prix,Race,2021,LEC
