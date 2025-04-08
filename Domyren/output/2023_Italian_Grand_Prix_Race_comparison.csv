@@ -1,53 +1,53 @@
-LapNumber,LapTime_LEC,Team_LEC,LapTime_seconds_LEC,LapTime_SAI,Team_SAI,LapTime_seconds_SAI,LapTime_RUS,Team_RUS,LapTime_seconds_RUS,Event,Session,Year,Reference_Driver
-1.0,0 days 00:01:28.755000,Ferrari,88.755,0 days 00:01:27.117000,Ferrari,87.117,0 days 00:01:29.339000,Mercedes,89.339,Italian Grand Prix,Race,2023,LEC
-2.0,0 days 00:01:26.312000,Ferrari,86.312,0 days 00:01:26.006000,Ferrari,86.006,0 days 00:01:26.686000,Mercedes,86.686,Italian Grand Prix,Race,2023,LEC
-3.0,0 days 00:01:25.719000,Ferrari,85.719,0 days 00:01:25.976000,Ferrari,85.976,0 days 00:01:26.176000,Mercedes,86.176,Italian Grand Prix,Race,2023,LEC
-4.0,0 days 00:01:26.025000,Ferrari,86.025,0 days 00:01:26.067000,Ferrari,86.067,0 days 00:01:26.178000,Mercedes,86.178,Italian Grand Prix,Race,2023,LEC
-5.0,0 days 00:01:26.266000,Ferrari,86.266,0 days 00:01:26.423000,Ferrari,86.423,0 days 00:01:26.249000,Mercedes,86.249,Italian Grand Prix,Race,2023,LEC
-6.0,0 days 00:01:26.483000,Ferrari,86.483,0 days 00:01:26.615000,Ferrari,86.615,0 days 00:01:26.515000,Mercedes,86.515,Italian Grand Prix,Race,2023,LEC
-7.0,0 days 00:01:26.473000,Ferrari,86.473,0 days 00:01:26.358000,Ferrari,86.358,0 days 00:01:26.515000,Mercedes,86.515,Italian Grand Prix,Race,2023,LEC
-8.0,0 days 00:01:25.972000,Ferrari,85.972,0 days 00:01:26.224000,Ferrari,86.224,0 days 00:01:26.594000,Mercedes,86.594,Italian Grand Prix,Race,2023,LEC
-9.0,0 days 00:01:26.678000,Ferrari,86.678,0 days 00:01:26.476000,Ferrari,86.476,0 days 00:01:26.710000,Mercedes,86.71,Italian Grand Prix,Race,2023,LEC
-10.0,0 days 00:01:26.787000,Ferrari,86.787,0 days 00:01:26.511000,Ferrari,86.511,0 days 00:01:26.655000,Mercedes,86.655,Italian Grand Prix,Race,2023,LEC
-11.0,0 days 00:01:26.838000,Ferrari,86.838,0 days 00:01:26.691000,Ferrari,86.691,0 days 00:01:27.186000,Mercedes,87.186,Italian Grand Prix,Race,2023,LEC
-12.0,0 days 00:01:26.694000,Ferrari,86.694,0 days 00:01:26.408000,Ferrari,86.408,0 days 00:01:27.044000,Mercedes,87.044,Italian Grand Prix,Race,2023,LEC
-13.0,0 days 00:01:26.557000,Ferrari,86.557,0 days 00:01:26.887000,Ferrari,86.887,0 days 00:01:26.962000,Mercedes,86.962,Italian Grand Prix,Race,2023,LEC
-14.0,0 days 00:01:26.940000,Ferrari,86.94,0 days 00:01:26.972000,Ferrari,86.972,0 days 00:01:27.285000,Mercedes,87.285,Italian Grand Prix,Race,2023,LEC
-15.0,0 days 00:01:27.314000,Ferrari,87.314,0 days 00:01:28.219000,Ferrari,88.219,0 days 00:01:27.005000,Mercedes,87.005,Italian Grand Prix,Race,2023,LEC
-16.0,0 days 00:01:27.155000,Ferrari,87.155,0 days 00:01:27.323000,Ferrari,87.323,0 days 00:01:27.976000,Mercedes,87.976,Italian Grand Prix,Race,2023,LEC
-17.0,0 days 00:01:27.670000,Ferrari,87.67,0 days 00:01:27.721000,Ferrari,87.721,0 days 00:01:27.055000,Mercedes,87.055,Italian Grand Prix,Race,2023,LEC
-18.0,0 days 00:01:27.498000,Ferrari,87.498,0 days 00:01:27.512000,Ferrari,87.512,0 days 00:01:27.383000,Mercedes,87.383,Italian Grand Prix,Race,2023,LEC
-19.0,0 days 00:01:27.702000,Ferrari,87.702,0 days 00:01:31.912000,Ferrari,91.912,0 days 00:01:31.885000,Mercedes,91.885,Italian Grand Prix,Race,2023,LEC
-20.0,0 days 00:01:31.155000,Ferrari,91.155,0 days 00:01:46.762000,Ferrari,106.762,0 days 00:01:45.310000,Mercedes,105.31,Italian Grand Prix,Race,2023,LEC
-21.0,0 days 00:01:45.842000,Ferrari,105.842,0 days 00:01:26.146000,Ferrari,86.146,0 days 00:01:26.456000,Mercedes,86.456,Italian Grand Prix,Race,2023,LEC
-22.0,0 days 00:01:25.742000,Ferrari,85.742,0 days 00:01:25.558000,Ferrari,85.558,0 days 00:01:26.715000,Mercedes,86.715,Italian Grand Prix,Race,2023,LEC
-23.0,0 days 00:01:25.807000,Ferrari,85.807,0 days 00:01:25.793000,Ferrari,85.793,0 days 00:01:26.605000,Mercedes,86.605,Italian Grand Prix,Race,2023,LEC
-24.0,0 days 00:01:25.933000,Ferrari,85.933,0 days 00:01:25.902000,Ferrari,85.902,0 days 00:01:26.671000,Mercedes,86.671,Italian Grand Prix,Race,2023,LEC
-25.0,0 days 00:01:26.061000,Ferrari,86.061,0 days 00:01:26.005000,Ferrari,86.005,0 days 00:01:26.320000,Mercedes,86.32,Italian Grand Prix,Race,2023,LEC
-26.0,0 days 00:01:25.763000,Ferrari,85.763,0 days 00:01:25.836000,Ferrari,85.836,0 days 00:01:26.410000,Mercedes,86.41,Italian Grand Prix,Race,2023,LEC
-27.0,0 days 00:01:26.234000,Ferrari,86.234,0 days 00:01:26.165000,Ferrari,86.165,0 days 00:01:26.184000,Mercedes,86.184,Italian Grand Prix,Race,2023,LEC
-28.0,0 days 00:01:25.663000,Ferrari,85.663,0 days 00:01:25.770000,Ferrari,85.77,0 days 00:01:26.284000,Mercedes,86.284,Italian Grand Prix,Race,2023,LEC
-29.0,0 days 00:01:25.814000,Ferrari,85.814,0 days 00:01:25.720000,Ferrari,85.72,0 days 00:01:26.140000,Mercedes,86.14,Italian Grand Prix,Race,2023,LEC
-30.0,0 days 00:01:25.782000,Ferrari,85.782,0 days 00:01:25.501000,Ferrari,85.501,0 days 00:01:25.966000,Mercedes,85.966,Italian Grand Prix,Race,2023,LEC
-31.0,0 days 00:01:26.496000,Ferrari,86.496,0 days 00:01:25.718000,Ferrari,85.718,0 days 00:01:26.148000,Mercedes,86.148,Italian Grand Prix,Race,2023,LEC
-32.0,0 days 00:01:26.869000,Ferrari,86.869,0 days 00:01:25.896000,Ferrari,85.896,0 days 00:01:26.059000,Mercedes,86.059,Italian Grand Prix,Race,2023,LEC
-33.0,0 days 00:01:25.962000,Ferrari,85.962,0 days 00:01:25.926000,Ferrari,85.926,0 days 00:01:26.161000,Mercedes,86.161,Italian Grand Prix,Race,2023,LEC
-34.0,0 days 00:01:25.851000,Ferrari,85.851,0 days 00:01:26.126000,Ferrari,86.126,0 days 00:01:26.119000,Mercedes,86.119,Italian Grand Prix,Race,2023,LEC
-35.0,0 days 00:01:25.850000,Ferrari,85.85,0 days 00:01:25.789000,Ferrari,85.789,0 days 00:01:26.189000,Mercedes,86.189,Italian Grand Prix,Race,2023,LEC
-36.0,0 days 00:01:25.631000,Ferrari,85.631,0 days 00:01:26.011000,Ferrari,86.011,0 days 00:01:26.371000,Mercedes,86.371,Italian Grand Prix,Race,2023,LEC
-37.0,0 days 00:01:25.671000,Ferrari,85.671,0 days 00:01:25.886000,Ferrari,85.886,0 days 00:01:25.997000,Mercedes,85.997,Italian Grand Prix,Race,2023,LEC
-38.0,0 days 00:01:25.580000,Ferrari,85.58,0 days 00:01:25.705000,Ferrari,85.705,0 days 00:01:25.847000,Mercedes,85.847,Italian Grand Prix,Race,2023,LEC
-39.0,0 days 00:01:25.629000,Ferrari,85.629,0 days 00:01:25.924000,Ferrari,85.924,0 days 00:01:26.210000,Mercedes,86.21,Italian Grand Prix,Race,2023,LEC
-40.0,0 days 00:01:25.728000,Ferrari,85.728,0 days 00:01:26.122000,Ferrari,86.122,0 days 00:01:26.244000,Mercedes,86.244,Italian Grand Prix,Race,2023,LEC
-41.0,0 days 00:01:26.511000,Ferrari,86.511,0 days 00:01:26.738000,Ferrari,86.738,0 days 00:01:26.614000,Mercedes,86.614,Italian Grand Prix,Race,2023,LEC
-42.0,0 days 00:01:26.448000,Ferrari,86.448,0 days 00:01:26.479000,Ferrari,86.479,0 days 00:01:26.335000,Mercedes,86.335,Italian Grand Prix,Race,2023,LEC
-43.0,0 days 00:01:26.597000,Ferrari,86.597,0 days 00:01:26.589000,Ferrari,86.589,0 days 00:01:26.426000,Mercedes,86.426,Italian Grand Prix,Race,2023,LEC
-44.0,0 days 00:01:26.586000,Ferrari,86.586,0 days 00:01:26.430000,Ferrari,86.43,0 days 00:01:26.336000,Mercedes,86.336,Italian Grand Prix,Race,2023,LEC
-45.0,0 days 00:01:26.321000,Ferrari,86.321,0 days 00:01:26.632000,Ferrari,86.632,0 days 00:01:26.394000,Mercedes,86.394,Italian Grand Prix,Race,2023,LEC
-46.0,0 days 00:01:26.580000,Ferrari,86.58,0 days 00:01:27.303000,Ferrari,87.303,0 days 00:01:26.458000,Mercedes,86.458,Italian Grand Prix,Race,2023,LEC
-47.0,0 days 00:01:27.371000,Ferrari,87.371,0 days 00:01:27.096000,Ferrari,87.096,0 days 00:01:26.640000,Mercedes,86.64,Italian Grand Prix,Race,2023,LEC
-48.0,0 days 00:01:26.828000,Ferrari,86.828,0 days 00:01:26.800000,Ferrari,86.8,0 days 00:01:26.287000,Mercedes,86.287,Italian Grand Prix,Race,2023,LEC
-49.0,0 days 00:01:26.633000,Ferrari,86.633,0 days 00:01:26.770000,Ferrari,86.77,0 days 00:01:26.375000,Mercedes,86.375,Italian Grand Prix,Race,2023,LEC
-50.0,0 days 00:01:26.961000,Ferrari,86.961,0 days 00:01:26.776000,Ferrari,86.776,0 days 00:01:26.874000,Mercedes,86.874,Italian Grand Prix,Race,2023,LEC
-51.0,0 days 00:01:26.783000,Ferrari,86.783,0 days 00:01:27.044000,Ferrari,87.044,0 days 00:01:26.628000,Mercedes,86.628,Italian Grand Prix,Race,2023,LEC
-52.0,,Ferrari,,,Ferrari,,,Mercedes,,Italian Grand Prix,Race,2023,LEC
+LapNumber,LapTime_SAI,Team_SAI,LapTime_seconds_SAI,LapTime_PER,Team_PER,LapTime_seconds_PER,LapTime_LEC,Team_LEC,LapTime_seconds_LEC,Event,Session,Year,Reference_Driver
+1.0,0 days 00:01:27.117000,Ferrari,87.117,0 days 00:01:29.806000,Red Bull Racing,89.806,0 days 00:01:28.755000,Ferrari,88.755,Italian Grand Prix,Race,2023,SAI
+2.0,0 days 00:01:26.006000,Ferrari,86.006,0 days 00:01:26.881000,Red Bull Racing,86.881,0 days 00:01:26.312000,Ferrari,86.312,Italian Grand Prix,Race,2023,SAI
+3.0,0 days 00:01:25.976000,Ferrari,85.976,0 days 00:01:26.143000,Red Bull Racing,86.143,0 days 00:01:25.719000,Ferrari,85.719,Italian Grand Prix,Race,2023,SAI
+4.0,0 days 00:01:26.067000,Ferrari,86.067,0 days 00:01:26.019000,Red Bull Racing,86.019,0 days 00:01:26.025000,Ferrari,86.025,Italian Grand Prix,Race,2023,SAI
+5.0,0 days 00:01:26.423000,Ferrari,86.423,0 days 00:01:26.354000,Red Bull Racing,86.354,0 days 00:01:26.266000,Ferrari,86.266,Italian Grand Prix,Race,2023,SAI
+6.0,0 days 00:01:26.615000,Ferrari,86.615,0 days 00:01:26.465000,Red Bull Racing,86.465,0 days 00:01:26.483000,Ferrari,86.483,Italian Grand Prix,Race,2023,SAI
+7.0,0 days 00:01:26.358000,Ferrari,86.358,0 days 00:01:26.333000,Red Bull Racing,86.333,0 days 00:01:26.473000,Ferrari,86.473,Italian Grand Prix,Race,2023,SAI
+8.0,0 days 00:01:26.224000,Ferrari,86.224,0 days 00:01:26.887000,Red Bull Racing,86.887,0 days 00:01:25.972000,Ferrari,85.972,Italian Grand Prix,Race,2023,SAI
+9.0,0 days 00:01:26.476000,Ferrari,86.476,0 days 00:01:26.564000,Red Bull Racing,86.564,0 days 00:01:26.678000,Ferrari,86.678,Italian Grand Prix,Race,2023,SAI
+10.0,0 days 00:01:26.511000,Ferrari,86.511,0 days 00:01:26.454000,Red Bull Racing,86.454,0 days 00:01:26.787000,Ferrari,86.787,Italian Grand Prix,Race,2023,SAI
+11.0,0 days 00:01:26.691000,Ferrari,86.691,0 days 00:01:27.245000,Red Bull Racing,87.245,0 days 00:01:26.838000,Ferrari,86.838,Italian Grand Prix,Race,2023,SAI
+12.0,0 days 00:01:26.408000,Ferrari,86.408,0 days 00:01:26.968000,Red Bull Racing,86.968,0 days 00:01:26.694000,Ferrari,86.694,Italian Grand Prix,Race,2023,SAI
+13.0,0 days 00:01:26.887000,Ferrari,86.887,0 days 00:01:27.014000,Red Bull Racing,87.014,0 days 00:01:26.557000,Ferrari,86.557,Italian Grand Prix,Race,2023,SAI
+14.0,0 days 00:01:26.972000,Ferrari,86.972,0 days 00:01:27.451000,Red Bull Racing,87.451,0 days 00:01:26.940000,Ferrari,86.94,Italian Grand Prix,Race,2023,SAI
+15.0,0 days 00:01:28.219000,Ferrari,88.219,0 days 00:01:26.779000,Red Bull Racing,86.779,0 days 00:01:27.314000,Ferrari,87.314,Italian Grand Prix,Race,2023,SAI
+16.0,0 days 00:01:27.323000,Ferrari,87.323,0 days 00:01:26.823000,Red Bull Racing,86.823,0 days 00:01:27.155000,Ferrari,87.155,Italian Grand Prix,Race,2023,SAI
+17.0,0 days 00:01:27.721000,Ferrari,87.721,0 days 00:01:27.011000,Red Bull Racing,87.011,0 days 00:01:27.670000,Ferrari,87.67,Italian Grand Prix,Race,2023,SAI
+18.0,0 days 00:01:27.512000,Ferrari,87.512,0 days 00:01:26.765000,Red Bull Racing,86.765,0 days 00:01:27.498000,Ferrari,87.498,Italian Grand Prix,Race,2023,SAI
+19.0,0 days 00:01:31.912000,Ferrari,91.912,0 days 00:01:26.669000,Red Bull Racing,86.669,0 days 00:01:27.702000,Ferrari,87.702,Italian Grand Prix,Race,2023,SAI
+20.0,0 days 00:01:46.762000,Ferrari,106.762,0 days 00:01:26.509000,Red Bull Racing,86.509,0 days 00:01:31.155000,Ferrari,91.155,Italian Grand Prix,Race,2023,SAI
+21.0,0 days 00:01:26.146000,Ferrari,86.146,0 days 00:01:30.934000,Red Bull Racing,90.934,0 days 00:01:45.842000,Ferrari,105.842,Italian Grand Prix,Race,2023,SAI
+22.0,0 days 00:01:25.558000,Ferrari,85.558,0 days 00:01:45.228000,Red Bull Racing,105.228,0 days 00:01:25.742000,Ferrari,85.742,Italian Grand Prix,Race,2023,SAI
+23.0,0 days 00:01:25.793000,Ferrari,85.793,0 days 00:01:25.564000,Red Bull Racing,85.564,0 days 00:01:25.807000,Ferrari,85.807,Italian Grand Prix,Race,2023,SAI
+24.0,0 days 00:01:25.902000,Ferrari,85.902,0 days 00:01:25.759000,Red Bull Racing,85.759,0 days 00:01:25.933000,Ferrari,85.933,Italian Grand Prix,Race,2023,SAI
+25.0,0 days 00:01:26.005000,Ferrari,86.005,0 days 00:01:26.005000,Red Bull Racing,86.005,0 days 00:01:26.061000,Ferrari,86.061,Italian Grand Prix,Race,2023,SAI
+26.0,0 days 00:01:25.836000,Ferrari,85.836,0 days 00:01:25.884000,Red Bull Racing,85.884,0 days 00:01:25.763000,Ferrari,85.763,Italian Grand Prix,Race,2023,SAI
+27.0,0 days 00:01:26.165000,Ferrari,86.165,0 days 00:01:26.456000,Red Bull Racing,86.456,0 days 00:01:26.234000,Ferrari,86.234,Italian Grand Prix,Race,2023,SAI
+28.0,0 days 00:01:25.770000,Ferrari,85.77,0 days 00:01:25.584000,Red Bull Racing,85.584,0 days 00:01:25.663000,Ferrari,85.663,Italian Grand Prix,Race,2023,SAI
+29.0,0 days 00:01:25.720000,Ferrari,85.72,0 days 00:01:25.606000,Red Bull Racing,85.606,0 days 00:01:25.814000,Ferrari,85.814,Italian Grand Prix,Race,2023,SAI
+30.0,0 days 00:01:25.501000,Ferrari,85.501,0 days 00:01:25.757000,Red Bull Racing,85.757,0 days 00:01:25.782000,Ferrari,85.782,Italian Grand Prix,Race,2023,SAI
+31.0,0 days 00:01:25.718000,Ferrari,85.718,0 days 00:01:26.415000,Red Bull Racing,86.415,0 days 00:01:26.496000,Ferrari,86.496,Italian Grand Prix,Race,2023,SAI
+32.0,0 days 00:01:25.896000,Ferrari,85.896,0 days 00:01:25.880000,Red Bull Racing,85.88,0 days 00:01:26.869000,Ferrari,86.869,Italian Grand Prix,Race,2023,SAI
+33.0,0 days 00:01:25.926000,Ferrari,85.926,0 days 00:01:26.020000,Red Bull Racing,86.02,0 days 00:01:25.962000,Ferrari,85.962,Italian Grand Prix,Race,2023,SAI
+34.0,0 days 00:01:26.126000,Ferrari,86.126,0 days 00:01:25.948000,Red Bull Racing,85.948,0 days 00:01:25.851000,Ferrari,85.851,Italian Grand Prix,Race,2023,SAI
+35.0,0 days 00:01:25.789000,Ferrari,85.789,0 days 00:01:25.651000,Red Bull Racing,85.651,0 days 00:01:25.850000,Ferrari,85.85,Italian Grand Prix,Race,2023,SAI
+36.0,0 days 00:01:26.011000,Ferrari,86.011,0 days 00:01:25.627000,Red Bull Racing,85.627,0 days 00:01:25.631000,Ferrari,85.631,Italian Grand Prix,Race,2023,SAI
+37.0,0 days 00:01:25.886000,Ferrari,85.886,0 days 00:01:25.757000,Red Bull Racing,85.757,0 days 00:01:25.671000,Ferrari,85.671,Italian Grand Prix,Race,2023,SAI
+38.0,0 days 00:01:25.705000,Ferrari,85.705,0 days 00:01:25.584000,Red Bull Racing,85.584,0 days 00:01:25.580000,Ferrari,85.58,Italian Grand Prix,Race,2023,SAI
+39.0,0 days 00:01:25.924000,Ferrari,85.924,0 days 00:01:25.522000,Red Bull Racing,85.522,0 days 00:01:25.629000,Ferrari,85.629,Italian Grand Prix,Race,2023,SAI
+40.0,0 days 00:01:26.122000,Ferrari,86.122,0 days 00:01:25.626000,Red Bull Racing,85.626,0 days 00:01:25.728000,Ferrari,85.728,Italian Grand Prix,Race,2023,SAI
+41.0,0 days 00:01:26.738000,Ferrari,86.738,0 days 00:01:26.719000,Red Bull Racing,86.719,0 days 00:01:26.511000,Ferrari,86.511,Italian Grand Prix,Race,2023,SAI
+42.0,0 days 00:01:26.479000,Ferrari,86.479,0 days 00:01:26.539000,Red Bull Racing,86.539,0 days 00:01:26.448000,Ferrari,86.448,Italian Grand Prix,Race,2023,SAI
+43.0,0 days 00:01:26.589000,Ferrari,86.589,0 days 00:01:26.624000,Red Bull Racing,86.624,0 days 00:01:26.597000,Ferrari,86.597,Italian Grand Prix,Race,2023,SAI
+44.0,0 days 00:01:26.430000,Ferrari,86.43,0 days 00:01:26.329000,Red Bull Racing,86.329,0 days 00:01:26.586000,Ferrari,86.586,Italian Grand Prix,Race,2023,SAI
+45.0,0 days 00:01:26.632000,Ferrari,86.632,0 days 00:01:26.573000,Red Bull Racing,86.573,0 days 00:01:26.321000,Ferrari,86.321,Italian Grand Prix,Race,2023,SAI
+46.0,0 days 00:01:27.303000,Ferrari,87.303,0 days 00:01:25.598000,Red Bull Racing,85.598,0 days 00:01:26.580000,Ferrari,86.58,Italian Grand Prix,Race,2023,SAI
+47.0,0 days 00:01:27.096000,Ferrari,87.096,0 days 00:01:26.476000,Red Bull Racing,86.476,0 days 00:01:27.371000,Ferrari,87.371,Italian Grand Prix,Race,2023,SAI
+48.0,0 days 00:01:26.800000,Ferrari,86.8,0 days 00:01:26.108000,Red Bull Racing,86.108,0 days 00:01:26.828000,Ferrari,86.828,Italian Grand Prix,Race,2023,SAI
+49.0,0 days 00:01:26.770000,Ferrari,86.77,0 days 00:01:26.006000,Red Bull Racing,86.006,0 days 00:01:26.633000,Ferrari,86.633,Italian Grand Prix,Race,2023,SAI
+50.0,0 days 00:01:26.776000,Ferrari,86.776,0 days 00:01:26.385000,Red Bull Racing,86.385,0 days 00:01:26.961000,Ferrari,86.961,Italian Grand Prix,Race,2023,SAI
+51.0,0 days 00:01:27.044000,Ferrari,87.044,0 days 00:01:25.903000,Red Bull Racing,85.903,0 days 00:01:26.783000,Ferrari,86.783,Italian Grand Prix,Race,2023,SAI
+52.0,,Ferrari,,,Red Bull Racing,,,Ferrari,,Italian Grand Prix,Race,2023,SAI
