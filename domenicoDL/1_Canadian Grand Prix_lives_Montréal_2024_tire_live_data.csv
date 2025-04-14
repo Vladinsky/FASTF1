@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,TireMeters,NormalizedTireMeters
+1,VER,2024,Canadian Grand Prix,Montréal,1.0,INTERMEDIATE,25.0,109025,0.3492644703289381
+1,VER,2024,Canadian Grand Prix,Montréal,2.0,INTERMEDIATE,20.0,87220,0.2794115762631505
+1,VER,2024,Canadian Grand Prix,Montréal,3.0,MEDIUM,25.0,109025,0.3492644703289381

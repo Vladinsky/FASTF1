@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,TireMeters,NormalizedTireMeters
+1,VER,2024,Bahrain Grand Prix,Sakhir,1.0,SOFT,20.0,108240,0.3467497020720409
+1,VER,2024,Bahrain Grand Prix,Sakhir,2.0,HARD,20.0,108240,0.3467497020720409
+1,VER,2024,Bahrain Grand Prix,Sakhir,3.0,SOFT,20.0,108240,0.3467497020720409
