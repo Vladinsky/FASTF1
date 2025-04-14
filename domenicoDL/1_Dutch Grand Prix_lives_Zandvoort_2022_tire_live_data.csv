@@ -1,0 +1,6 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,TireMeters,NormalizedTireMeters
+1,VER,2022,Dutch Grand Prix,Zandvoort,1.0,SOFT,18.0,76662,0.24558874408949372
+1,VER,2022,Dutch Grand Prix,Zandvoort,2.0,MEDIUM,30.0,127770,0.4093145734824895
+1,VER,2022,Dutch Grand Prix,Zandvoort,3.0,HARD,8.0,34072,0.10915055292866388
+1,VER,2022,Dutch Grand Prix,Zandvoort,4.0,SOFT,4.0,17036,0.05457527646433194
+1,VER,2022,Dutch Grand Prix,Zandvoort,5.0,SOFT,19.0,80921,0.2592325632055767

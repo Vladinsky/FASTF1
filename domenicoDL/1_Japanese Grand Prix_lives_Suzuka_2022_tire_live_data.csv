@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,TireMeters,NormalizedTireMeters
+1,VER,2022,Japanese Grand Prix,Suzuka,1.0,INTERMEDIATE,2.0,11614,0.03720575609631082
+1,VER,2022,Japanese Grand Prix,Suzuka,2.0,WET,5.0,29035,0.09301439024077705
+1,VER,2022,Japanese Grand Prix,Suzuka,3.0,INTERMEDIATE,22.0,127754,0.409263317059419

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,TireMeters,NormalizedTireMeters
+1,VER,2022,Monaco Grand Prix,Monaco,2.0,INTERMEDIATE,22.0,0,0.0
+1,VER,2022,Monaco Grand Prix,Monaco,3.0,HARD,8.0,0,0.0
+1,VER,2022,Monaco Grand Prix,Monaco,4.0,MEDIUM,34.0,0,0.0

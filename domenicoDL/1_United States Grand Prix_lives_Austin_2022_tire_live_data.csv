@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,TireMeters,NormalizedTireMeters
+1,VER,2022,United States Grand Prix,Austin,1.0,MEDIUM,13.0,71669,0.2295935365650508
+1,VER,2022,United States Grand Prix,Austin,2.0,HARD,22.0,121286,0.3885429080331629
+1,VER,2022,United States Grand Prix,Austin,3.0,MEDIUM,21.0,115773,0.3708818667589282
