@@ -1,5 +1,0 @@
-DriverID,Driver,Year,GranPrix,Location,LapNumber,Stint,TireLife,TireMeters,Compound,IsFreshTire,DriverMeters,LapTime,NormalizedTireMeters,NormalizedDriverMeters
-1,VER,2024,Australian Grand Prix,Melbourne,1.0,1.0,1.0,5278,MEDIUM,True,5278,0 days 00:01:27.458000,0.016908212560386472,0.011209657551120966
-1,VER,2024,Australian Grand Prix,Melbourne,2.0,1.0,2.0,10556,MEDIUM,True,10556,0 days 00:01:24.099000,0.033816425120772944,0.022419315102241932
-1,VER,2024,Australian Grand Prix,Melbourne,3.0,1.0,3.0,15834,MEDIUM,True,15834,0 days 00:01:23.115000,0.050724637681159424,0.0336289726533629
-1,VER,2024,Australian Grand Prix,Melbourne,4.0,1.0,4.0,21112,MEDIUM,True,21112,,0.06763285024154589,0.044838630204483865

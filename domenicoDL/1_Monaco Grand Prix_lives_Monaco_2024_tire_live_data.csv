@@ -1,4 +1,0 @@
-DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,TireMeters,NormalizedTireMeters
-1,VER,2024,Monaco Grand Prix,Monaco,1.0,HARD,1.0,0,0.0
-1,VER,2024,Monaco Grand Prix,Monaco,2.0,MEDIUM,51.0,0,0.0
-1,VER,2024,Monaco Grand Prix,Monaco,3.0,HARD,27.0,0,0.0
