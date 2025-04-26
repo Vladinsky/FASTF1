@@ -1,4 +1,0 @@
-DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,TireMeters,NormalizedTireMeters
-1,VER,2022,Singapore Grand Prix,Marina Bay,1.0,INTERMEDIATE,35.0,0,0.0
-1,VER,2022,Singapore Grand Prix,Marina Bay,2.0,MEDIUM,5.0,0,0.0
-1,VER,2022,Singapore Grand Prix,Marina Bay,3.0,SOFT,19.0,0,0.0
