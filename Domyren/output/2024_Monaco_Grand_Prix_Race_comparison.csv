@@ -1,79 +1,79 @@
-LapNumber,LapTime_LEC,Team_LEC,LapTime_seconds_LEC,LapTime_PIA,Team_PIA,LapTime_seconds_PIA,Event,Session,Year,Reference_Driver
-1.0,0 days 00:40:56.330000,Ferrari,2456.33,0 days 00:40:58.744000,McLaren,2458.744,Monaco Grand Prix,Race,2024,LEC
-2.0,,Ferrari,,,McLaren,,Monaco Grand Prix,Race,2024,LEC
-3.0,0 days 00:01:24.624000,Ferrari,84.624,0 days 00:01:24.953000,McLaren,84.953,Monaco Grand Prix,Race,2024,LEC
-4.0,0 days 00:01:22.625000,Ferrari,82.625,0 days 00:01:22.314000,McLaren,82.314,Monaco Grand Prix,Race,2024,LEC
-5.0,0 days 00:01:21.795000,Ferrari,81.795,0 days 00:01:22.019000,McLaren,82.019,Monaco Grand Prix,Race,2024,LEC
-6.0,0 days 00:01:21.145000,Ferrari,81.145,0 days 00:01:21.354000,McLaren,81.354,Monaco Grand Prix,Race,2024,LEC
-7.0,0 days 00:01:20.980000,Ferrari,80.98,0 days 00:01:20.808000,McLaren,80.808,Monaco Grand Prix,Race,2024,LEC
-8.0,0 days 00:01:21.030000,Ferrari,81.03,0 days 00:01:21.058000,McLaren,81.058,Monaco Grand Prix,Race,2024,LEC
-9.0,0 days 00:01:20.114000,Ferrari,80.114,0 days 00:01:19.906000,McLaren,79.906,Monaco Grand Prix,Race,2024,LEC
-10.0,0 days 00:01:20.775000,Ferrari,80.775,0 days 00:01:20.890000,McLaren,80.89,Monaco Grand Prix,Race,2024,LEC
-11.0,0 days 00:01:21.046000,Ferrari,81.046,0 days 00:01:20.898000,McLaren,80.898,Monaco Grand Prix,Race,2024,LEC
-12.0,0 days 00:01:20.252000,Ferrari,80.252,0 days 00:01:20.135000,McLaren,80.135,Monaco Grand Prix,Race,2024,LEC
-13.0,0 days 00:01:19.017000,Ferrari,79.017,0 days 00:01:18.745000,McLaren,78.745,Monaco Grand Prix,Race,2024,LEC
-14.0,0 days 00:01:19.913000,Ferrari,79.913,0 days 00:01:20.014000,McLaren,80.014,Monaco Grand Prix,Race,2024,LEC
-15.0,0 days 00:01:19.838000,Ferrari,79.838,0 days 00:01:20.264000,McLaren,80.264,Monaco Grand Prix,Race,2024,LEC
-16.0,0 days 00:01:20.156000,Ferrari,80.156,0 days 00:01:19.829000,McLaren,79.829,Monaco Grand Prix,Race,2024,LEC
-17.0,0 days 00:01:20.279000,Ferrari,80.279,0 days 00:01:20.028000,McLaren,80.028,Monaco Grand Prix,Race,2024,LEC
-18.0,0 days 00:01:19.580000,Ferrari,79.58,0 days 00:01:19.832000,McLaren,79.832,Monaco Grand Prix,Race,2024,LEC
-19.0,0 days 00:01:18.842000,Ferrari,78.842,0 days 00:01:19.179000,McLaren,79.179,Monaco Grand Prix,Race,2024,LEC
-20.0,0 days 00:01:18.724000,Ferrari,78.724,0 days 00:01:19.055000,McLaren,79.055,Monaco Grand Prix,Race,2024,LEC
-21.0,0 days 00:01:18.472000,Ferrari,78.472,0 days 00:01:18.601000,McLaren,78.601,Monaco Grand Prix,Race,2024,LEC
-22.0,0 days 00:01:18.620000,Ferrari,78.62,0 days 00:01:18.585000,McLaren,78.585,Monaco Grand Prix,Race,2024,LEC
-23.0,0 days 00:01:18.458000,Ferrari,78.458,0 days 00:01:18.658000,McLaren,78.658,Monaco Grand Prix,Race,2024,LEC
-24.0,0 days 00:01:18.725000,Ferrari,78.725,0 days 00:01:18.636000,McLaren,78.636,Monaco Grand Prix,Race,2024,LEC
-25.0,0 days 00:01:18.973000,Ferrari,78.973,0 days 00:01:18.784000,McLaren,78.784,Monaco Grand Prix,Race,2024,LEC
-26.0,0 days 00:01:18.445000,Ferrari,78.445,0 days 00:01:18.440000,McLaren,78.44,Monaco Grand Prix,Race,2024,LEC
-27.0,0 days 00:01:18.351000,Ferrari,78.351,0 days 00:01:18.523000,McLaren,78.523,Monaco Grand Prix,Race,2024,LEC
-28.0,0 days 00:01:18.710000,Ferrari,78.71,0 days 00:01:18.791000,McLaren,78.791,Monaco Grand Prix,Race,2024,LEC
-29.0,0 days 00:01:19.053000,Ferrari,79.053,0 days 00:01:19.010000,McLaren,79.01,Monaco Grand Prix,Race,2024,LEC
-30.0,0 days 00:01:19.935000,Ferrari,79.935,0 days 00:01:19.396000,McLaren,79.396,Monaco Grand Prix,Race,2024,LEC
-31.0,0 days 00:01:18.393000,Ferrari,78.393,0 days 00:01:18.449000,McLaren,78.449,Monaco Grand Prix,Race,2024,LEC
-32.0,0 days 00:01:19.125000,Ferrari,79.125,0 days 00:01:18.969000,McLaren,78.969,Monaco Grand Prix,Race,2024,LEC
-33.0,0 days 00:01:18.494000,Ferrari,78.494,0 days 00:01:19.060000,McLaren,79.06,Monaco Grand Prix,Race,2024,LEC
-34.0,0 days 00:01:19.319000,Ferrari,79.319,0 days 00:01:18.978000,McLaren,78.978,Monaco Grand Prix,Race,2024,LEC
-35.0,0 days 00:01:18.530000,Ferrari,78.53,0 days 00:01:18.605000,McLaren,78.605,Monaco Grand Prix,Race,2024,LEC
-36.0,0 days 00:01:18.689000,Ferrari,78.689,0 days 00:01:18.882000,McLaren,78.882,Monaco Grand Prix,Race,2024,LEC
-37.0,0 days 00:01:18.925000,Ferrari,78.925,0 days 00:01:18.612000,McLaren,78.612,Monaco Grand Prix,Race,2024,LEC
-38.0,0 days 00:01:18.528000,Ferrari,78.528,0 days 00:01:18.731000,McLaren,78.731,Monaco Grand Prix,Race,2024,LEC
-39.0,0 days 00:01:18.181000,Ferrari,78.181,0 days 00:01:18.362000,McLaren,78.362,Monaco Grand Prix,Race,2024,LEC
-40.0,0 days 00:01:18.733000,Ferrari,78.733,0 days 00:01:18.951000,McLaren,78.951,Monaco Grand Prix,Race,2024,LEC
-41.0,0 days 00:01:18.694000,Ferrari,78.694,0 days 00:01:18.846000,McLaren,78.846,Monaco Grand Prix,Race,2024,LEC
-42.0,0 days 00:01:19.277000,Ferrari,79.277,0 days 00:01:19.795000,McLaren,79.795,Monaco Grand Prix,Race,2024,LEC
-43.0,0 days 00:01:17.865000,Ferrari,77.865,0 days 00:01:18.198000,McLaren,78.198,Monaco Grand Prix,Race,2024,LEC
-44.0,0 days 00:01:18.276000,Ferrari,78.276,0 days 00:01:18.277000,McLaren,78.277,Monaco Grand Prix,Race,2024,LEC
-45.0,0 days 00:01:18.541000,Ferrari,78.541,0 days 00:01:18.082000,McLaren,78.082,Monaco Grand Prix,Race,2024,LEC
-46.0,0 days 00:01:18.567000,Ferrari,78.567,0 days 00:01:18.623000,McLaren,78.623,Monaco Grand Prix,Race,2024,LEC
-47.0,0 days 00:01:19.185000,Ferrari,79.185,0 days 00:01:18.399000,McLaren,78.399,Monaco Grand Prix,Race,2024,LEC
-48.0,0 days 00:01:17.941000,Ferrari,77.941,0 days 00:01:18.395000,McLaren,78.395,Monaco Grand Prix,Race,2024,LEC
-49.0,0 days 00:01:18.506000,Ferrari,78.506,0 days 00:01:18.136000,McLaren,78.136,Monaco Grand Prix,Race,2024,LEC
-50.0,0 days 00:01:18.185000,Ferrari,78.185,0 days 00:01:18.350000,McLaren,78.35,Monaco Grand Prix,Race,2024,LEC
-51.0,0 days 00:01:17.790000,Ferrari,77.79,0 days 00:01:17.909000,McLaren,77.909,Monaco Grand Prix,Race,2024,LEC
-52.0,0 days 00:01:18.311000,Ferrari,78.311,0 days 00:01:18.214000,McLaren,78.214,Monaco Grand Prix,Race,2024,LEC
-53.0,0 days 00:01:17.748000,Ferrari,77.748,0 days 00:01:17.609000,McLaren,77.609,Monaco Grand Prix,Race,2024,LEC
-54.0,0 days 00:01:17.357000,Ferrari,77.357,0 days 00:01:17.362000,McLaren,77.362,Monaco Grand Prix,Race,2024,LEC
-55.0,0 days 00:01:17.444000,Ferrari,77.444,0 days 00:01:17.445000,McLaren,77.445,Monaco Grand Prix,Race,2024,LEC
-56.0,0 days 00:01:17.266000,Ferrari,77.266,0 days 00:01:17.456000,McLaren,77.456,Monaco Grand Prix,Race,2024,LEC
-57.0,0 days 00:01:17.640000,Ferrari,77.64,0 days 00:01:17.300000,McLaren,77.3,Monaco Grand Prix,Race,2024,LEC
-58.0,0 days 00:01:17.028000,Ferrari,77.028,0 days 00:01:17.344000,McLaren,77.344,Monaco Grand Prix,Race,2024,LEC
-59.0,0 days 00:01:17.034000,Ferrari,77.034,0 days 00:01:17.042000,McLaren,77.042,Monaco Grand Prix,Race,2024,LEC
-60.0,0 days 00:01:16.414000,Ferrari,76.414,0 days 00:01:16.617000,McLaren,76.617,Monaco Grand Prix,Race,2024,LEC
-61.0,0 days 00:01:16.863000,Ferrari,76.863,0 days 00:01:16.771000,McLaren,76.771,Monaco Grand Prix,Race,2024,LEC
-62.0,0 days 00:01:17.454000,Ferrari,77.454,0 days 00:01:17.095000,McLaren,77.095,Monaco Grand Prix,Race,2024,LEC
-63.0,0 days 00:01:16.971000,Ferrari,76.971,0 days 00:01:16.921000,McLaren,76.921,Monaco Grand Prix,Race,2024,LEC
-64.0,0 days 00:01:16.560000,Ferrari,76.56,0 days 00:01:16.909000,McLaren,76.909,Monaco Grand Prix,Race,2024,LEC
-65.0,0 days 00:01:16.607000,Ferrari,76.607,0 days 00:01:16.391000,McLaren,76.391,Monaco Grand Prix,Race,2024,LEC
-66.0,0 days 00:01:16.489000,Ferrari,76.489,0 days 00:01:16.640000,McLaren,76.64,Monaco Grand Prix,Race,2024,LEC
-67.0,0 days 00:01:15.941000,Ferrari,75.941,0 days 00:01:16.596000,McLaren,76.596,Monaco Grand Prix,Race,2024,LEC
-68.0,0 days 00:01:16.082000,Ferrari,76.082,0 days 00:01:16.601000,McLaren,76.601,Monaco Grand Prix,Race,2024,LEC
-69.0,0 days 00:01:16.373000,Ferrari,76.373,0 days 00:01:17.371000,McLaren,77.371,Monaco Grand Prix,Race,2024,LEC
-70.0,0 days 00:01:15.767000,Ferrari,75.767,0 days 00:01:17.270000,McLaren,77.27,Monaco Grand Prix,Race,2024,LEC
-71.0,0 days 00:01:15.162000,Ferrari,75.162,0 days 00:01:17.184000,McLaren,77.184,Monaco Grand Prix,Race,2024,LEC
-72.0,0 days 00:01:15.547000,Ferrari,75.547,0 days 00:01:16.652000,McLaren,76.652,Monaco Grand Prix,Race,2024,LEC
-73.0,0 days 00:01:16.219000,Ferrari,76.219,0 days 00:01:16.281000,McLaren,76.281,Monaco Grand Prix,Race,2024,LEC
-74.0,0 days 00:01:16.105000,Ferrari,76.105,0 days 00:01:16.356000,McLaren,76.356,Monaco Grand Prix,Race,2024,LEC
-75.0,0 days 00:01:16.387000,Ferrari,76.387,0 days 00:01:16.644000,McLaren,76.644,Monaco Grand Prix,Race,2024,LEC
-76.0,0 days 00:01:16.808000,Ferrari,76.808,0 days 00:01:16.590000,McLaren,76.59,Monaco Grand Prix,Race,2024,LEC
-77.0,0 days 00:01:16.933000,Ferrari,76.933,0 days 00:01:16.734000,McLaren,76.734,Monaco Grand Prix,Race,2024,LEC
-78.0,0 days 00:01:18.636000,Ferrari,78.636,0 days 00:01:17.126000,McLaren,77.126,Monaco Grand Prix,Race,2024,LEC
+LapNumber,LapTime_PIA,Team_PIA,LapTime_seconds_PIA,LapTime_LEC,Team_LEC,LapTime_seconds_LEC,LapTime_SAI,Team_SAI,LapTime_seconds_SAI,Event,Session,Year,Reference_Driver
+1.0,0 days 00:40:58.744000,McLaren,2458.744,0 days 00:40:56.330000,Ferrari,2456.33,0 days 00:41:02.721000,Ferrari,2462.721,Monaco Grand Prix,Race,2024,PIA
+2.0,,McLaren,,,Ferrari,,,Ferrari,,Monaco Grand Prix,Race,2024,PIA
+3.0,0 days 00:01:24.953000,McLaren,84.953,0 days 00:01:24.624000,Ferrari,84.624,0 days 00:01:25.012000,Ferrari,85.012,Monaco Grand Prix,Race,2024,PIA
+4.0,0 days 00:01:22.314000,McLaren,82.314,0 days 00:01:22.625000,Ferrari,82.625,0 days 00:01:22.358000,Ferrari,82.358,Monaco Grand Prix,Race,2024,PIA
+5.0,0 days 00:01:22.019000,McLaren,82.019,0 days 00:01:21.795000,Ferrari,81.795,0 days 00:01:21.978000,Ferrari,81.978,Monaco Grand Prix,Race,2024,PIA
+6.0,0 days 00:01:21.354000,McLaren,81.354,0 days 00:01:21.145000,Ferrari,81.145,0 days 00:01:21.163000,Ferrari,81.163,Monaco Grand Prix,Race,2024,PIA
+7.0,0 days 00:01:20.808000,McLaren,80.808,0 days 00:01:20.980000,Ferrari,80.98,0 days 00:01:21.466000,Ferrari,81.466,Monaco Grand Prix,Race,2024,PIA
+8.0,0 days 00:01:21.058000,McLaren,81.058,0 days 00:01:21.030000,Ferrari,81.03,0 days 00:01:20.272000,Ferrari,80.272,Monaco Grand Prix,Race,2024,PIA
+9.0,0 days 00:01:19.906000,McLaren,79.906,0 days 00:01:20.114000,Ferrari,80.114,0 days 00:01:20.525000,Ferrari,80.525,Monaco Grand Prix,Race,2024,PIA
+10.0,0 days 00:01:20.890000,McLaren,80.89,0 days 00:01:20.775000,Ferrari,80.775,0 days 00:01:21.259000,Ferrari,81.259,Monaco Grand Prix,Race,2024,PIA
+11.0,0 days 00:01:20.898000,McLaren,80.898,0 days 00:01:21.046000,Ferrari,81.046,0 days 00:01:20.246000,Ferrari,80.246,Monaco Grand Prix,Race,2024,PIA
+12.0,0 days 00:01:20.135000,McLaren,80.135,0 days 00:01:20.252000,Ferrari,80.252,0 days 00:01:19.974000,Ferrari,79.974,Monaco Grand Prix,Race,2024,PIA
+13.0,0 days 00:01:18.745000,McLaren,78.745,0 days 00:01:19.017000,Ferrari,79.017,0 days 00:01:20.017000,Ferrari,80.017,Monaco Grand Prix,Race,2024,PIA
+14.0,0 days 00:01:20.014000,McLaren,80.014,0 days 00:01:19.913000,Ferrari,79.913,0 days 00:01:19.480000,Ferrari,79.48,Monaco Grand Prix,Race,2024,PIA
+15.0,0 days 00:01:20.264000,McLaren,80.264,0 days 00:01:19.838000,Ferrari,79.838,0 days 00:01:19.543000,Ferrari,79.543,Monaco Grand Prix,Race,2024,PIA
+16.0,0 days 00:01:19.829000,McLaren,79.829,0 days 00:01:20.156000,Ferrari,80.156,0 days 00:01:20.579000,Ferrari,80.579,Monaco Grand Prix,Race,2024,PIA
+17.0,0 days 00:01:20.028000,McLaren,80.028,0 days 00:01:20.279000,Ferrari,80.279,0 days 00:01:20.076000,Ferrari,80.076,Monaco Grand Prix,Race,2024,PIA
+18.0,0 days 00:01:19.832000,McLaren,79.832,0 days 00:01:19.580000,Ferrari,79.58,0 days 00:01:19.177000,Ferrari,79.177,Monaco Grand Prix,Race,2024,PIA
+19.0,0 days 00:01:19.179000,McLaren,79.179,0 days 00:01:18.842000,Ferrari,78.842,0 days 00:01:19.445000,Ferrari,79.445,Monaco Grand Prix,Race,2024,PIA
+20.0,0 days 00:01:19.055000,McLaren,79.055,0 days 00:01:18.724000,Ferrari,78.724,0 days 00:01:19.403000,Ferrari,79.403,Monaco Grand Prix,Race,2024,PIA
+21.0,0 days 00:01:18.601000,McLaren,78.601,0 days 00:01:18.472000,Ferrari,78.472,0 days 00:01:18.917000,Ferrari,78.917,Monaco Grand Prix,Race,2024,PIA
+22.0,0 days 00:01:18.585000,McLaren,78.585,0 days 00:01:18.620000,Ferrari,78.62,0 days 00:01:18.889000,Ferrari,78.889,Monaco Grand Prix,Race,2024,PIA
+23.0,0 days 00:01:18.658000,McLaren,78.658,0 days 00:01:18.458000,Ferrari,78.458,0 days 00:01:18.993000,Ferrari,78.993,Monaco Grand Prix,Race,2024,PIA
+24.0,0 days 00:01:18.636000,McLaren,78.636,0 days 00:01:18.725000,Ferrari,78.725,0 days 00:01:18.568000,Ferrari,78.568,Monaco Grand Prix,Race,2024,PIA
+25.0,0 days 00:01:18.784000,McLaren,78.784,0 days 00:01:18.973000,Ferrari,78.973,0 days 00:01:18.537000,Ferrari,78.537,Monaco Grand Prix,Race,2024,PIA
+26.0,0 days 00:01:18.440000,McLaren,78.44,0 days 00:01:18.445000,Ferrari,78.445,0 days 00:01:18.088000,Ferrari,78.088,Monaco Grand Prix,Race,2024,PIA
+27.0,0 days 00:01:18.523000,McLaren,78.523,0 days 00:01:18.351000,Ferrari,78.351,0 days 00:01:19.490000,Ferrari,79.49,Monaco Grand Prix,Race,2024,PIA
+28.0,0 days 00:01:18.791000,McLaren,78.791,0 days 00:01:18.710000,Ferrari,78.71,0 days 00:01:19.281000,Ferrari,79.281,Monaco Grand Prix,Race,2024,PIA
+29.0,0 days 00:01:19.010000,McLaren,79.01,0 days 00:01:19.053000,Ferrari,79.053,0 days 00:01:18.697000,Ferrari,78.697,Monaco Grand Prix,Race,2024,PIA
+30.0,0 days 00:01:19.396000,McLaren,79.396,0 days 00:01:19.935000,Ferrari,79.935,0 days 00:01:17.326000,Ferrari,77.326,Monaco Grand Prix,Race,2024,PIA
+31.0,0 days 00:01:18.449000,McLaren,78.449,0 days 00:01:18.393000,Ferrari,78.393,0 days 00:01:19.784000,Ferrari,79.784,Monaco Grand Prix,Race,2024,PIA
+32.0,0 days 00:01:18.969000,McLaren,78.969,0 days 00:01:19.125000,Ferrari,79.125,0 days 00:01:20.136000,Ferrari,80.136,Monaco Grand Prix,Race,2024,PIA
+33.0,0 days 00:01:19.060000,McLaren,79.06,0 days 00:01:18.494000,Ferrari,78.494,0 days 00:01:18.778000,Ferrari,78.778,Monaco Grand Prix,Race,2024,PIA
+34.0,0 days 00:01:18.978000,McLaren,78.978,0 days 00:01:19.319000,Ferrari,79.319,0 days 00:01:19.013000,Ferrari,79.013,Monaco Grand Prix,Race,2024,PIA
+35.0,0 days 00:01:18.605000,McLaren,78.605,0 days 00:01:18.530000,Ferrari,78.53,0 days 00:01:18.465000,Ferrari,78.465,Monaco Grand Prix,Race,2024,PIA
+36.0,0 days 00:01:18.882000,McLaren,78.882,0 days 00:01:18.689000,Ferrari,78.689,0 days 00:01:19.275000,Ferrari,79.275,Monaco Grand Prix,Race,2024,PIA
+37.0,0 days 00:01:18.612000,McLaren,78.612,0 days 00:01:18.925000,Ferrari,78.925,0 days 00:01:17.577000,Ferrari,77.577,Monaco Grand Prix,Race,2024,PIA
+38.0,0 days 00:01:18.731000,McLaren,78.731,0 days 00:01:18.528000,Ferrari,78.528,0 days 00:01:18.412000,Ferrari,78.412,Monaco Grand Prix,Race,2024,PIA
+39.0,0 days 00:01:18.362000,McLaren,78.362,0 days 00:01:18.181000,Ferrari,78.181,0 days 00:01:18.310000,Ferrari,78.31,Monaco Grand Prix,Race,2024,PIA
+40.0,0 days 00:01:18.951000,McLaren,78.951,0 days 00:01:18.733000,Ferrari,78.733,0 days 00:01:18.653000,Ferrari,78.653,Monaco Grand Prix,Race,2024,PIA
+41.0,0 days 00:01:18.846000,McLaren,78.846,0 days 00:01:18.694000,Ferrari,78.694,0 days 00:01:18.714000,Ferrari,78.714,Monaco Grand Prix,Race,2024,PIA
+42.0,0 days 00:01:19.795000,McLaren,79.795,0 days 00:01:19.277000,Ferrari,79.277,0 days 00:01:19.171000,Ferrari,79.171,Monaco Grand Prix,Race,2024,PIA
+43.0,0 days 00:01:18.198000,McLaren,78.198,0 days 00:01:17.865000,Ferrari,77.865,0 days 00:01:19.594000,Ferrari,79.594,Monaco Grand Prix,Race,2024,PIA
+44.0,0 days 00:01:18.277000,McLaren,78.277,0 days 00:01:18.276000,Ferrari,78.276,0 days 00:01:18.762000,Ferrari,78.762,Monaco Grand Prix,Race,2024,PIA
+45.0,0 days 00:01:18.082000,McLaren,78.082,0 days 00:01:18.541000,Ferrari,78.541,0 days 00:01:17.885000,Ferrari,77.885,Monaco Grand Prix,Race,2024,PIA
+46.0,0 days 00:01:18.623000,McLaren,78.623,0 days 00:01:18.567000,Ferrari,78.567,0 days 00:01:18.731000,Ferrari,78.731,Monaco Grand Prix,Race,2024,PIA
+47.0,0 days 00:01:18.399000,McLaren,78.399,0 days 00:01:19.185000,Ferrari,79.185,0 days 00:01:18.141000,Ferrari,78.141,Monaco Grand Prix,Race,2024,PIA
+48.0,0 days 00:01:18.395000,McLaren,78.395,0 days 00:01:17.941000,Ferrari,77.941,0 days 00:01:17.894000,Ferrari,77.894,Monaco Grand Prix,Race,2024,PIA
+49.0,0 days 00:01:18.136000,McLaren,78.136,0 days 00:01:18.506000,Ferrari,78.506,0 days 00:01:18.259000,Ferrari,78.259,Monaco Grand Prix,Race,2024,PIA
+50.0,0 days 00:01:18.350000,McLaren,78.35,0 days 00:01:18.185000,Ferrari,78.185,0 days 00:01:18.545000,Ferrari,78.545,Monaco Grand Prix,Race,2024,PIA
+51.0,0 days 00:01:17.909000,McLaren,77.909,0 days 00:01:17.790000,Ferrari,77.79,0 days 00:01:17.528000,Ferrari,77.528,Monaco Grand Prix,Race,2024,PIA
+52.0,0 days 00:01:18.214000,McLaren,78.214,0 days 00:01:18.311000,Ferrari,78.311,0 days 00:01:18.094000,Ferrari,78.094,Monaco Grand Prix,Race,2024,PIA
+53.0,0 days 00:01:17.609000,McLaren,77.609,0 days 00:01:17.748000,Ferrari,77.748,0 days 00:01:17.759000,Ferrari,77.759,Monaco Grand Prix,Race,2024,PIA
+54.0,0 days 00:01:17.362000,McLaren,77.362,0 days 00:01:17.357000,Ferrari,77.357,0 days 00:01:17.742000,Ferrari,77.742,Monaco Grand Prix,Race,2024,PIA
+55.0,0 days 00:01:17.445000,McLaren,77.445,0 days 00:01:17.444000,Ferrari,77.444,0 days 00:01:18.661000,Ferrari,78.661,Monaco Grand Prix,Race,2024,PIA
+56.0,0 days 00:01:17.456000,McLaren,77.456,0 days 00:01:17.266000,Ferrari,77.266,0 days 00:01:18.119000,Ferrari,78.119,Monaco Grand Prix,Race,2024,PIA
+57.0,0 days 00:01:17.300000,McLaren,77.3,0 days 00:01:17.640000,Ferrari,77.64,0 days 00:01:17.599000,Ferrari,77.599,Monaco Grand Prix,Race,2024,PIA
+58.0,0 days 00:01:17.344000,McLaren,77.344,0 days 00:01:17.028000,Ferrari,77.028,0 days 00:01:17.501000,Ferrari,77.501,Monaco Grand Prix,Race,2024,PIA
+59.0,0 days 00:01:17.042000,McLaren,77.042,0 days 00:01:17.034000,Ferrari,77.034,0 days 00:01:17.134000,Ferrari,77.134,Monaco Grand Prix,Race,2024,PIA
+60.0,0 days 00:01:16.617000,McLaren,76.617,0 days 00:01:16.414000,Ferrari,76.414,0 days 00:01:15.159000,Ferrari,75.159,Monaco Grand Prix,Race,2024,PIA
+61.0,0 days 00:01:16.771000,McLaren,76.771,0 days 00:01:16.863000,Ferrari,76.863,0 days 00:01:19.046000,Ferrari,79.046,Monaco Grand Prix,Race,2024,PIA
+62.0,0 days 00:01:17.095000,McLaren,77.095,0 days 00:01:17.454000,Ferrari,77.454,0 days 00:01:14.726000,Ferrari,74.726,Monaco Grand Prix,Race,2024,PIA
+63.0,0 days 00:01:16.921000,McLaren,76.921,0 days 00:01:16.971000,Ferrari,76.971,0 days 00:01:18.207000,Ferrari,78.207,Monaco Grand Prix,Race,2024,PIA
+64.0,0 days 00:01:16.909000,McLaren,76.909,0 days 00:01:16.560000,Ferrari,76.56,0 days 00:01:14.813000,Ferrari,74.813,Monaco Grand Prix,Race,2024,PIA
+65.0,0 days 00:01:16.391000,McLaren,76.391,0 days 00:01:16.607000,Ferrari,76.607,0 days 00:01:18.137000,Ferrari,78.137,Monaco Grand Prix,Race,2024,PIA
+66.0,0 days 00:01:16.640000,McLaren,76.64,0 days 00:01:16.489000,Ferrari,76.489,0 days 00:01:15.409000,Ferrari,75.409,Monaco Grand Prix,Race,2024,PIA
+67.0,0 days 00:01:16.596000,McLaren,76.596,0 days 00:01:15.941000,Ferrari,75.941,0 days 00:01:16.847000,Ferrari,76.847,Monaco Grand Prix,Race,2024,PIA
+68.0,0 days 00:01:16.601000,McLaren,76.601,0 days 00:01:16.082000,Ferrari,76.082,0 days 00:01:15.595000,Ferrari,75.595,Monaco Grand Prix,Race,2024,PIA
+69.0,0 days 00:01:17.371000,McLaren,77.371,0 days 00:01:16.373000,Ferrari,76.373,0 days 00:01:16.218000,Ferrari,76.218,Monaco Grand Prix,Race,2024,PIA
+70.0,0 days 00:01:17.270000,McLaren,77.27,0 days 00:01:15.767000,Ferrari,75.767,0 days 00:01:17.117000,Ferrari,77.117,Monaco Grand Prix,Race,2024,PIA
+71.0,0 days 00:01:17.184000,McLaren,77.184,0 days 00:01:15.162000,Ferrari,75.162,0 days 00:01:17.214000,Ferrari,77.214,Monaco Grand Prix,Race,2024,PIA
+72.0,0 days 00:01:16.652000,McLaren,76.652,0 days 00:01:15.547000,Ferrari,75.547,0 days 00:01:16.785000,Ferrari,76.785,Monaco Grand Prix,Race,2024,PIA
+73.0,0 days 00:01:16.281000,McLaren,76.281,0 days 00:01:16.219000,Ferrari,76.219,0 days 00:01:16.417000,Ferrari,76.417,Monaco Grand Prix,Race,2024,PIA
+74.0,0 days 00:01:16.356000,McLaren,76.356,0 days 00:01:16.105000,Ferrari,76.105,0 days 00:01:16.063000,Ferrari,76.063,Monaco Grand Prix,Race,2024,PIA
+75.0,0 days 00:01:16.644000,McLaren,76.644,0 days 00:01:16.387000,Ferrari,76.387,0 days 00:01:16.905000,Ferrari,76.905,Monaco Grand Prix,Race,2024,PIA
+76.0,0 days 00:01:16.590000,McLaren,76.59,0 days 00:01:16.808000,Ferrari,76.808,0 days 00:01:16.328000,Ferrari,76.328,Monaco Grand Prix,Race,2024,PIA
+77.0,0 days 00:01:16.734000,McLaren,76.734,0 days 00:01:16.933000,Ferrari,76.933,0 days 00:01:16.701000,Ferrari,76.701,Monaco Grand Prix,Race,2024,PIA
+78.0,0 days 00:01:17.126000,McLaren,77.126,0 days 00:01:18.636000,Ferrari,78.636,0 days 00:01:17.072000,Ferrari,77.072,Monaco Grand Prix,Race,2024,PIA
