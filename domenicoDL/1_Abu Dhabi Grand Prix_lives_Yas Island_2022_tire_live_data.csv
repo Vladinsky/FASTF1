@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,TireMeters,NormalizedTireMeters
+1,VER,2022,Abu Dhabi Grand Prix,Yas Island,1.0,MEDIUM,20.0,105620,0.34713047136387243
+1,VER,2022,Abu Dhabi Grand Prix,Yas Island,2.0,HARD,38.0,200678,0.6595478955913575
