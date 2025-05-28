@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+31,OCO,2024,Spanish Grand Prix,Barcelona,1.0,SOFT,16.0,74512,0.2387011622393931
+31,OCO,2024,Spanish Grand Prix,Barcelona,2.0,MEDIUM,24.0,111768,0.3580517433590897
+31,OCO,2024,Spanish Grand Prix,Barcelona,3.0,HARD,29.0,135053,0.43264585655890003

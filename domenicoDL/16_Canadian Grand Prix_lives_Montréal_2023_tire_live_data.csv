@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+16,LEC,2023,Canadian Grand Prix,Montréal,1.0,MEDIUM,39.0,170079,0.5448525737131434
+16,LEC,2023,Canadian Grand Prix,Montréal,2.0,HARD,31.0,135191,0.43308794320788324

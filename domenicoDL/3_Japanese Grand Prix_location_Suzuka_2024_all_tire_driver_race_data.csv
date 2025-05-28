@@ -1,0 +1,2 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+3,RIC,RB,2024,Japanese Grand Prix,Suzuka,1.0,,1,1,1.0,1.0,5807,2,1,5807,,0,7.5,13.333333333333334,13.333333333333334,337.3666666666667,0.4666666666666666,64.33333333333333,0.01860287804815541,0.018729237219803258

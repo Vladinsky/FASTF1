@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+22,TSU,2023,Hungarian Grand Prix,Budapest,1.0,SOFT,9.0,39429,0.12631184407796103
+22,TSU,2023,Hungarian Grand Prix,Budapest,2.0,HARD,38.0,166478,0.5333166749958355
+22,TSU,2023,Hungarian Grand Prix,Budapest,3.0,MEDIUM,25.0,109525,0.3508662335498917

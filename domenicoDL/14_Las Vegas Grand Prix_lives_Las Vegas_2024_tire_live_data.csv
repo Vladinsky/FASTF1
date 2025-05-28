@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+14,ALO,2024,Las Vegas Grand Prix,Las Vegas,1.0,SOFT,4.0,24804,0.07946026986506746
+14,ALO,2024,Las Vegas Grand Prix,Las Vegas,2.0,HARD,21.0,130221,0.4171664167916042
+14,ALO,2024,Las Vegas Grand Prix,Las Vegas,3.0,HARD,27.0,167427,0.5363568215892054

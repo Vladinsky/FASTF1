@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+55,SAI,2023,Hungarian Grand Prix,Budapest,1.0,SOFT,15.0,65715,0.21051974012993505
+55,SAI,2023,Hungarian Grand Prix,Budapest,2.0,HARD,29.0,127049,0.40700483091787437
+55,SAI,2023,Hungarian Grand Prix,Budapest,3.0,HARD,29.0,127049,0.40700483091787437

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+81,PIA,2023,Mexico City Grand Prix,Mexico City,1.0,MEDIUM,25.0,107600,0.34469944514922024
+81,PIA,2023,Mexico City Grand Prix,Mexico City,2.0,HARD,9.0,38736,0.1240918002537193
+81,PIA,2023,Mexico City Grand Prix,Mexico City,3.0,MEDIUM,40.0,172160,0.5515191122387524

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+22,TSU,2023,Las Vegas Grand Prix,Las Vegas,1.0,SOFT,10.0,62010,0.19865067466266867
+22,TSU,2023,Las Vegas Grand Prix,Las Vegas,2.0,MEDIUM,11.0,68211,0.21851574212893554
+22,TSU,2023,Las Vegas Grand Prix,Las Vegas,3.0,HARD,26.0,161226,0.5164917541229386

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+10,GAS,2023,Canadian Grand Prix,Montréal,1.0,SOFT,10.0,43610,0.13970578813157525
+10,GAS,2023,Canadian Grand Prix,Montréal,2.0,HARD,23.0,100303,0.32132331270262304
+10,GAS,2023,Canadian Grand Prix,Montréal,3.0,HARD,37.0,161357,0.5169114160868283

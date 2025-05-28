@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+18,STR,2023,Las Vegas Grand Prix,Las Vegas,1.0,SOFT,7.0,43407,0.13905547226386808
+18,STR,2023,Las Vegas Grand Prix,Las Vegas,2.0,HARD,24.0,148824,0.4767616191904048
+18,STR,2023,Las Vegas Grand Prix,Las Vegas,3.0,HARD,24.0,148824,0.4767616191904048

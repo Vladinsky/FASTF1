@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2023,Spanish Grand Prix,Barcelona,1.0,SOFT,9.0,41913,0.13426940375965862
+24,ZHO,2023,Spanish Grand Prix,Barcelona,2.0,HARD,27.0,125739,0.40280821127897587
+24,ZHO,2023,Spanish Grand Prix,Barcelona,3.0,HARD,30.0,139710,0.4475646791988621

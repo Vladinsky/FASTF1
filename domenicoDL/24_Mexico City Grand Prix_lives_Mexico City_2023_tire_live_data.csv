@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2023,Mexico City Grand Prix,Mexico City,1.0,MEDIUM,21.0,90384,0.28954753392534505
+24,ZHO,2023,Mexico City Grand Prix,Mexico City,2.0,HARD,13.0,55952,0.17924371147759455
+24,ZHO,2023,Mexico City Grand Prix,Mexico City,3.0,HARD,50.0,215200,0.6893988902984405

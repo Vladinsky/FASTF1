@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+4,NOR,2024,Las Vegas Grand Prix,Las Vegas,1.0,MEDIUM,9.0,55809,0.1787856071964018
+4,NOR,2024,Las Vegas Grand Prix,Las Vegas,2.0,HARD,21.0,130221,0.4171664167916042
+4,NOR,2024,Las Vegas Grand Prix,Las Vegas,3.0,HARD,18.0,111618,0.3575712143928036
+4,NOR,2024,Las Vegas Grand Prix,Las Vegas,4.0,SOFT,6.0,37206,0.1191904047976012

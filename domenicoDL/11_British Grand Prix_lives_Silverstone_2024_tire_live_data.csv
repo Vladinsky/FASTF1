@@ -1,0 +1,6 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+11,PER,2024,British Grand Prix,Silverstone,1.0,HARD,19.0,111929,0.35856751111623675
+11,PER,2024,British Grand Prix,Silverstone,2.0,INTERMEDIATE,9.0,53019,0.16984776842348057
+11,PER,2024,British Grand Prix,Silverstone,3.0,INTERMEDIATE,9.0,53019,0.16984776842348057
+11,PER,2024,British Grand Prix,Silverstone,4.0,MEDIUM,10.0,58910,0.18871974269275618
+11,PER,2024,British Grand Prix,Silverstone,5.0,SOFT,3.0,17673,0.05661592280782685

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+30,LAW,2024,Mexico City Grand Prix,Mexico City,1.0,HARD,39.0,167856,0.5377311344327836
+30,LAW,2024,Mexico City Grand Prix,Mexico City,2.0,MEDIUM,26.0,111904,0.3584874229551891
+30,LAW,2024,Mexico City Grand Prix,Mexico City,3.0,SOFT,5.0,21520,0.06893988902984405

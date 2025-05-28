@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2023,Mexico City Grand Prix,Mexico City,1.0,MEDIUM,23.0,98992,0.31712348953728264
+27,HUL,2023,Mexico City Grand Prix,Mexico City,2.0,HARD,11.0,47344,0.15166775586565692
+27,HUL,2023,Mexico City Grand Prix,Mexico City,3.0,MEDIUM,37.0,159248,0.5101551788208459

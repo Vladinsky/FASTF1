@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+3,RIC,2024,Italian Grand Prix,Monza,1.0,MEDIUM,11.0,63723,0.2041383154576558
+3,RIC,2024,Italian Grand Prix,Monza,2.0,HARD,43.0,249099,0.7979952331526544

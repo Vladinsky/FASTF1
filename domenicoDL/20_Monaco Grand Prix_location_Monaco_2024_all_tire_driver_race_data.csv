@@ -1,0 +1,2 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+20,MAG,Haas F1 Team,2024,Monaco Grand Prix,Monaco,1.0,,1,1,1.0,1.0,0,3,1,0,,0,0.524390243902439,1.5609756097560976,1.2024390243902439,24.851219512195122,0.036585365853658534,8.487804878048781,0.0,0.0

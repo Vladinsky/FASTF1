@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+3,RIC,2024,Australian Grand Prix,Melbourne,1.0,SOFT,5.0,26390,0.08454106280193237
+3,RIC,2024,Australian Grand Prix,Melbourne,2.0,HARD,24.0,126672,0.4057971014492754
+3,RIC,2024,Australian Grand Prix,Melbourne,3.0,HARD,28.0,147784,0.47342995169082125

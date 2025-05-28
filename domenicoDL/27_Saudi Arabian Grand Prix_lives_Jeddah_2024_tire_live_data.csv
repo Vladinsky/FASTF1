@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2024,Saudi Arabian Grand Prix,Jeddah,1.0,MEDIUM,33.0,203742,0.6526928843270673
+27,HUL,2024,Saudi Arabian Grand Prix,Jeddah,2.0,HARD,17.0,104958,0.33623572828970133

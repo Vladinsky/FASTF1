@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2024,Italian Grand Prix,Monza,1.0,MEDIUM,5.0,28965,0.09279014338984354
+27,HUL,2024,Italian Grand Prix,Monza,2.0,HARD,27.0,156411,0.5010667743051551
+27,HUL,2024,Italian Grand Prix,Monza,3.0,HARD,20.0,115860,0.37116057355937415

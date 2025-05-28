@@ -1,0 +1,6 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2024,British Grand Prix,Silverstone,1.0,SOFT,12.0,70692,0.2264636912313074
+24,ZHO,2024,British Grand Prix,Silverstone,2.0,MEDIUM,7.0,41237,0.13210381988492934
+24,ZHO,2024,British Grand Prix,Silverstone,3.0,INTERMEDIATE,7.0,41237,0.13210381988492934
+24,ZHO,2024,British Grand Prix,Silverstone,4.0,INTERMEDIATE,11.0,64801,0.2075917169620318
+24,ZHO,2024,British Grand Prix,Silverstone,5.0,SOFT,14.0,82474,0.26420763976985867

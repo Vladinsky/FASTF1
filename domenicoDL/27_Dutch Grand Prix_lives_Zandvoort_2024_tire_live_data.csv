@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2024,Dutch Grand Prix,Zandvoort,1.0,MEDIUM,14.0,59626,0.19101346762516178
+27,HUL,2024,Dutch Grand Prix,Zandvoort,2.0,HARD,57.0,242763,0.7776976896167301

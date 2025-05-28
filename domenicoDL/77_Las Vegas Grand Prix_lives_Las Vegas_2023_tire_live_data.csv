@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+77,BOT,2023,Las Vegas Grand Prix,Las Vegas,1.0,MEDIUM,1.0,6201,0.019865067466266866
+77,BOT,2023,Las Vegas Grand Prix,Las Vegas,2.0,HARD,23.0,142623,0.45689655172413796
+77,BOT,2023,Las Vegas Grand Prix,Las Vegas,3.0,MEDIUM,26.0,161226,0.5164917541229386

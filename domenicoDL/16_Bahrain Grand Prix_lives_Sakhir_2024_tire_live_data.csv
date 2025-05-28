@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+16,LEC,2024,Bahrain Grand Prix,Sakhir,1.0,SOFT,14.0,75768,0.24272479145042863
+16,LEC,2024,Bahrain Grand Prix,Sakhir,2.0,HARD,23.0,124476,0.39876215738284704
+16,LEC,2024,Bahrain Grand Prix,Sakhir,3.0,HARD,23.0,124476,0.39876215738284704

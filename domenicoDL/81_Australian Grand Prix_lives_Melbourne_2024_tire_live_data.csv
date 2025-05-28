@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+81,PIA,2024,Australian Grand Prix,Melbourne,1.0,MEDIUM,9.0,47502,0.15217391304347827
+81,PIA,2024,Australian Grand Prix,Melbourne,2.0,HARD,31.0,163618,0.5241545893719807
+81,PIA,2024,Australian Grand Prix,Melbourne,3.0,HARD,20.0,105560,0.33816425120772947

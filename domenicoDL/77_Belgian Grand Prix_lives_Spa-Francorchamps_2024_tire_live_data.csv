@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+77,BOT,2024,Belgian Grand Prix,Spa-Francorchamps,1.0,MEDIUM,11.0,77044,0.2468124911903023
+77,BOT,2024,Belgian Grand Prix,Spa-Francorchamps,2.0,HARD,24.0,168096,0.5384999807788413
+77,BOT,2024,Belgian Grand Prix,Spa-Francorchamps,3.0,MEDIUM,9.0,63036,0.2019374927920655

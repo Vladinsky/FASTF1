@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+31,OCO,2024,Bahrain Grand Prix,Sakhir,1.0,SOFT,10.0,54120,0.17337485103602046
+31,OCO,2024,Bahrain Grand Prix,Sakhir,2.0,HARD,20.0,108240,0.3467497020720409
+31,OCO,2024,Bahrain Grand Prix,Sakhir,3.0,HARD,26.0,140712,0.45077461269365315

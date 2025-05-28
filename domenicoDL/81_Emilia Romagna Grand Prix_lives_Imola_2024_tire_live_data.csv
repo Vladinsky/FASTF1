@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+81,PIA,2024,Emilia Romagna Grand Prix,Imola,1.0,MEDIUM,23.0,112907,0.36170055997642203
+81,PIA,2024,Emilia Romagna Grand Prix,Imola,2.0,HARD,41.0,201269,0.6447705634362306

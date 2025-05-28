@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+4,NOR,2023,Abu Dhabi Grand Prix,Yas Island,1.0,MEDIUM,14.0,73934,0.23684952395597073
+4,NOR,2023,Abu Dhabi Grand Prix,Yas Island,2.0,HARD,19.0,100339,0.32143863965453173
+4,NOR,2023,Abu Dhabi Grand Prix,Yas Island,3.0,HARD,25.0,132025,0.4229455784928049

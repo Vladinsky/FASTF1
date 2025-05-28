@@ -1,0 +1,4 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+4,NOR,McLaren,2023,Las Vegas Grand Prix,Las Vegas,1.0,14.0,1,1,1.0,2.0,12402,2,0,6201,130.362,0,6.0,15.666666666666666,6.1000000000000005,313.3333333333333,1.1666666666666667,67.33333333333333,0.03973013493253373,0.02
+4,NOR,McLaren,2023,Las Vegas Grand Prix,Las Vegas,2.0,13.0,1,1,1.0,3.0,18603,2,0,12402,119.327,1,9.0,23.5,9.15,470.0,1.25,115.0,0.0595952023988006,0.04
+4,NOR,McLaren,2023,Las Vegas Grand Prix,Las Vegas,3.0,,1,1,1.0,4.0,24804,2,0,18603,,0,18.0,47.0,18.3,940.0,2.2,209.0,0.07946026986506746,0.06

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+44,HAM,2023,Mexico City Grand Prix,Mexico City,1.0,MEDIUM,24.0,103296,0.33091146734325144
+44,HAM,2023,Mexico City Grand Prix,Mexico City,2.0,HARD,10.0,43040,0.1378797780596881
+44,HAM,2023,Mexico City Grand Prix,Mexico City,3.0,MEDIUM,41.0,176464,0.5653070900447212

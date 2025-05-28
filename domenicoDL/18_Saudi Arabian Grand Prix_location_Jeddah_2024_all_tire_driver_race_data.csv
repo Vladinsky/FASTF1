@@ -1,0 +1,7 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+18,STR,Aston Martin,2024,Saudi Arabian Grand Prix,Jeddah,1.0,9.0,1,1,1.0,2.0,12348,2,0,6174,102.429,0,12.7,31.0,15.75,506.25,0.85,171.0,0.03955714450467074,0.019912917271407836
+18,STR,Aston Martin,2024,Saudi Arabian Grand Prix,Jeddah,2.0,9.0,1,1,1.0,3.0,18522,2,0,12348,96.094,1,25.4,62.0,31.5,1012.6,1.2,301.0,0.059335716757006114,0.03982583454281567
+18,STR,Aston Martin,2024,Saudi Arabian Grand Prix,Jeddah,3.0,9.0,1,1,1.0,4.0,24696,2,0,18522,95.79,1,12.7,31.0,15.85,506.3,0.75,18.0,0.07911428900934148,0.059738751814223515
+18,STR,Aston Martin,2024,Saudi Arabian Grand Prix,Jeddah,4.0,9.0,1,1,1.0,5.0,30870,2,0,24696,95.735,1,12.8,30.5,15.85,506.3,0.65,4.5,0.09889286126167686,0.07965166908563134
+18,STR,Aston Martin,2024,Saudi Arabian Grand Prix,Jeddah,5.0,9.0,1,1,1.0,6.0,37044,2,0,30870,95.56,1,25.6,62.0,31.7,1012.6,0.7,45.0,0.11867143351401223,0.09956458635703919
+18,STR,Aston Martin,2024,Saudi Arabian Grand Prix,Jeddah,6.0,,1,1,1.0,7.0,43218,2,0,37044,,0,25.7,61.0,32.2,1012.6,1.0,161.0,0.13845000576634758,0.11947750362844703

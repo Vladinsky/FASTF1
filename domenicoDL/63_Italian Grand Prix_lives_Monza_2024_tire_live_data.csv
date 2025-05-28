@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+63,RUS,2024,Italian Grand Prix,Monza,1.0,MEDIUM,11.0,63723,0.2041383154576558
+63,RUS,2024,Italian Grand Prix,Monza,2.0,HARD,22.0,127446,0.4082766309153116
+63,RUS,2024,Italian Grand Prix,Monza,3.0,HARD,20.0,115860,0.37116057355937415

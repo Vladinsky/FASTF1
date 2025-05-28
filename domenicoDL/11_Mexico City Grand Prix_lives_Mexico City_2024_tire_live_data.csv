@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+11,PER,2024,Mexico City Grand Prix,Mexico City,1.0,HARD,20.0,86080,0.2757595561193762
+11,PER,2024,Mexico City Grand Prix,Mexico City,2.0,MEDIUM,23.0,98992,0.31712348953728264
+11,PER,2024,Mexico City Grand Prix,Mexico City,3.0,MEDIUM,25.0,107600,0.34469944514922024
+11,PER,2024,Mexico City Grand Prix,Mexico City,4.0,SOFT,2.0,8608,0.02757595561193762

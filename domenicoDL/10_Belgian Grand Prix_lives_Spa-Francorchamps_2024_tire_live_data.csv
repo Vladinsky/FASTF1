@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+10,GAS,2024,Belgian Grand Prix,Spa-Francorchamps,1.0,MEDIUM,9.0,63036,0.2019374927920655
+10,GAS,2024,Belgian Grand Prix,Spa-Francorchamps,2.0,HARD,19.0,133076,0.4263124847832494
+10,GAS,2024,Belgian Grand Prix,Spa-Francorchamps,3.0,HARD,16.0,112064,0.3589999871858942

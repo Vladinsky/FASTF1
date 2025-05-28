@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2024,Canadian Grand Prix,Montréal,1.0,INTERMEDIATE,24.0,104664,0.3352938915157806
+24,ZHO,2024,Canadian Grand Prix,Montréal,2.0,INTERMEDIATE,20.0,87220,0.2794115762631505
+24,ZHO,2024,Canadian Grand Prix,Montréal,3.0,MEDIUM,8.0,34888,0.11176463050526018
+24,ZHO,2024,Canadian Grand Prix,Montréal,4.0,MEDIUM,17.0,74137,0.2374998398236779

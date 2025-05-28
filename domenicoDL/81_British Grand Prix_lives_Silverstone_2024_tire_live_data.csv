@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+81,PIA,2024,British Grand Prix,Silverstone,1.0,MEDIUM,28.0,164948,0.5284152795397173
+81,PIA,2024,British Grand Prix,Silverstone,2.0,INTERMEDIATE,10.0,58910,0.18871974269275618
+81,PIA,2024,British Grand Prix,Silverstone,3.0,MEDIUM,14.0,82474,0.26420763976985867

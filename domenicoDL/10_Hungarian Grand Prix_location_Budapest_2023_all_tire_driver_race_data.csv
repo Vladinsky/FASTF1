@@ -1,0 +1,2 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+10,GAS,Alpine,2023,Hungarian Grand Prix,Budapest,1.0,20.0,1,1,1.0,1.0,4381,1,1,4381,124.981,0,14.4,17.0,24.75,494.25,0.4,100.5,0.01403464934199567,0.014129979035639412

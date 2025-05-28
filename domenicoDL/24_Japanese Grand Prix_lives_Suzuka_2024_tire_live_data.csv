@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2024,Japanese Grand Prix,Suzuka,1.0,MEDIUM,1.0,5807,0.01860287804815541
+24,ZHO,2024,Japanese Grand Prix,Suzuka,2.0,SOFT,6.0,34842,0.11161726828893245
+24,ZHO,2024,Japanese Grand Prix,Suzuka,3.0,HARD,4.0,23228,0.07441151219262164
+24,ZHO,2024,Japanese Grand Prix,Suzuka,4.0,HARD,5.0,29035,0.09301439024077705

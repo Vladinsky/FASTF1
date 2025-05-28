@@ -1,0 +1,16 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,1.0,15.0,1,1,1.0,1.0,0,2,1,0,110.771,0,15.4,37.5,18.65,503.85,0.15,119.5,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,2.0,15.0,1,1,1.0,2.0,0,2,1,0,100.75,1,30.8,75.0,37.4,1007.7,0.9,192.0,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,3.0,15.0,1,1,1.0,3.0,0,2,1,0,99.762,1,15.45,37.5,18.7,503.9,0.7,108.5,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,4.0,15.0,1,1,1.0,4.0,0,2,1,0,99.285,1,15.55,37.5,18.5,503.85,0.35,109.0,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,5.0,15.0,1,1,1.0,5.0,0,2,1,0,99.252,1,31.1,74.0,36.6,1007.8,1.4,195.0,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,6.0,15.0,1,1,1.0,6.0,0,2,1,0,99.267,0,15.55,37.5,18.25,503.95,0.35,90.0,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,7.0,15.0,1,1,1.0,7.0,0,2,1,0,99.039,1,31.1,75.0,36.5,1007.9,1.0,228.0,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,8.0,15.0,1,1,1.0,8.0,0,2,1,0,99.316,0,15.5,37.5,18.45,503.95,0.45,77.5,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,9.0,15.0,1,1,1.0,9.0,0,2,1,0,99.767,0,15.55,37.5,18.55,503.95,0.55,109.5,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,10.0,15.0,1,1,1.0,10.0,0,2,1,0,99.896,0,31.1,75.0,37.0,1008.0,0.8,245.0,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,11.0,17.0,1,1,1.0,11.0,0,2,1,0,106.666,0,15.55,37.5,18.4,503.95,0.35,91.5,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,12.0,19.0,1,1,2.0,1.0,0,3,1,0,118.026,0,15.55,37.0,18.4,504.0,0.55,110.0,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,13.0,19.0,1,1,2.0,2.0,0,3,1,0,96.888,1,15.55,37.5,18.15,504.05,0.9,97.5,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,14.0,19.0,1,1,2.0,3.0,0,3,1,0,98.74,0,31.2,74.0,36.3,1008.0,1.1,275.0,0.0,0.0
+23,ALB,Williams,2024,Singapore Grand Prix,Marina Bay,15.0,20.0,1,1,2.0,4.0,0,3,1,0,133.278,0,10.366666666666667,24.666666666666668,12.0,336.0,0.3333333333333333,74.66666666666667,0.0,0.0

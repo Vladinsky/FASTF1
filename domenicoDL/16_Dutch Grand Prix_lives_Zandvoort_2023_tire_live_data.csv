@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+16,LEC,2023,Dutch Grand Prix,Zandvoort,1.0,SOFT,1.0,4259,0.013643819116082985
+16,LEC,2023,Dutch Grand Prix,Zandvoort,2.0,INTERMEDIATE,10.0,42590,0.13643819116082984
+16,LEC,2023,Dutch Grand Prix,Zandvoort,3.0,SOFT,30.0,127770,0.4093145734824895

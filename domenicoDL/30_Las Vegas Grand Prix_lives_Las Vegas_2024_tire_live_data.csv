@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+30,LAW,2024,Las Vegas Grand Prix,Las Vegas,1.0,MEDIUM,11.0,68211,0.21851574212893554
+30,LAW,2024,Las Vegas Grand Prix,Las Vegas,2.0,HARD,28.0,173628,0.5562218890554723
+30,LAW,2024,Las Vegas Grand Prix,Las Vegas,3.0,HARD,13.0,80613,0.2582458770614693

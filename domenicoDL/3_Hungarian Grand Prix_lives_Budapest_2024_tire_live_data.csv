@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+3,RIC,2024,Hungarian Grand Prix,Budapest,1.0,MEDIUM,7.0,30667,0.09824254539396968
+3,RIC,2024,Hungarian Grand Prix,Budapest,2.0,HARD,21.0,92001,0.29472763618190906
+3,RIC,2024,Hungarian Grand Prix,Budapest,3.0,HARD,41.0,179621,0.5754206230218224

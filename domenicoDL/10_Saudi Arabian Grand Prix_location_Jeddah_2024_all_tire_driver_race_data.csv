@@ -1,0 +1,2 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+10,GAS,Alpine,2024,Saudi Arabian Grand Prix,Jeddah,1.0,20.0,1,1,1.0,1.0,6174,2,1,6174,121.453,0,12.7,31.0,15.75,506.25,0.85,171.0,0.01977857225233537,0.019912917271407836

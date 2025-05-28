@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+3,RIC,2024,Dutch Grand Prix,Zandvoort,1.0,MEDIUM,29.0,123511,0.39567075436640653
+3,RIC,2024,Dutch Grand Prix,Zandvoort,2.0,HARD,42.0,178878,0.5730404028754853

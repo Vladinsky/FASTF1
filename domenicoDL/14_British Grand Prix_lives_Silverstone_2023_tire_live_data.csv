@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+14,ALO,2023,British Grand Prix,Silverstone,1.0,MEDIUM,34.0,200294,0.641647125155371
+14,ALO,2023,British Grand Prix,Silverstone,2.0,SOFT,22.0,129602,0.4151834339240636

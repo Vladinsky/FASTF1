@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2023,Japanese Grand Prix,Suzuka,1.0,SOFT,1.0,5807,0.01860287804815541
+24,ZHO,2023,Japanese Grand Prix,Suzuka,2.0,SOFT,9.0,52263,0.1674259024333987
+24,ZHO,2023,Japanese Grand Prix,Suzuka,3.0,SOFT,19.0,110333,0.3534546829149528
+24,ZHO,2023,Japanese Grand Prix,Suzuka,4.0,HARD,23.0,133561,0.4278661951075744

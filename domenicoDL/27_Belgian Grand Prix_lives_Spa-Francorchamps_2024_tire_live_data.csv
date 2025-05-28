@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2024,Belgian Grand Prix,Spa-Francorchamps,1.0,MEDIUM,7.0,49028,0.15706249439382872
+27,HUL,2024,Belgian Grand Prix,Spa-Francorchamps,2.0,HARD,13.0,91052,0.2916874895885391
+27,HUL,2024,Belgian Grand Prix,Spa-Francorchamps,3.0,MEDIUM,24.0,168096,0.5384999807788413

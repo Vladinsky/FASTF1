@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+20,MAG,2023,Las Vegas Grand Prix,Las Vegas,1.0,MEDIUM,14.0,86814,0.27811094452773616
+20,MAG,2023,Las Vegas Grand Prix,Las Vegas,2.0,HARD,12.0,74412,0.2383808095952024
+20,MAG,2023,Las Vegas Grand Prix,Las Vegas,3.0,HARD,24.0,148824,0.4767616191904048

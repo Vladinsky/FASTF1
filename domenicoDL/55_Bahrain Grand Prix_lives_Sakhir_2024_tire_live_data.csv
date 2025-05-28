@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+55,SAI,2024,Bahrain Grand Prix,Sakhir,1.0,SOFT,17.0,92004,0.29473724676123475
+55,SAI,2024,Bahrain Grand Prix,Sakhir,2.0,HARD,21.0,113652,0.3640871871756429
+55,SAI,2024,Bahrain Grand Prix,Sakhir,3.0,HARD,22.0,119064,0.381424672279245

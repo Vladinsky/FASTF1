@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+18,STR,2024,Azerbaijan Grand Prix,Baku,1.0,MEDIUM,2.0,12006,0.038461538461538464
+18,STR,2024,Azerbaijan Grand Prix,Baku,2.0,HARD,22.0,132066,0.4230769230769231
+18,STR,2024,Azerbaijan Grand Prix,Baku,3.0,HARD,24.0,144072,0.46153846153846156

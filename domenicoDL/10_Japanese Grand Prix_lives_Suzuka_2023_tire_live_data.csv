@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+10,GAS,2023,Japanese Grand Prix,Suzuka,1.0,MEDIUM,18.0,104526,0.3348518048667974
+10,GAS,2023,Japanese Grand Prix,Suzuka,2.0,HARD,16.0,92912,0.29764604877048656
+10,GAS,2023,Japanese Grand Prix,Suzuka,3.0,HARD,19.0,110333,0.3534546829149528

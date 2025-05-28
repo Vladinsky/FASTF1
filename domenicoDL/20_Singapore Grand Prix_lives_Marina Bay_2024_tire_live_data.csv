@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+20,MAG,2024,Singapore Grand Prix,Marina Bay,1.0,HARD,28.0,0,0.0
+20,MAG,2024,Singapore Grand Prix,Marina Bay,2.0,MEDIUM,21.0,0,0.0
+20,MAG,2024,Singapore Grand Prix,Marina Bay,3.0,SOFT,8.0,0,0.0

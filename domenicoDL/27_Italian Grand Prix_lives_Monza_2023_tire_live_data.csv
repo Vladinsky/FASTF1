@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2023,Italian Grand Prix,Monza,1.0,MEDIUM,17.0,98481,0.31548648752546804
+27,HUL,2023,Italian Grand Prix,Monza,2.0,HARD,30.0,173790,0.5567408603390612
+27,HUL,2023,Italian Grand Prix,Monza,3.0,MEDIUM,15.0,86895,0.2783704301695306

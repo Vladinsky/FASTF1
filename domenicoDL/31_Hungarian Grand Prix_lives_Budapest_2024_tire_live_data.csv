@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+31,OCO,2024,Hungarian Grand Prix,Budapest,1.0,MEDIUM,6.0,26286,0.08420789605197401
+31,OCO,2024,Hungarian Grand Prix,Budapest,2.0,HARD,24.0,105144,0.33683158420789605
+31,OCO,2024,Hungarian Grand Prix,Budapest,3.0,HARD,34.0,148954,0.47717807762785275
+31,OCO,2024,Hungarian Grand Prix,Budapest,4.0,SOFT,5.0,21905,0.07017324670997835

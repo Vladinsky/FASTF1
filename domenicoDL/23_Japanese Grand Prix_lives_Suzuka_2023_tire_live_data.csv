@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+23,ALB,2023,Japanese Grand Prix,Suzuka,1.0,MEDIUM,1.0,5807,0.01860287804815541
+23,ALB,2023,Japanese Grand Prix,Suzuka,2.0,MEDIUM,12.0,69684,0.2232345365778649
+23,ALB,2023,Japanese Grand Prix,Suzuka,3.0,SOFT,13.0,75491,0.24183741462602032

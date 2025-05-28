@@ -1,0 +1,6 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+2,SAR,2024,Japanese Grand Prix,Suzuka,1.0,SOFT,1.0,5807,0.01860287804815541
+2,SAR,2024,Japanese Grand Prix,Suzuka,2.0,HARD,21.0,121947,0.39066043901126357
+2,SAR,2024,Japanese Grand Prix,Suzuka,3.0,HARD,12.0,69684,0.2232345365778649
+2,SAR,2024,Japanese Grand Prix,Suzuka,4.0,MEDIUM,7.0,40649,0.13022014633708787
+2,SAR,2024,Japanese Grand Prix,Suzuka,5.0,SOFT,11.0,63877,0.2046316585297095

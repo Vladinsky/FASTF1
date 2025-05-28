@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+23,ALB,2024,Australian Grand Prix,Melbourne,1.0,MEDIUM,6.0,31668,0.10144927536231885
+23,ALB,2024,Australian Grand Prix,Melbourne,2.0,HARD,21.0,110838,0.35507246376811596
+23,ALB,2024,Australian Grand Prix,Melbourne,3.0,HARD,30.0,158340,0.5072463768115942

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2023,Singapore Grand Prix,Marina Bay,1.0,SOFT,2.0,0,0.0
+24,ZHO,2023,Singapore Grand Prix,Marina Bay,2.0,HARD,18.0,0,0.0
+24,ZHO,2023,Singapore Grand Prix,Marina Bay,3.0,MEDIUM,42.0,0,0.0

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+14,ALO,2024,Canadian Grand Prix,Montréal,1.0,INTERMEDIATE,25.0,109025,0.3492644703289381
+14,ALO,2024,Canadian Grand Prix,Montréal,2.0,INTERMEDIATE,19.0,82859,0.26544099744999294
+14,ALO,2024,Canadian Grand Prix,Montréal,3.0,HARD,26.0,113386,0.36323504914209565

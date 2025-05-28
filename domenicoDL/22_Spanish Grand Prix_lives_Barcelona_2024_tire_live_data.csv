@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+22,TSU,2024,Spanish Grand Prix,Barcelona,1.0,SOFT,9.0,41913,0.13426940375965862
+22,TSU,2024,Spanish Grand Prix,Barcelona,2.0,MEDIUM,18.0,83826,0.26853880751931725
+22,TSU,2024,Spanish Grand Prix,Barcelona,3.0,HARD,17.0,79169,0.2536199848793552
+22,TSU,2024,Spanish Grand Prix,Barcelona,4.0,SOFT,21.0,97797,0.3132952754392035

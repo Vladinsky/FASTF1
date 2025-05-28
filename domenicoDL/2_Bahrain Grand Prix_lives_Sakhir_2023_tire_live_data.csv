@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+2,SAR,2023,Bahrain Grand Prix,Sakhir,1.0,SOFT,12.0,64944,0.20804982124322455
+2,SAR,2023,Bahrain Grand Prix,Sakhir,2.0,SOFT,18.0,97416,0.3120747318648368
+2,SAR,2023,Bahrain Grand Prix,Sakhir,3.0,HARD,10.0,54120,0.17337485103602046
+2,SAR,2023,Bahrain Grand Prix,Sakhir,4.0,SOFT,16.0,86592,0.27739976165763275

@@ -1,0 +1,2 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+10,GAS,Alpine,2024,British Grand Prix,Silverstone,1.0,,1,1,1.0,1.0,5891,2,1,5891,,0,16.2,63.0,33.0,992.0,1.6,215.0,0.01887197426927562,0.01900016126431221

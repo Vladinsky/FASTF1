@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+3,RIC,2024,Singapore Grand Prix,Marina Bay,1.0,SOFT,10.0,0,0.0
+3,RIC,2024,Singapore Grand Prix,Marina Bay,2.0,MEDIUM,36.0,0,0.0
+3,RIC,2024,Singapore Grand Prix,Marina Bay,3.0,SOFT,12.0,0,0.0
+3,RIC,2024,Singapore Grand Prix,Marina Bay,4.0,SOFT,6.0,0,0.0

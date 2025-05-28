@@ -1,0 +1,2 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+22,TSU,AlphaTauri,2023,Italian Grand Prix,Monza,1.0,,1,1,1.0,4.0,23172,2,0,5793,,0,14.6,20.5,21.25,500.2,0.75,2.0,0.07423211471187484,0.0186840832123851

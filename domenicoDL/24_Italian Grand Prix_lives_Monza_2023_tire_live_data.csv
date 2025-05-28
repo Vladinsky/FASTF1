@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2023,Italian Grand Prix,Monza,1.0,MEDIUM,11.0,63723,0.2041383154576558
+24,ZHO,2023,Italian Grand Prix,Monza,2.0,HARD,25.0,144825,0.4639507169492177
+24,ZHO,2023,Italian Grand Prix,Monza,3.0,MEDIUM,18.0,104274,0.3340445162034367

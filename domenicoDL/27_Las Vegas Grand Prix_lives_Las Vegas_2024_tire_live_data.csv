@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2024,Las Vegas Grand Prix,Las Vegas,1.0,MEDIUM,14.0,86814,0.27811094452773616
+27,HUL,2024,Las Vegas Grand Prix,Las Vegas,2.0,HARD,19.0,117819,0.37743628185907047
+27,HUL,2024,Las Vegas Grand Prix,Las Vegas,3.0,HARD,17.0,105417,0.3377061469265367

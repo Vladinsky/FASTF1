@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+21,DEV,2023,British Grand Prix,Silverstone,1.0,SOFT,27.0,159057,0.5095433052704417
+21,DEV,2023,British Grand Prix,Silverstone,2.0,MEDIUM,5.0,29455,0.09435987134637809
+21,DEV,2023,British Grand Prix,Silverstone,3.0,SOFT,20.0,117820,0.37743948538551236

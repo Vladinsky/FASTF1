@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2023,Saudi Arabian Grand Prix,Jeddah,1.0,MEDIUM,11.0,67914,0.2175642947756891
+24,ZHO,2023,Saudi Arabian Grand Prix,Jeddah,2.0,HARD,7.0,43218,0.13845000576634758
+24,ZHO,2023,Saudi Arabian Grand Prix,Jeddah,3.0,MEDIUM,32.0,197568,0.6329143120747318

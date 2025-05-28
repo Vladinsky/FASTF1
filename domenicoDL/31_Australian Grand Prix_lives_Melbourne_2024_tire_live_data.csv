@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+31,OCO,2024,Australian Grand Prix,Melbourne,1.0,MEDIUM,9.0,47502,0.15217391304347827
+31,OCO,2024,Australian Grand Prix,Melbourne,2.0,HARD,7.0,36946,0.11835748792270531
+31,OCO,2024,Australian Grand Prix,Melbourne,3.0,HARD,26.0,137228,0.4396135265700483
+31,OCO,2024,Australian Grand Prix,Melbourne,4.0,HARD,22.0,116116,0.3719806763285024

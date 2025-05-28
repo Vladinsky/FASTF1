@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+81,PIA,2024,Spanish Grand Prix,Barcelona,1.0,SOFT,24.0,111768,0.3580517433590897
+81,PIA,2024,Spanish Grand Prix,Barcelona,2.0,MEDIUM,25.0,116425,0.37297056599905176
+81,PIA,2024,Spanish Grand Prix,Barcelona,3.0,SOFT,23.0,107111,0.3431329207191276

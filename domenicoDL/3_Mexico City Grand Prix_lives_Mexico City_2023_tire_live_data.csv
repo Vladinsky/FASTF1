@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+3,RIC,2023,Mexico City Grand Prix,Mexico City,1.0,MEDIUM,27.0,116208,0.3722754007611579
+3,RIC,2023,Mexico City Grand Prix,Mexico City,2.0,HARD,7.0,30128,0.09651584464178167
+3,RIC,2023,Mexico City Grand Prix,Mexico City,3.0,HARD,44.0,189376,0.6066710234626277

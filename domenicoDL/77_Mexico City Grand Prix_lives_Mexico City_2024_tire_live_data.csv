@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+77,BOT,2024,Mexico City Grand Prix,Mexico City,1.0,HARD,50.0,215200,0.6893988902984405
+77,BOT,2024,Mexico City Grand Prix,Mexico City,2.0,MEDIUM,22.0,94688,0.30333551173131384

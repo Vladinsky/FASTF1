@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+44,HAM,2024,Belgian Grand Prix,Spa-Francorchamps,1.0,MEDIUM,11.0,77044,0.2468124911903023
+44,HAM,2024,Belgian Grand Prix,Spa-Francorchamps,2.0,HARD,15.0,105060,0.33656248798677585
+44,HAM,2024,Belgian Grand Prix,Spa-Francorchamps,3.0,HARD,18.0,126072,0.403874985584131

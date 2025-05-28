@@ -1,0 +1,2 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+11,PER,Red Bull Racing,2024,Abu Dhabi Grand Prix,Yas Island,1.0,,1,1,1.0,1.0,5281,2,1,5281,,0,13.5,24.5,16.1,508.6,0.75,27.0,0.016917823139712195,0.017032736655378165

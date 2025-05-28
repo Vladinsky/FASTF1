@@ -1,0 +1,2 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+11,PER,Red Bull Racing,2023,Mexico City Grand Prix,Mexico City,1.0,20.0,1,1,1.0,1.0,4304,2,1,4304,103.446,0,12.25,14.0,24.05,389.95,0.6,149.0,0.01378797780596881,0.013881631994839543

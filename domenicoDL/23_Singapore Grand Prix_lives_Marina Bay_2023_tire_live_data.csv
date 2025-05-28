@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+23,ALB,2023,Singapore Grand Prix,Marina Bay,1.0,MEDIUM,20.0,0,0.0
+23,ALB,2023,Singapore Grand Prix,Marina Bay,2.0,HARD,23.0,0,0.0
+23,ALB,2023,Singapore Grand Prix,Marina Bay,3.0,MEDIUM,19.0,0,0.0

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+81,PIA,2024,Abu Dhabi Grand Prix,Yas Island,1.0,MEDIUM,4.0,21124,0.06767129255884878
+81,PIA,2024,Abu Dhabi Grand Prix,Yas Island,2.0,HARD,28.0,147868,0.47369904791194145
+81,PIA,2024,Abu Dhabi Grand Prix,Yas Island,3.0,HARD,26.0,137306,0.4398634016325171

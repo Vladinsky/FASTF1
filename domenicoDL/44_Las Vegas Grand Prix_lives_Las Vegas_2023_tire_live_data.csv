@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+44,HAM,2023,Las Vegas Grand Prix,Las Vegas,1.0,HARD,17.0,105417,0.3377061469265367
+44,HAM,2023,Las Vegas Grand Prix,Las Vegas,2.0,MEDIUM,9.0,55809,0.1787856071964018
+44,HAM,2023,Las Vegas Grand Prix,Las Vegas,3.0,HARD,24.0,148824,0.4767616191904048

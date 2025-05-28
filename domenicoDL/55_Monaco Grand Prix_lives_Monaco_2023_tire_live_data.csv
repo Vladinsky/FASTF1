@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+55,SAI,2023,Monaco Grand Prix,Monaco,1.0,HARD,33.0,0,0.0
+55,SAI,2023,Monaco Grand Prix,Monaco,2.0,MEDIUM,22.0,0,0.0
+55,SAI,2023,Monaco Grand Prix,Monaco,3.0,INTERMEDIATE,23.0,0,0.0

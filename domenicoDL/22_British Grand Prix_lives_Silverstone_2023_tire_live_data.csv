@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+22,TSU,2023,British Grand Prix,Silverstone,1.0,SOFT,14.0,82474,0.26420763976985867
+22,TSU,2023,British Grand Prix,Silverstone,2.0,HARD,18.0,106038,0.33969553684696113
+22,TSU,2023,British Grand Prix,Silverstone,3.0,SOFT,20.0,117820,0.37743948538551236

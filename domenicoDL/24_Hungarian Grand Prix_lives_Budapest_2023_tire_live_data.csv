@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2023,Hungarian Grand Prix,Budapest,1.0,MEDIUM,13.0,56953,0.1824504414459437
+24,ZHO,2023,Hungarian Grand Prix,Budapest,2.0,HARD,33.0,144573,0.4631434282858571
+24,ZHO,2023,Hungarian Grand Prix,Budapest,3.0,HARD,36.0,157716,0.5052473763118441

@@ -1,0 +1,5 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+1,VER,Red Bull Racing,2024,Australian Grand Prix,Melbourne,1.0,1.0,1,1,1.0,1.0,5278,2,1,5278,87.458,0,20.4,45.0,38.8,1020.9,1.1,322.0,0.016908212560386472,0.017023060796645704
+1,VER,Red Bull Racing,2024,Australian Grand Prix,Melbourne,2.0,2.0,1,1,1.0,2.0,10556,2,1,10556,84.099,1,10.25,22.5,19.5,510.4,0.45,44.0,0.033816425120772944,0.03404612159329141
+1,VER,Red Bull Racing,2024,Australian Grand Prix,Melbourne,3.0,2.0,1,1,1.0,3.0,15834,2,1,15834,83.115,1,20.6,44.0,39.3,1020.7,0.8,168.0,0.050724637681159424,0.05106918238993711
+1,VER,Red Bull Racing,2024,Australian Grand Prix,Melbourne,4.0,19.0,1,1,1.0,4.0,21112,2,1,21112,,0,10.35,22.5,19.55,510.35,0.8,81.5,0.06763285024154589,0.06809224318658282

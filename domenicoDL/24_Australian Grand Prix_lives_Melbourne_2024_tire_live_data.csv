@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2024,Australian Grand Prix,Melbourne,1.0,SOFT,6.0,31668,0.10144927536231885
+24,ZHO,2024,Australian Grand Prix,Melbourne,2.0,HARD,30.0,158340,0.5072463768115942
+24,ZHO,2024,Australian Grand Prix,Melbourne,3.0,HARD,22.0,116116,0.3719806763285024

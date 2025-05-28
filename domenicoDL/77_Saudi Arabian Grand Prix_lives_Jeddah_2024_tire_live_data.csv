@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+77,BOT,2024,Saudi Arabian Grand Prix,Jeddah,1.0,SOFT,7.0,43218,0.13845000576634758
+77,BOT,2024,Saudi Arabian Grand Prix,Jeddah,2.0,HARD,28.0,172872,0.5538000230653903
+77,BOT,2024,Saudi Arabian Grand Prix,Jeddah,3.0,SOFT,14.0,86436,0.27690001153269517

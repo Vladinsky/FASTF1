@@ -1,0 +1,8 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+2,SAR,Williams,2023,Canadian Grand Prix,Montréal,1.0,18.0,1,1,1.0,1.0,4361,2,1,4361,93.033,0,18.3,64.0,32.2,1011.5,2.0,314.0,0.013970578813157523,0.014065473310756329
+2,SAR,Williams,2023,Canadian Grand Prix,Montréal,2.0,18.0,1,1,1.0,2.0,8722,2,1,8722,80.814,1,18.3,64.0,32.5,1011.4,1.7,297.0,0.027941157626315046,0.028130946621512658
+2,SAR,Williams,2023,Canadian Grand Prix,Montréal,3.0,18.0,1,1,1.0,3.0,13083,2,1,13083,79.105,1,9.25,31.5,16.25,505.75,1.0,152.0,0.041911736439472574,0.04219641993226899
+2,SAR,Williams,2023,Canadian Grand Prix,Montréal,4.0,18.0,1,1,1.0,4.0,17444,2,1,17444,78.437,1,18.4,64.0,31.4,1011.4,1.7,317.0,0.05588231525263009,0.056261893243025315
+2,SAR,Williams,2023,Canadian Grand Prix,Montréal,5.0,18.0,1,1,1.0,5.0,21805,2,1,21805,79.517,0,18.5,65.0,31.1,1011.4,2.0,347.0,0.06985289406578762,0.07032736655378165
+2,SAR,Williams,2023,Canadian Grand Prix,Montréal,6.0,18.0,1,1,1.0,6.0,26166,2,1,26166,79.166,0,9.25,31.0,15.4,505.75,0.9,179.5,0.08382347287894515,0.08439283986453798
+2,SAR,Williams,2023,Canadian Grand Prix,Montréal,7.0,,1,1,1.0,7.0,30527,2,1,30527,,0,inf,inf,inf,inf,inf,inf,0.09779405169210266,0.09845831317529431

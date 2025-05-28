@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+31,OCO,2024,Belgian Grand Prix,Spa-Francorchamps,1.0,MEDIUM,12.0,84048,0.26924999038942066
+31,OCO,2024,Belgian Grand Prix,Spa-Francorchamps,2.0,HARD,18.0,126072,0.403874985584131
+31,OCO,2024,Belgian Grand Prix,Spa-Francorchamps,3.0,HARD,14.0,98056,0.31412498878765743

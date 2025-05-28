@@ -1,0 +1,7 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+11,PER,2023,Monaco Grand Prix,Monaco,1.0,MEDIUM,1.0,0,0.0
+11,PER,2023,Monaco Grand Prix,Monaco,2.0,HARD,33.0,0,0.0
+11,PER,2023,Monaco Grand Prix,Monaco,3.0,MEDIUM,20.0,0,0.0
+11,PER,2023,Monaco Grand Prix,Monaco,4.0,INTERMEDIATE,4.0,0,0.0
+11,PER,2023,Monaco Grand Prix,Monaco,5.0,WET,13.0,0,0.0
+11,PER,2023,Monaco Grand Prix,Monaco,6.0,INTERMEDIATE,6.0,0,0.0

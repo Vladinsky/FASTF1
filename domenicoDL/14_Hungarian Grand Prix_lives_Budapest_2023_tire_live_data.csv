@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+14,ALO,2023,Hungarian Grand Prix,Budapest,1.0,MEDIUM,23.0,100763,0.3227969348659004
+14,ALO,2023,Hungarian Grand Prix,Budapest,2.0,HARD,27.0,118287,0.37893553223388304
+14,ALO,2023,Hungarian Grand Prix,Budapest,3.0,HARD,27.0,118287,0.37893553223388304

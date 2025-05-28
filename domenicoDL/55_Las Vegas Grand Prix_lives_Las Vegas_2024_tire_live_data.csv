@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+55,SAI,2024,Las Vegas Grand Prix,Las Vegas,1.0,MEDIUM,10.0,62010,0.19865067466266867
+55,SAI,2024,Las Vegas Grand Prix,Las Vegas,2.0,HARD,18.0,111618,0.3575712143928036
+55,SAI,2024,Las Vegas Grand Prix,Las Vegas,3.0,HARD,22.0,136422,0.4370314842578711

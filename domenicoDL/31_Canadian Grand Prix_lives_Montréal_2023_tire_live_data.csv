@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+31,OCO,2023,Canadian Grand Prix,Montréal,1.0,MEDIUM,12.0,52332,0.1676469457578903
+31,OCO,2023,Canadian Grand Prix,Montréal,2.0,HARD,24.0,104664,0.3352938915157806
+31,OCO,2023,Canadian Grand Prix,Montréal,3.0,HARD,34.0,148274,0.4749996796473558

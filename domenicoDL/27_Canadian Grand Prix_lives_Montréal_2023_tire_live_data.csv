@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2023,Canadian Grand Prix,Montréal,1.0,MEDIUM,11.0,47971,0.15367636694473277
+27,HUL,2023,Canadian Grand Prix,Montréal,2.0,HARD,20.0,87220,0.2794115762631505
+27,HUL,2023,Canadian Grand Prix,Montréal,3.0,HARD,38.0,165718,0.5308819948999859

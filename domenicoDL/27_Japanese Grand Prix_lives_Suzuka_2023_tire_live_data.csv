@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2023,Japanese Grand Prix,Suzuka,1.0,SOFT,8.0,46456,0.14882302438524328
+27,HUL,2023,Japanese Grand Prix,Suzuka,2.0,MEDIUM,13.0,75491,0.24183741462602032
+27,HUL,2023,Japanese Grand Prix,Suzuka,3.0,HARD,16.0,92912,0.29764604877048656
+27,HUL,2023,Japanese Grand Prix,Suzuka,4.0,MEDIUM,15.0,87105,0.27904317072233115

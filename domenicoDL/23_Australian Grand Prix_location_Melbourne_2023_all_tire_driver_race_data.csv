@@ -1,0 +1,8 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+23,ALB,Williams,2023,Australian Grand Prix,Melbourne,1.0,7.0,1,1,1.0,1.0,5278,2,1,5278,106.373,0,8.7,26.0,17.2,509.25,0.6,0.0,0.016908212560386472,0.017023060796645704
+23,ALB,Williams,2023,Australian Grand Prix,Melbourne,2.0,6.0,1,1,1.0,2.0,10556,2,1,10556,130.798,1,8.8,26.5,17.05,509.25,0.25,93.0,0.033816425120772944,0.03404612159329141
+23,ALB,Williams,2023,Australian Grand Prix,Melbourne,3.0,6.0,1,1,1.0,3.0,15834,2,1,15834,129.355,1,8.8,26.0,17.15,509.25,0.75,14.5,0.050724637681159424,0.05106918238993711
+23,ALB,Williams,2023,Australian Grand Prix,Melbourne,4.0,6.0,1,1,1.0,4.0,21112,2,1,21112,84.327,1,8.9,26.0,17.15,509.25,0.4,132.0,0.06763285024154589,0.06809224318658282
+23,ALB,Williams,2023,Australian Grand Prix,Melbourne,5.0,6.0,1,1,1.0,5.0,26390,2,1,26390,83.639,1,17.8,52.0,34.0,1018.5,1.2,163.0,0.08454106280193237,0.08511530398322852
+23,ALB,Williams,2023,Australian Grand Prix,Melbourne,6.0,6.0,1,1,1.0,6.0,31668,2,1,31668,83.349,1,17.7,52.0,33.7,1018.5,1.0,157.0,0.10144927536231885,0.10213836477987422
+23,ALB,Williams,2023,Australian Grand Prix,Melbourne,7.0,,1,1,1.0,7.0,36946,2,1,36946,,0,4.425,13.25,8.3,254.625,0.325,26.25,0.11835748792270531,0.11916142557651992

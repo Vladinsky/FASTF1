@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+63,RUS,2023,Australian Grand Prix,Melbourne,1.0,MEDIUM,7.0,36946,0.11835748792270531
+63,RUS,2023,Australian Grand Prix,Melbourne,2.0,HARD,1.0,5278,0.016908212560386472
+63,RUS,2023,Australian Grand Prix,Melbourne,3.0,HARD,11.0,58058,0.1859903381642512

@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+18,STR,2023,Australian Grand Prix,Melbourne,1.0,MEDIUM,9.0,47502,0.15217391304347827
+18,STR,2023,Australian Grand Prix,Melbourne,2.0,HARD,47.0,248066,0.7946859903381642
+18,STR,2023,Australian Grand Prix,Melbourne,3.0,SOFT,7.0,36946,0.11835748792270531
+18,STR,2023,Australian Grand Prix,Melbourne,4.0,SOFT,7.0,36946,0.11835748792270531

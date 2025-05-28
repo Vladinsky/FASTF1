@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+22,TSU,2023,Mexico City Grand Prix,Mexico City,1.0,MEDIUM,9.0,38736,0.1240918002537193
+22,TSU,2023,Mexico City Grand Prix,Mexico City,2.0,HARD,25.0,107600,0.34469944514922024
+22,TSU,2023,Mexico City Grand Prix,Mexico City,3.0,HARD,37.0,159248,0.5101551788208459

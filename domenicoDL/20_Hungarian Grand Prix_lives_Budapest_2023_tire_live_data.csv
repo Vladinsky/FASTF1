@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+20,MAG,2023,Hungarian Grand Prix,Budapest,1.0,MEDIUM,14.0,61334,0.19648509078793935
+20,MAG,2023,Hungarian Grand Prix,Budapest,2.0,HARD,30.0,131430,0.4210394802598701
+20,MAG,2023,Hungarian Grand Prix,Budapest,3.0,HARD,33.0,144573,0.4631434282858571

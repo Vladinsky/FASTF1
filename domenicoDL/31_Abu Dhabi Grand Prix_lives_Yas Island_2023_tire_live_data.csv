@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+31,OCO,2023,Abu Dhabi Grand Prix,Yas Island,1.0,MEDIUM,15.0,79215,0.25376734709568294
+31,OCO,2023,Abu Dhabi Grand Prix,Yas Island,2.0,HARD,43.0,227083,0.7274663950076244

@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2023,British Grand Prix,Silverstone,1.0,HARD,7.0,41237,0.13210381988492934
+27,HUL,2023,British Grand Prix,Silverstone,2.0,MEDIUM,25.0,147275,0.47179935673189044
+27,HUL,2023,British Grand Prix,Silverstone,3.0,SOFT,20.0,117820,0.37743948538551236

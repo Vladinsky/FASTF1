@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+40,LAW,2023,Italian Grand Prix,Monza,1.0,MEDIUM,16.0,92688,0.29692845884749935
+40,LAW,2023,Italian Grand Prix,Monza,2.0,HARD,23.0,133239,0.42683465959328026
+40,LAW,2023,Italian Grand Prix,Monza,3.0,MEDIUM,21.0,121653,0.3897186022373429

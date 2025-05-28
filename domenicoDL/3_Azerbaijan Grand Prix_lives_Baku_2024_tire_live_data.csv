@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+3,RIC,2024,Azerbaijan Grand Prix,Baku,1.0,HARD,50.0,300150,0.9615384615384616
+3,RIC,2024,Azerbaijan Grand Prix,Baku,2.0,SOFT,2.0,12006,0.038461538461538464

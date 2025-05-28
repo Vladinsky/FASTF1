@@ -1,0 +1,8 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+77,BOT,2023,Australian Grand Prix,Melbourne,1.0,SOFT,1.0,5278,0.016908212560386472
+77,BOT,2023,Australian Grand Prix,Melbourne,2.0,HARD,7.0,36946,0.11835748792270531
+77,BOT,2023,Australian Grand Prix,Melbourne,3.0,HARD,52.0,274456,0.8792270531400966
+77,BOT,2023,Australian Grand Prix,Melbourne,4.0,SOFT,1.0,5278,0.016908212560386472
+77,BOT,2023,Australian Grand Prix,Melbourne,5.0,SOFT,2.0,10556,0.033816425120772944
+77,BOT,2023,Australian Grand Prix,Melbourne,6.0,SOFT,4.0,21112,0.06763285024154589
+77,BOT,2023,Australian Grand Prix,Melbourne,7.0,SOFT,5.0,26390,0.08454106280193237

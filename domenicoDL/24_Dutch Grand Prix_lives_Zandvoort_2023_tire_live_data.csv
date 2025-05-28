@@ -1,0 +1,6 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+24,ZHO,2023,Dutch Grand Prix,Zandvoort,1.0,SOFT,1.0,4259,0.013643819116082985
+24,ZHO,2023,Dutch Grand Prix,Zandvoort,2.0,INTERMEDIATE,9.0,38331,0.12279437204474686
+24,ZHO,2023,Dutch Grand Prix,Zandvoort,3.0,MEDIUM,27.0,114993,0.3683831161342406
+24,ZHO,2023,Dutch Grand Prix,Zandvoort,4.0,SOFT,23.0,97957,0.31380783966990866
+24,ZHO,2023,Dutch Grand Prix,Zandvoort,5.0,INTERMEDIATE,3.0,12777,0.040931457348248955

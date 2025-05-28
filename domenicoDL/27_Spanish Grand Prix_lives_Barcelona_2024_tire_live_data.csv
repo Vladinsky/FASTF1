@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2024,Spanish Grand Prix,Barcelona,1.0,SOFT,12.0,55884,0.17902587167954484
+27,HUL,2024,Spanish Grand Prix,Barcelona,2.0,MEDIUM,26.0,121082,0.38788938863901384
+27,HUL,2024,Spanish Grand Prix,Barcelona,3.0,HARD,28.0,130396,0.41772703391893795

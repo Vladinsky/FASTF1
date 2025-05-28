@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+27,HUL,2024,Mexico City Grand Prix,Mexico City,1.0,MEDIUM,29.0,124816,0.3998513563730955
+27,HUL,2024,Mexico City Grand Prix,Mexico City,2.0,HARD,41.0,176464,0.5653070900447212

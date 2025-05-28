@@ -1,0 +1,3 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+31,OCO,2023,Mexico City Grand Prix,Mexico City,1.0,HARD,34.0,146336,0.46879124540293954
+31,OCO,2023,Mexico City Grand Prix,Mexico City,2.0,MEDIUM,37.0,159248,0.5101551788208459

@@ -1,0 +1,2 @@
+DriverID,#Driver,Team,Year,GranPrix,#Location,LapNumber,position,PitInTime,PitOutTime,Stint,TireLife,#TireMeters,Compound,IsFreshTire,#DriverMeters,LapTime,Best,air_temp_avg,humidity_avg,trackTemp_AVG,pressure_avg,wind_speed_avg,wind_direction_avg,NormalizedTireMeters,NormalizedDriverMeters
+16,LEC,Ferrari,2023,Australian Grand Prix,Melbourne,1.0,,1,1,1.0,1.0,5278,2,1,5278,,0,8.7,26.0,17.2,509.25,0.6,0.0,0.016908212560386472,0.017023060796645704

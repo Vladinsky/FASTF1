@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+2,SAR,2024,Spanish Grand Prix,Barcelona,1.0,SOFT,14.0,65198,0.20886351695946898
+2,SAR,2024,Spanish Grand Prix,Barcelona,2.0,MEDIUM,20.0,93140,0.2983764527992414
+2,SAR,2024,Spanish Grand Prix,Barcelona,3.0,HARD,30.0,139710,0.4475646791988621

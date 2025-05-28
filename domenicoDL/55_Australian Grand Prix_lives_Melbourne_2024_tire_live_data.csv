@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+55,SAI,2024,Australian Grand Prix,Melbourne,1.0,MEDIUM,16.0,84448,0.27053140096618356
+55,SAI,2024,Australian Grand Prix,Melbourne,2.0,HARD,25.0,131950,0.4227053140096618
+55,SAI,2024,Australian Grand Prix,Melbourne,3.0,HARD,17.0,89726,0.28743961352657005

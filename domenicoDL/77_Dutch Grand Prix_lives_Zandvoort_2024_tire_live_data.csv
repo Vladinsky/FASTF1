@@ -1,0 +1,4 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+77,BOT,2024,Dutch Grand Prix,Zandvoort,1.0,SOFT,15.0,63885,0.20465728674124475
+77,BOT,2024,Dutch Grand Prix,Zandvoort,2.0,HARD,28.0,119252,0.38202693525032355
+77,BOT,2024,Dutch Grand Prix,Zandvoort,3.0,MEDIUM,27.0,114993,0.3683831161342406

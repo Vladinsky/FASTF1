@@ -1,0 +1,8 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+2,SAR,2023,Australian Grand Prix,Melbourne,1.0,HARD,1.0,5278,0.016908212560386472
+2,SAR,2023,Australian Grand Prix,Melbourne,2.0,MEDIUM,1.0,5278,0.016908212560386472
+2,SAR,2023,Australian Grand Prix,Melbourne,3.0,HARD,7.0,36946,0.11835748792270531
+2,SAR,2023,Australian Grand Prix,Melbourne,4.0,MEDIUM,28.0,147784,0.47342995169082125
+2,SAR,2023,Australian Grand Prix,Melbourne,5.0,HARD,25.0,131950,0.4227053140096618
+2,SAR,2023,Australian Grand Prix,Melbourne,6.0,SOFT,1.0,5278,0.016908212560386472
+2,SAR,2023,Australian Grand Prix,Melbourne,7.0,SOFT,3.0,15834,0.050724637681159424

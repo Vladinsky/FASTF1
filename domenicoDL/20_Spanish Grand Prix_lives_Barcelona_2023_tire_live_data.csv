@@ -1,0 +1,5 @@
+DriverID,Driver,Year,GranPrix,Location,Stint,Compound,TireLife,#TireMeters,NormalizedTireMeters
+20,MAG,2023,Spanish Grand Prix,Barcelona,1.0,SOFT,10.0,46570,0.1491882263996207
+20,MAG,2023,Spanish Grand Prix,Barcelona,2.0,MEDIUM,14.0,65198,0.20886351695946898
+20,MAG,2023,Spanish Grand Prix,Barcelona,3.0,HARD,18.0,83826,0.26853880751931725
+20,MAG,2023,Spanish Grand Prix,Barcelona,4.0,MEDIUM,23.0,107111,0.3431329207191276
