@@ -11,5 +11,6 @@
     "telemetry": false,
     "messages": false
   },
-  "circuits_info_file": "Vincenzo/circuits_length.json"
+  "circuits_info_file": "Vincenzo/circuits_length.json",
+  "intermediate_parquet_dir": "Vincenzo/intermediate_race_data_test/"
 }

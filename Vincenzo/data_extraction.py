@@ -82,6 +82,16 @@ def setup_logging(log_file, config_log_level_str):
     )
     logging.info(f"Logging setup complete. Log level: {config_log_level_str.upper()}. Log file: {log_file}")
 
+# --- HELPER FUNCTIONS ---
+
+def sanitize_event_name(event_name):
+    """Sanitizes an event name to be safe for use in filenames."""
+    # Replace spaces with underscores and remove characters not suitable for filenames
+    # This is a basic sanitizer, can be expanded if needed
+    name = event_name.replace(' ', '_')
+    name = "".join(c for c in name if c.isalnum() or c in ('_', '-')).strip()
+    return name if name else "unknown_event"
+
 # --- MAIN DATA EXTRACTION LOGIC ---
 
 def get_circuit_info(circuits_file_path):
@@ -363,7 +373,44 @@ def main():
     if not circuits_data:
         logging.warning("Circuit data is empty or could not be loaded. TireMeters/DriverMeters might be inaccurate.")
 
-    all_races_dataframes = []
+    # Setup for intermediate data saving (checkpointing)
+    intermediate_dir = config.get('intermediate_parquet_dir')
+    if not intermediate_dir:
+        logging.error("Intermediate parquet directory ('intermediate_parquet_dir') not specified in config. Exiting.")
+        return
+    
+    if not os.path.exists(intermediate_dir):
+        try:
+            os.makedirs(intermediate_dir)
+            logging.info(f"Created intermediate directory: {intermediate_dir}")
+        except Exception as e:
+            logging.error(f"Failed to create intermediate directory {intermediate_dir}: {e}. Exiting.")
+            return
+
+    processed_races_identifiers = set()
+    try:
+        for f_name in os.listdir(intermediate_dir):
+            if f_name.endswith(".parquet"):
+                # Assuming filename format: YEAR_ROUND_SafeEventName.parquet
+                parts = f_name.replace(".parquet", "").split('_', 2)
+                if len(parts) >= 2: # Need at least Year and Round
+                    try:
+                        year_part = int(parts[0])
+                        round_part = int(parts[1])
+                        # Event name part is optional for identifier if round and year are enough
+                        event_name_part = parts[2] if len(parts) > 2 else "" 
+                        processed_races_identifiers.add((year_part, round_part, event_name_part)) # Store as tuple
+                    except ValueError:
+                        logging.warning(f"Could not parse year/round from filename: {f_name}")
+    except Exception as e:
+        logging.error(f"Error scanning intermediate directory {intermediate_dir}: {e}")
+        # Continue, assuming no races processed if scan fails
+
+    if processed_races_identifiers:
+        logging.info(f"Found {len(processed_races_identifiers)} already processed races in {intermediate_dir}.")
+        logging.debug(f"Processed race identifiers: {processed_races_identifiers}")
+
+
     years_to_process = config.get('years_to_process', [])
     races_per_year_test_limit = config.get('races_per_year_test_limit') # Might be None
 
@@ -387,12 +434,27 @@ def main():
                 logging.info(f"Reached test limit of {races_per_year_test_limit} races for year {year}. Skipping remaining races.")
                 break
 
-            race_name = event['EventName']
-            race_location = event['Location'] # Used for circuit length lookup
-            logging.info(f"Processing Race: {race_name} ({year}) at {race_location}")
+            race_name = event['EventName'] # User-friendly name for logging
+            official_event_name = event['OfficialEventName'] # Often more unique/stable
+            race_round = event['RoundNumber']
+            race_location = event['Location'] 
+            
+            safe_event_name_for_file = sanitize_event_name(official_event_name)
+            current_race_identifier_tuple = (year, race_round, safe_event_name_for_file) # For checking against processed_races_identifiers
+            
+            # Construct intermediate filename based on year, round, and sanitized official event name
+            intermediate_file_name = f"{year}_{race_round:02d}_{safe_event_name_for_file}.parquet"
+            intermediate_file_path = os.path.join(intermediate_dir, intermediate_file_name)
+
+            if current_race_identifier_tuple in processed_races_identifiers or os.path.exists(intermediate_file_path):
+                logging.info(f"Skipping already processed race: {official_event_name} ({year}, Round {race_round}) - file {intermediate_file_path} exists.")
+                races_processed_this_year += 1 # Count as processed for test limit
+                continue
+            
+            logging.info(f"Processing Race: {official_event_name} (User Name: {race_name}, Year: {year}, Round: {race_round}) at {race_location}")
 
             try:
-                session = ff1.get_session(year, race_name, 'R') # 'R' for Race
+                session = ff1.get_session(year, race_round, 'R') # Use race_round for get_session
             except Exception as e:
                 logging.error(f"Failed to get session for {race_name} ({year}): {e}")
                 continue
@@ -432,33 +494,47 @@ def main():
             race_df = extract_lap_data_from_session(session, year, race_name, race_location, circuits_data)
             
             if race_df is not None and not race_df.empty:
-                logging.info(f"Calculating time deltas for {race_name} ({year})...")
-                # Pass a copy to avoid SettingWithCopyWarning if calculate_time_deltas modifies it directly,
-                # though current implementation modifies in place via .loc, it's safer.
-                race_df_with_deltas = calculate_time_deltas(race_df.copy()) 
-                all_races_dataframes.append(race_df_with_deltas)
-                logging.info(f"Successfully processed and added data (including deltas) for {race_name} ({year}).")
+                logging.info(f"Calculating time deltas for {official_event_name} ({year})...")
+                race_df_with_deltas = calculate_time_deltas(race_df.copy())
+                
+                try:
+                    race_df_with_deltas.to_parquet(intermediate_file_path, index=False)
+                    logging.info(f"Successfully processed and saved intermediate data for {official_event_name} ({year}) to {intermediate_file_path}")
+                    processed_races_identifiers.add(current_race_identifier_tuple) # Add to set after successful save
+                except Exception as e:
+                    logging.error(f"Failed to save intermediate parquet file {intermediate_file_path}: {e}")
             else:
-                logging.warning(f"No lap data extracted by extract_lap_data_from_session for {race_name} ({year}), skipping delta calculation.")
+                logging.warning(f"No lap data extracted by extract_lap_data_from_session for {official_event_name} ({year}), skipping delta calculation and save.")
             
             races_processed_this_year += 1
 
-    if all_races_dataframes:
-        logging.info("Concatenating all race dataframes...")
-        final_df = pd.concat(all_races_dataframes, ignore_index=True)
-        output_file = config.get('output_parquet_file', 'Vincenzo/all_races_data_raw.parquet')
+    # Consolidate all intermediate parquet files at the end
+    logging.info(f"Consolidating all processed races from {intermediate_dir}...")
+    all_intermediate_files = [os.path.join(intermediate_dir, f) for f in os.listdir(intermediate_dir) if f.endswith(".parquet")]
+    
+    if all_intermediate_files:
         try:
-            # Ensure output directory exists
-            output_dir = os.path.dirname(output_file)
-            if output_dir and not os.path.exists(output_dir):
-                os.makedirs(output_dir)
-            
-            final_df.to_parquet(output_file, index=False)
-            logging.info(f"Final dataset saved to {output_file}")
+            df_list = [pd.read_parquet(f) for f in all_intermediate_files]
+            if df_list:
+                final_df = pd.concat(df_list, ignore_index=True)
+                output_file = config.get('output_parquet_file', 'Vincenzo/all_races_data_raw.parquet')
+                
+                output_final_dir = os.path.dirname(output_file)
+                if output_final_dir and not os.path.exists(output_final_dir):
+                    os.makedirs(output_final_dir)
+                
+                final_df.to_parquet(output_file, index=False)
+                logging.info(f"Final consolidated dataset saved to {output_file}. Contains data from {len(df_list)} races.")
+                # Optionally, clean up intermediate files after successful consolidation
+                # for f_path in all_intermediate_files:
+                #     os.remove(f_path)
+                # logging.info(f"Cleaned up intermediate files from {intermediate_dir}")
+            else:
+                logging.warning("No dataframes could be read from intermediate files. Final dataset not saved.")
         except Exception as e:
-            logging.error(f"Failed to save final dataset to {output_file}: {e}")
+            logging.error(f"Failed to consolidate intermediate parquet files or save final dataset: {e}")
     else:
-        logging.warning("No data was processed. Final dataset not saved.")
+        logging.warning(f"No intermediate race data files found in {intermediate_dir}. Final dataset not saved.")
 
     logging.info("Formula 1 data extraction process finished.")
 
