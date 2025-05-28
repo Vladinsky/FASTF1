@@ -1,0 +1,15 @@
+{
+  "years_to_process": [2018, 2019, 2020, 2021, 2022, 2023, 2024],
+  "races_per_year_test_limit": null,
+  "cache_directory": "ff1_cache",
+  "output_parquet_file": "Vincenzo/all_races_data_raw.parquet",
+  "log_file": "Vincenzo/data_extraction.log",
+  "log_level": "INFO",
+  "data_to_load": {
+    "laps": true,
+    "weather": true,
+    "telemetry": false,
+    "messages": false
+  },
+  "circuits_info_file": "Vincenzo/circuits_length.json"
+}
