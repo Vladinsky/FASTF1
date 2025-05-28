@@ -40,6 +40,11 @@ def parse_arguments():
         default="Vincenzo/config.json",  # Default to the full processing config
         help="Path to the JSON configuration file (default: Vincenzo/config.json)"
     )
+    parser.add_argument(
+        "--simulate-writes",
+        action="store_true",
+        help="Run the full data processing pipeline but do not write any Parquet files (for testing)."
+    )
     return parser.parse_args()
 
 def load_config(config_path):
@@ -375,40 +380,41 @@ def main():
 
     # Setup for intermediate data saving (checkpointing)
     intermediate_dir = config.get('intermediate_parquet_dir')
-    if not intermediate_dir:
-        logging.error("Intermediate parquet directory ('intermediate_parquet_dir') not specified in config. Exiting.")
-        return
-    
-    if not os.path.exists(intermediate_dir):
-        try:
-            os.makedirs(intermediate_dir)
-            logging.info(f"Created intermediate directory: {intermediate_dir}")
-        except Exception as e:
-            logging.error(f"Failed to create intermediate directory {intermediate_dir}: {e}. Exiting.")
-            return
-
     processed_races_identifiers = set()
-    try:
-        for f_name in os.listdir(intermediate_dir):
-            if f_name.endswith(".parquet"):
-                # Assuming filename format: YEAR_ROUND_SafeEventName.parquet
-                parts = f_name.replace(".parquet", "").split('_', 2)
-                if len(parts) >= 2: # Need at least Year and Round
-                    try:
-                        year_part = int(parts[0])
-                        round_part = int(parts[1])
-                        # Event name part is optional for identifier if round and year are enough
-                        event_name_part = parts[2] if len(parts) > 2 else "" 
-                        processed_races_identifiers.add((year_part, round_part, event_name_part)) # Store as tuple
-                    except ValueError:
-                        logging.warning(f"Could not parse year/round from filename: {f_name}")
-    except Exception as e:
-        logging.error(f"Error scanning intermediate directory {intermediate_dir}: {e}")
-        # Continue, assuming no races processed if scan fails
+    in_memory_dataframes_for_consolidation = [] # Used if simulate_writes is True
 
-    if processed_races_identifiers:
-        logging.info(f"Found {len(processed_races_identifiers)} already processed races in {intermediate_dir}.")
-        logging.debug(f"Processed race identifiers: {processed_races_identifiers}")
+    if not args.simulate_writes:
+        if not intermediate_dir:
+            logging.error("Intermediate parquet directory ('intermediate_parquet_dir') not specified in config. Exiting.")
+            return
+        
+        if not os.path.exists(intermediate_dir):
+            try:
+                os.makedirs(intermediate_dir)
+                logging.info(f"Created intermediate directory: {intermediate_dir}")
+            except Exception as e:
+                logging.error(f"Failed to create intermediate directory {intermediate_dir}: {e}. Exiting.")
+                return
+        try:
+            for f_name in os.listdir(intermediate_dir):
+                if f_name.endswith(".parquet"):
+                    parts = f_name.replace(".parquet", "").split('_', 2)
+                    if len(parts) >= 2:
+                        try:
+                            year_part = int(parts[0])
+                            round_part = int(parts[1])
+                            event_name_part = parts[2] if len(parts) > 2 else "" 
+                            processed_races_identifiers.add((year_part, round_part, event_name_part))
+                        except ValueError:
+                            logging.warning(f"Could not parse year/round from filename: {f_name}")
+        except Exception as e:
+            logging.error(f"Error scanning intermediate directory {intermediate_dir}: {e}")
+
+        if processed_races_identifiers:
+            logging.info(f"Found {len(processed_races_identifiers)} already processed races in {intermediate_dir}.")
+            logging.debug(f"Processed race identifiers: {processed_races_identifiers}")
+    else:
+        logging.info("Simulate Writes Mode: Intermediate directory scanning and checkpointing are disabled.")
 
 
     years_to_process = config.get('years_to_process', [])
@@ -444,11 +450,12 @@ def main():
             
             # Construct intermediate filename based on year, round, and sanitized official event name
             intermediate_file_name = f"{year}_{race_round:02d}_{safe_event_name_for_file}.parquet"
-            intermediate_file_path = os.path.join(intermediate_dir, intermediate_file_name)
+            intermediate_file_path = os.path.join(intermediate_dir, intermediate_file_name) if intermediate_dir else None
 
-            if current_race_identifier_tuple in processed_races_identifiers or os.path.exists(intermediate_file_path):
+
+            if not args.simulate_writes and (current_race_identifier_tuple in processed_races_identifiers or (intermediate_file_path and os.path.exists(intermediate_file_path))):
                 logging.info(f"Skipping already processed race: {official_event_name} ({year}, Round {race_round}) - file {intermediate_file_path} exists.")
-                races_processed_this_year += 1 # Count as processed for test limit
+                races_processed_this_year += 1 
                 continue
             
             logging.info(f"Processing Race: {official_event_name} (User Name: {race_name}, Year: {year}, Round: {race_round}) at {race_location}")
@@ -497,44 +504,57 @@ def main():
                 logging.info(f"Calculating time deltas for {official_event_name} ({year})...")
                 race_df_with_deltas = calculate_time_deltas(race_df.copy())
                 
-                try:
-                    race_df_with_deltas.to_parquet(intermediate_file_path, index=False)
-                    logging.info(f"Successfully processed and saved intermediate data for {official_event_name} ({year}) to {intermediate_file_path}")
-                    processed_races_identifiers.add(current_race_identifier_tuple) # Add to set after successful save
-                except Exception as e:
-                    logging.error(f"Failed to save intermediate parquet file {intermediate_file_path}: {e}")
+                if args.simulate_writes:
+                    in_memory_dataframes_for_consolidation.append(race_df_with_deltas)
+                    logging.info(f"[Simulate Writes Mode] Would save intermediate data for {official_event_name} ({year}) to {intermediate_file_path}")
+                else:
+                    try:
+                        if not intermediate_file_path: # Should not happen if simulate_writes is false
+                             logging.error(f"Intermediate file path is None for {official_event_name} ({year}) when not in simulate_writes mode. Skipping save.")
+                        else:
+                            race_df_with_deltas.to_parquet(intermediate_file_path, index=False)
+                            logging.info(f"Successfully processed and saved intermediate data for {official_event_name} ({year}) to {intermediate_file_path}")
+                            processed_races_identifiers.add(current_race_identifier_tuple) 
+                    except Exception as e:
+                        logging.error(f"Failed to save intermediate parquet file {intermediate_file_path}: {e}")
             else:
                 logging.warning(f"No lap data extracted by extract_lap_data_from_session for {official_event_name} ({year}), skipping delta calculation and save.")
             
             races_processed_this_year += 1
 
-    # Consolidate all intermediate parquet files at the end
-    logging.info(f"Consolidating all processed races from {intermediate_dir}...")
-    all_intermediate_files = [os.path.join(intermediate_dir, f) for f in os.listdir(intermediate_dir) if f.endswith(".parquet")]
-    
-    if all_intermediate_files:
-        try:
-            df_list = [pd.read_parquet(f) for f in all_intermediate_files]
-            if df_list:
-                final_df = pd.concat(df_list, ignore_index=True)
-                output_file = config.get('output_parquet_file', 'Vincenzo/all_races_data_raw.parquet')
-                
-                output_final_dir = os.path.dirname(output_file)
-                if output_final_dir and not os.path.exists(output_final_dir):
-                    os.makedirs(output_final_dir)
-                
-                final_df.to_parquet(output_file, index=False)
-                logging.info(f"Final consolidated dataset saved to {output_file}. Contains data from {len(df_list)} races.")
-                # Optionally, clean up intermediate files after successful consolidation
-                # for f_path in all_intermediate_files:
-                #     os.remove(f_path)
-                # logging.info(f"Cleaned up intermediate files from {intermediate_dir}")
-            else:
-                logging.warning("No dataframes could be read from intermediate files. Final dataset not saved.")
-        except Exception as e:
-            logging.error(f"Failed to consolidate intermediate parquet files or save final dataset: {e}")
+    # Consolidate data
+    if args.simulate_writes:
+        logging.info("[Simulate Writes Mode] Consolidating in-memory dataframes...")
+        if in_memory_dataframes_for_consolidation:
+            final_df = pd.concat(in_memory_dataframes_for_consolidation, ignore_index=True)
+            output_file = config.get('output_parquet_file', 'Vincenzo/all_races_data_raw.parquet')
+            logging.info(f"[Simulate Writes Mode] Would save final consolidated dataset ({len(final_df)} rows from {len(in_memory_dataframes_for_consolidation)} races) to {output_file}")
+            # No actual write: final_df.to_parquet(output_file, index=False)
+        else:
+            logging.warning("[Simulate Writes Mode] No dataframes in memory to consolidate. Final dataset would be empty.")
     else:
-        logging.warning(f"No intermediate race data files found in {intermediate_dir}. Final dataset not saved.")
+        logging.info(f"Consolidating all processed races from {intermediate_dir}...")
+        all_intermediate_files = [os.path.join(intermediate_dir, f) for f_name in os.listdir(intermediate_dir) if f_name.endswith(".parquet")]
+        
+        if all_intermediate_files:
+            try:
+                df_list = [pd.read_parquet(f) for f in all_intermediate_files]
+                if df_list:
+                    final_df = pd.concat(df_list, ignore_index=True)
+                    output_file = config.get('output_parquet_file', 'Vincenzo/all_races_data_raw.parquet')
+                    
+                    output_final_dir = os.path.dirname(output_file)
+                    if output_final_dir and not os.path.exists(output_final_dir):
+                        os.makedirs(output_final_dir)
+                    
+                    final_df.to_parquet(output_file, index=False)
+                    logging.info(f"Final consolidated dataset saved to {output_file}. Contains data from {len(df_list)} races.")
+                else:
+                    logging.warning("No dataframes could be read from intermediate files. Final dataset not saved.")
+            except Exception as e:
+                logging.error(f"Failed to consolidate intermediate parquet files or save final dataset: {e}")
+        else:
+            logging.warning(f"No intermediate race data files found in {intermediate_dir}. Final dataset not saved.")
 
     logging.info("Formula 1 data extraction process finished.")
 

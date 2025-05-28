@@ -1,0 +1,27 @@
+{
+  "years_to_process": [2023, 2024],
+  "races_per_year_test_limit": 3,
+  "cache_directory": "ff1_cache",
+  "drive_output_dir": "/content/drive/MyDrive/F1_Project/processed_races",
+  "log_file": "extraction_log.txt",
+  "error_log_file": "error_log.json",
+  "progress_file": "progress_state.json",
+  "log_level": "INFO",
+  "data_to_load": {
+    "laps": true,
+    "weather": true,
+    "telemetry": false,
+    "messages": false
+  },
+  "circuits_info_file": "Vincenzo/circuits_length.json",
+  "colab_settings": {
+    "memory_warning_threshold": 85.0,
+    "memory_critical_threshold": 90.0,
+    "progress_update_interval": 5,
+    "auto_cleanup_after_race": true,
+    "max_retries": 3,
+    "retry_backoff_factor": 2.0,
+    "max_retry_delay": 60.0
+  },
+  "description": "Colab-optimized configuration for F1 data extraction with limited years for testing and robust error handling"
+}
