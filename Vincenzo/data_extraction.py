@@ -306,6 +306,7 @@ def calculate_time_deltas(race_df):
                 
     return race_df
 
+# main function
 def main():
     """Main function to orchestrate data extraction and processing."""
     args = parse_arguments()
