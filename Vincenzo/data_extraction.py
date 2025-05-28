@@ -134,12 +134,22 @@ def extract_lap_data_from_session(session, year, race_name, location_name, circu
 
     # Iterate through each driver's laps
     for driver_number in session.laps['DriverNumber'].unique():
-        driver_laps = session.laps.pick_driver(driver_number)
+        # Use pick_drivers instead of the deprecated pick_driver
+        # pick_drivers can accept a single driver identifier (like number or abbreviation)
+        driver_laps = session.laps.pick_drivers(driver_number) 
         if driver_laps is None or driver_laps.empty:
-            logging.debug(f"No laps found for driver number {driver_number} in {race_name} ({year}).")
+            logging.debug(f"No laps found for driver number {driver_number} using pick_drivers in {race_name} ({year}).")
             continue
         
-        driver_name_abbreviation = driver_laps.iloc[0].get('Driver', f"Driver_{driver_number}") # Get abbreviation
+        # Get the driver abbreviation from the first lap of this driver
+        # Ensure there's at least one lap and the 'Driver' column exists
+        if not driver_laps.empty and 'Driver' in driver_laps.columns:
+            driver_name_abbreviation = driver_laps.iloc[0].get('Driver', f"Driver_{driver_number}")
+        else:
+            # Fallback if no laps or 'Driver' column is missing for some reason
+            driver_name_abbreviation = f"Driver_{driver_number}"
+            logging.warning(f"Could not determine driver abbreviation for {driver_number} in {race_name} ({year}). Using default.")
+
 
         for lap_index, lap in driver_laps.iterrows():
             lap_info = {
@@ -189,9 +199,13 @@ def extract_lap_data_from_session(session, year, race_name, location_name, circu
                     lap_info['WindSpeed'] = lap_weather['WindSpeed'].mean()
                     lap_info['WindDirection'] = lap_weather['WindDirection'].mean()
                     lap_info['Rainfall'] = lap_weather['Rainfall'].any() # True if any rain during the lap
-                else:
+                elif weather_data is not None and not weather_data.empty and pd.notna(lap_start_time) and 'Time' in weather_data.columns:
                     # Try to get the closest weather point if no data during lap interval
-                    closest_weather = weather_data.iloc[weather_data.index.get_indexer([lap_start_time], method='nearest')[0]]
+                    # Calculate absolute time difference to find the nearest point
+                    time_diff = (weather_data['Time'] - lap_start_time).abs()
+                    closest_idx = time_diff.idxmin() # Get index of the row with minimum difference
+                    closest_weather = weather_data.loc[closest_idx]
+                    
                     lap_info['AirTemp'] = closest_weather.get('AirTemp', np.nan)
                     lap_info['Humidity'] = closest_weather.get('Humidity', np.nan)
                     lap_info['TrackTemp'] = closest_weather.get('TrackTemp', np.nan)
