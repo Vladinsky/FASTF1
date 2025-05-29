@@ -227,18 +227,20 @@ def handle_categorical_variables(df: pd.DataFrame) -> Tuple[pd.DataFrame, Dict]:
             # Crea label encoder
             le = LabelEncoder()
             
-            # Fit su tutti i valori unici, inclusi NaN
+            # Fit su tutti i valori unici, inclusi NaN and 'NO_CHANGE'
             unique_values = df_cat[col].astype(str).unique()
+            if 'NO_CHANGE' not in unique_values:
+                unique_values = np.append(unique_values, 'NO_CHANGE')
             le.fit(unique_values)
-            
+
             # Transform
             df_cat[f'{col}_encoded'] = le.transform(df_cat[col].astype(str))
-            
+
             # Salva encoder per future predictions
             encoders[col] = le
-            
+
             logger.info(f"Encoded {col}: {len(unique_values)} categorie uniche")
-    
+
     # Gestione compound strategy (troppo variegata per label encoding)
     # Usa frequency encoding
     if 'compound_strategy' in df_cat.columns:
@@ -344,54 +346,57 @@ def temporal_train_val_test_split(df: pd.DataFrame) -> Tuple[pd.DataFrame, pd.Da
     
     return train_df, val_df, test_df
 
-def create_sequences_for_rnn(df: pd.DataFrame, sequence_length: int = 10) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
+def create_sequences_for_rnn(df: pd.DataFrame, sequence_length: int = 10, encoders: Dict = None) -> Tuple[np.ndarray, np.ndarray, np.ndarray]:
     """
     Crea sequenze temporali per RNN.
-    
+
     Returns:
         X: Array di sequenze (n_sequences, sequence_length, n_features)
         y_change: Target primario cambio gomme (n_sequences,)
         y_type: Target secondario tipo mescola (n_sequences,)
     """
     logger.info(f"Creazione sequenze RNN con lunghezza {sequence_length}...")
-    
+
     sequences = []
     targets_change = []
     targets_type = []
-    
+
     # Features numeriche per RNN (escludiamo IDs e target)
-    feature_cols = [col for col in df.columns 
-                   if col not in ['RaceID', 'DriverRaceID', 'GlobalLapID', 'GranPrix', 
+    feature_cols = [col for col in df.columns
+                   if col not in ['RaceID', 'DriverRaceID', 'GlobalLapID', 'GranPrix',
                                  'Location', 'Driver', 'Team', 'Compound',
                                  'tire_change_next_lap', 'next_tire_type',
-                                 'Year', 'DriverID', 'LapNumber']]
-    
+                                 'Year', 'DriverID', 'LapNumber', 'compound_strategy']]
+
     # Raggruppa per driver-race per mantenere continuità temporale
     for driver_race_id, group in df.groupby('DriverRaceID'):
         group_sorted = group.sort_values('LapNumber')
-        
+
         # Estrai features e targets
-        features = group_sorted[feature_cols].values
+        features = group_sorted[feature_cols].values.astype(np.float32)
         change_targets = group_sorted['tire_change_next_lap'].values
-        type_targets = group_sorted['next_tire_type'].values
-        
+
+        # Encode tire type using the Compound encoder
+        compound_encoder = encoders['Compound']
+        type_targets = compound_encoder.transform(group_sorted['next_tire_type'].values.astype(str))
+
         # Crea sequenze sliding window
         for i in range(len(features) - sequence_length + 1):
-            seq_features = features[i:i+sequence_length]
-            seq_change_target = change_targets[i+sequence_length-1]  # Target dell'ultimo giro
-            seq_type_target = type_targets[i+sequence_length-1]
-            
+            seq_features = features[i:i + sequence_length]
+            seq_change_target = change_targets[i + sequence_length - 1]  # Target dell'ultimo giro
+            seq_type_target = type_targets[i + sequence_length - 1]
+
             sequences.append(seq_features)
             targets_change.append(seq_change_target)
             targets_type.append(seq_type_target)
-    
+
     X = np.array(sequences)
     y_change = np.array(targets_change)
     y_type = np.array(targets_type)
-    
+
     logger.info(f"Sequenze create: {X.shape[0]} sequenze, {X.shape[1]} timesteps, {X.shape[2]} features")
     logger.info(f"Target distribution: {y_change.mean()*100:.2f}% positive changes")
-    
+
     return X, y_change, y_type, feature_cols
 
 def save_preprocessed_data(train_df: pd.DataFrame, val_df: pd.DataFrame, test_df: pd.DataFrame,
@@ -455,10 +460,10 @@ def main():
     test_df, _ = normalize_features(test_df, is_training=False, scaler=scaler)
     
     # 10. Crea sequenze RNN per train
-    X_train, y_change_train, y_type_train, feature_cols = create_sequences_for_rnn(train_df)
-    X_val, y_change_val, y_type_val, _ = create_sequences_for_rnn(val_df)
-    X_test, y_change_test, y_type_test, _ = create_sequences_for_rnn(test_df)
-    
+    X_train, y_change_train, y_type_train, feature_cols = create_sequences_for_rnn(train_df, encoders=encoders)
+    X_val, y_change_val, y_type_val, _ = create_sequences_for_rnn(val_df, encoders=encoders)
+    X_test, y_change_test, y_type_test, _ = create_sequences_for_rnn(test_df, encoders=encoders)
+
     # Salva tutto
     save_preprocessed_data(train_df, val_df, test_df, encoders, scaler, feature_cols)
     
