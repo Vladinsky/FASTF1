@@ -1,0 +1,239 @@
+{
+  "data_unification": {
+    "description": "Configurazione per unire dati F1 distribuiti in cartelle separate",
+    
+    "source_directories": {
+      "domenico_data": {
+        "path": "/content/drive/MyDrive/domenicoDL",
+        "pattern": "*.csv",
+        "description": "Dati raw estratti da Domenico",
+        "expected_files": 200,
+        "file_types": ["tire_live_data", "all_tire_driver_race_data"]
+      },
+      
+      "vincenzo_processed": {
+        "path": "/content/drive/MyDrive/Vincenzo/processed_races",
+        "pattern": "*.parquet",
+        "description": "Dati già processati da Vincenzo",
+        "expected_files": 80,
+        "file_types": ["processed_race_data"]
+      }
+    },
+    
+    "target_directory": {
+      "path": "/content/drive/MyDrive/F1_TireChange_Project/data/unified",
+      "filename": "f1_complete_dataset.parquet",
+      "backup_path": "/content/drive/MyDrive/F1_TireChange_Project/data/backups"
+    },
+    
+    "data_validation": {
+      "required_columns": [
+        "LapNumber", "Driver", "Compound", "TyreLife", "Position",
+        "LapTime", "Sector1Time", "Sector2Time", "Sector3Time",
+        "TrackStatus", "AirTemp", "Humidity", "Pressure", "Rainfall",
+        "WindDirection", "WindSpeed"
+      ],
+      
+      "data_quality_checks": {
+        "max_missing_percentage": 10.0,
+        "min_rows_per_race": 100,
+        "valid_years": [2018, 2019, 2020, 2021, 2023, 2024],
+        "valid_compounds": ["SOFT", "MEDIUM", "HARD", "INTERMEDIATE", "WET"]
+      }
+    },
+    
+    "preprocessing_steps": {
+      "duplicate_removal": {
+        "enabled": true,
+        "subset_columns": ["LapNumber", "Driver", "EventName", "Year"],
+        "keep": "first"
+      },
+      
+      "missing_value_handling": {
+        "strategy": "contextual",
+        "numeric_fill": "interpolate",
+        "categorical_fill": "mode",
+        "max_interpolation_gap": 3
+      },
+      
+      "data_type_optimization": {
+        "enabled": true,
+        "downcast_integers": true,
+        "downcast_floats": true,
+        "categorical_encoding": true
+      },
+      
+      "outlier_detection": {
+        "enabled": true,
+        "method": "iqr",
+        "threshold": 3.0,
+        "columns": ["LapTime", "Sector1Time", "Sector2Time", "Sector3Time"]
+      }
+    }
+  },
+  
+  "feature_engineering": {
+    "temporal_features": {
+      "lap_progress": {
+        "enabled": true,
+        "description": "Progressione nel giro (0-1)"
+      },
+      
+      "stint_features": {
+        "enabled": true,
+        "features": [
+          "stint_length",
+          "stint_progress", 
+          "tyre_age_normalized",
+          "laps_since_pit"
+        ]
+      },
+      
+      "rolling_windows": {
+        "enabled": true,
+        "windows": [3, 5, 10],
+        "features": [
+          "LapTime",
+          "Sector1Time", 
+          "Sector2Time",
+          "Sector3Time",
+          "Position"
+        ],
+        "statistics": ["mean", "std", "min", "max", "trend"]
+      }
+    },
+    
+    "performance_features": {
+      "gap_analysis": {
+        "enabled": true,
+        "features": [
+          "gap_to_leader",
+          "gap_to_ahead", 
+          "gap_to_behind",
+          "position_change_rate"
+        ]
+      },
+      
+      "pace_analysis": {
+        "enabled": true,
+        "features": [
+          "lap_time_delta",
+          "sector_pace_delta",
+          "tyre_degradation_rate",
+          "compound_relative_pace"
+        ]
+      }
+    },
+    
+    "strategic_features": {
+      "pit_window": {
+        "enabled": true,
+        "optimal_windows": {
+          "soft": [8, 15],
+          "medium": [15, 25], 
+          "hard": [25, 40]
+        }
+      },
+      
+      "weather_impact": {
+        "enabled": true,
+        "features": [
+          "weather_stability",
+          "rain_probability",
+          "temperature_trend",
+          "grip_conditions"
+        ]
+      }
+    }
+  },
+  
+  "target_generation": {
+    "tire_change_detection": {
+      "method": "compound_change",
+      "lookahead_laps": 1,
+      "confirmation_required": true
+    },
+    
+    "tire_type_prediction": {
+      "enabled": true,
+      "classes": [
+        "SOFT", "MEDIUM", "HARD", 
+        "INTERMEDIATE", "WET",
+        "HYPERSOFT", "ULTRASOFT", "SUPERSOFT", "SUPERHARD"
+      ],
+      "encode_method": "label"
+    }
+  },
+  
+  "data_splitting": {
+    "method": "temporal",
+    
+    "train_split": {
+      "years": [2018, 2019, 2020, 2021],
+      "expected_percentage": 75
+    },
+    
+    "validation_split": {
+      "years": [2023],
+      "expected_percentage": 15
+    },
+    
+    "test_split": {
+      "years": [2024],
+      "expected_percentage": 10
+    },
+    
+    "stratification": {
+      "enabled": true,
+      "column": "tire_change_next",
+      "maintain_ratio": true
+    }
+  },
+  
+  "sequence_generation": {
+    "window_size": 10,
+    "stride": 1,
+    "padding_strategy": "zero",
+    "min_sequence_length": 5,
+    "drop_incomplete": false,
+    
+    "grouping": {
+      "by_columns": ["Driver", "EventName", "Year"],
+      "sort_by": "LapNumber"
+    }
+  },
+  
+  "memory_optimization": {
+    "chunk_size": 10000,
+    "use_categorical": true,
+    "compress_output": true,
+    "compression": "snappy",
+    
+    "garbage_collection": {
+      "frequency": 1000,
+      "force_collection": true
+    }
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "log_file": "/content/drive/MyDrive/F1_TireChange_Project/results/data_unification.log",
+    
+    "progress_tracking": {
+      "enabled": true,
+      "checkpoint_frequency": 1000,
+      "save_intermediate": true
+    }
+  },
+  
+  "colab_specific": {
+    "drive_mount_path": "/content/drive",
+    "temp_directory": "/content/temp_data",
+    "max_memory_usage": 0.8,
+    
+    "checkpoint_recovery": {
+      "enabled": true,
+      "checkpoint_file": "/content/drive/MyDrive/F1_TireChange_Project/data/unification_checkpoint.pkl"
+    }
+  }
+}

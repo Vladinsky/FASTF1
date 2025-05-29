@@ -1,0 +1,194 @@
+# Formula 1 Tire Change Prediction - Model Configuration (Colab Pro)
+# Ottimizzato per Google Colab Pro con GPU T4/A100 e 25GB RAM
+
+model:
+  architecture: "LSTM"
+  type: "multi_task"
+  
+  # Input configuration
+  input:
+    sequence_length: 10
+    feature_dim: 52
+    batch_first: true
+  
+  # LSTM layers configuration (ottimizzato per GPU Pro)
+  lstm:
+    hidden_size: 256        # Aumentato per sfruttare GPU potenti
+    num_layers: 3
+    dropout: 0.3
+    bidirectional: false    # Unidirezionale per predizione real-time
+    batch_first: true
+  
+  # Shared trunk configuration
+  shared_trunk:
+    hidden_sizes: [512, 256, 128]   # Dense layers post-LSTM
+    dropout: 0.4
+    activation: "relu"
+    batch_norm: true
+  
+  # Task-specific heads
+  heads:
+    tire_change:
+      type: "binary_classification"
+      hidden_sizes: [64, 32]
+      dropout: 0.3
+      activation: "sigmoid"
+      
+    tire_type:
+      type: "multi_classification" 
+      num_classes: 9    # 9 compound types
+      hidden_sizes: [64, 32]
+      dropout: 0.3
+      activation: "softmax"
+
+# Loss function configuration
+loss:
+  primary_task: "tire_change"
+  secondary_task: "tire_type"
+  
+  # Task weights (ottimizzato per sbilanciamento 3.3%)
+  task_weights:
+    alpha: 0.92    # Peso task primario (cambio gomme)
+    beta: 0.08     # Peso task secondario (tipo mescola)
+  
+  # Loss functions
+  tire_change_loss:
+    type: "BCEWithLogitsLoss"
+    pos_weight: 29.0    # Basato su ratio reale dataset
+    reduction: "mean"
+    
+  tire_type_loss:
+    type: "CrossEntropyLoss"
+    weight: null        # Calcolato dinamicamente
+    reduction: "mean"
+    label_smoothing: 0.1
+
+# Training configuration (Colab Pro optimized)
+training:
+  # Batch configuration
+  batch_size: 512         # Sfrutta 25GB RAM
+  gradient_accumulation: 4  # Batch virtuali per stabilità
+  
+  # Optimization
+  optimizer:
+    type: "AdamW"
+    lr: 1e-3
+    weight_decay: 1e-4
+    betas: [0.9, 0.999]
+    eps: 1e-8
+  
+  # Learning rate scheduling
+  scheduler:
+    type: "ReduceLROnPlateau"
+    mode: "min"
+    factor: 0.5
+    patience: 10
+    min_lr: 1e-6
+    verbose: true
+  
+  # Mixed precision (for GPU acceleration)
+  mixed_precision:
+    enabled: true
+    opt_level: "O1"
+    loss_scale: "dynamic"
+  
+  # Early stopping
+  early_stopping:
+    patience: 15
+    min_delta: 1e-4
+    monitor: "val_combined_loss"
+    mode: "min"
+    restore_best_weights: true
+
+# Evaluation configuration
+evaluation:
+  metrics:
+    primary_task:
+      - "accuracy"
+      - "precision" 
+      - "recall"
+      - "f1_score"
+      - "auc_roc"
+      - "auc_pr"
+    
+    secondary_task:
+      - "accuracy"
+      - "top_3_accuracy"
+      - "weighted_f1"
+  
+  # Threshold optimization per recall target
+  threshold_optimization:
+    target_recall: 0.80
+    method: "grid_search"
+    search_range: [0.1, 0.9]
+    search_steps: 100
+
+# Data configuration
+data:
+  # Features scaling
+  scaling:
+    method: "robust"
+    feature_range: [-3, 3]
+    
+  # Sequence generation
+  sequence:
+    stride: 1
+    padding: "zero"
+    
+  # Data splits (temporale)
+  splits:
+    train_years: [2018, 2019, 2020, 2021]
+    val_years: [2023]
+    test_years: [2024]
+
+# Colab Pro specific optimizations
+colab_pro:
+  # Memory management
+  memory:
+    max_memory_usage: 0.85    # 85% dei 25GB
+    cleanup_frequency: 100    # Every 100 batches
+    garbage_collection: true
+  
+  # GPU optimization
+  gpu:
+    enable_cudnn_benchmark: true
+    enable_cudnn_deterministic: false
+    mixed_precision_backend: "native"
+    
+  # Monitoring
+  monitoring:
+    log_frequency: 50         # Log ogni 50 batch
+    checkpoint_frequency: 1800 # Checkpoint ogni 30min
+    tensorboard_enabled: true
+    wandb_enabled: false      # Disabilitato per velocità
+  
+  # Checkpointing
+  checkpointing:
+    save_dir: "/content/drive/MyDrive/F1_TireChange_Project/models/checkpoints"
+    save_frequency: "epoch"
+    keep_n_best: 3
+    save_optimizer_state: true
+
+# Production configuration
+inference:
+  # Model serving
+  serving:
+    batch_size: 1
+    max_latency_ms: 100
+    preprocessing_cache: true
+    
+  # Output format
+  output:
+    tire_change_threshold: 0.5  # Will be optimized during training
+    confidence_threshold: 0.7
+    return_probabilities: true
+    return_explanations: true
+
+# Logging configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    - type: "console"
+    - type: "file"
+      filename: "/content/drive/MyDrive/F1_TireChange_Project/results/training_logs/training.log"
