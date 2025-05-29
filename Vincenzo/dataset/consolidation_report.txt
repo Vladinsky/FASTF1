@@ -1,0 +1,515 @@
+============================================================
+REPORT CONSOLIDAMENTO DATASET F1
+============================================================
+
+RIEPILOGO GENERALE
+--------------------
+File processati con successo: 71
+File con errori: 0
+Righe totali nel dataset: 77,257
+Colonne totali: 32
+Anni coperti: 2018, 2019, 2020, 2021, 2023, 2024
+Piloti unici: 36
+Gare uniche: 71
+Utilizzo memoria: 50.5 MB
+Dimensione file output: 3.3 MB
+
+STATISTICHE PER FILE
+--------------------
+
+File: 2018_01_FORMULA_1_2018_ROLEX_AUSTRALIAN_GRAND_PRIX.parquet
+  Righe: 940
+  Piloti: 20
+  Giri: 58
+  Valori mancanti: 29
+  Anni: 2018
+
+File: 2018_02_FORMULA_1_2018_GULF_AIR_BAHRAIN_GRAND_PRIX.parquet
+  Righe: 997
+  Piloti: 20
+  Giri: 57
+  Valori mancanti: 54
+  Anni: 2018
+
+File: 2018_03_FORMULA_1_2018_HEINEKEN_CHINESE_GRAND_PRIX.parquet
+  Righe: 1,115
+  Piloti: 20
+  Giri: 56
+  Valori mancanti: 41
+  Anni: 2018
+
+File: 2018_04_FORMULA_1_2018_AZERBAIJAN_GRAND_PRIX.parquet
+  Righe: 848
+  Piloti: 20
+  Giri: 51
+  Valori mancanti: 210
+  Anni: 2018
+
+File: 2018_05_FORMULA_1_GRAN_PREMIO_DE_ESPAÑA_EMIRATES_2018.parquet
+  Righe: 1,021
+  Piloti: 20
+  Giri: 66
+  Valori mancanti: 59
+  Anni: 2018
+
+File: 2018_06_FORMULA_1_GRAND_PRIX_DE_MONACO_2018.parquet
+  Righe: 1,516
+  Piloti: 20
+  Giri: 78
+  Valori mancanti: 34
+  Anni: 2018
+
+File: 2018_07_FORMULA_1_GRAND_PRIX_HEINEKEN_DU_CANADA_2018.parquet
+  Righe: 1,219
+  Piloti: 20
+  Giri: 70
+  Valori mancanti: 32
+  Anni: 2018
+
+File: 2018_08_FORMULA_1_PIRELLI_GRAND_PRIX_DE_FRANCE_2018.parquet
+  Righe: 920
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 59
+  Anni: 2018
+
+File: 2018_09_FORMULA_1_EYETIME_GROSSER_PREIS_VON_ÖSTERREICH_2018.parquet
+  Righe: 1,244
+  Piloti: 20
+  Giri: 71
+  Valori mancanti: 51
+  Anni: 2018
+
+File: 2018_10_FORMULA_1_2018_ROLEX_BRITISH_GRAND_PRIX.parquet
+  Righe: 902
+  Piloti: 20
+  Giri: 52
+  Valori mancanti: 49
+  Anni: 2018
+
+File: 2018_11_FORMULA_1_EMIRATES_GROSSER_PREIS_VON_DEUTSCHLAND_2018.parquet
+  Righe: 1,252
+  Piloti: 20
+  Giri: 67
+  Valori mancanti: 33
+  Anni: 2018
+
+File: 2018_12_FORMULA_1_ROLEX_MAGYAR_NAGYDÍJ_2018.parquet
+  Righe: 1,233
+  Piloti: 20
+  Giri: 70
+  Valori mancanti: 38
+  Anni: 2018
+
+File: 2018_13_FORMULA_1_2018_JOHNNIE_WALKER_BELGIAN_GRAND_PRIX.parquet
+  Righe: 693
+  Piloti: 20
+  Giri: 44
+  Valori mancanti: 85
+  Anni: 2018
+
+File: 2018_14_FORMULA_1_GRAN_PREMIO_HEINEKEN_DITALIA_2018.parquet
+  Righe: 927
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 32
+  Anni: 2018
+
+File: 2018_15_FORMULA_1_2018_SINGAPORE_AIRLINES_SINGAPORE_GRAND_PRIX.parquet
+  Righe: 1,146
+  Piloti: 20
+  Giri: 61
+  Valori mancanti: 80
+  Anni: 2018
+
+File: 2018_16_FORMULA_1_2018_VTB_RUSSIAN_GRAND_PRIX.parquet
+  Righe: 948
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 22
+  Anni: 2018
+
+File: 2018_17_FORMULA_1_2018_HONDA_JAPANESE_GRAND_PRIX.parquet
+  Righe: 977
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 32
+  Anni: 2018
+
+File: 2018_18_FORMULA_1_PIRELLI_2018_UNITED_STATES_GRAND_PRIX.parquet
+  Righe: 932
+  Piloti: 20
+  Giri: 56
+  Valori mancanti: 7
+  Anni: 2018
+
+File: 2018_19_FORMULA_1_GRAN_PREMIO_DE_MÉXICO_2018.parquet
+  Righe: 1,245
+  Piloti: 20
+  Giri: 71
+  Valori mancanti: 18
+  Anni: 2018
+
+File: 2018_20_FORMULA_1_GRANDE_PRÊMIO_HEINEKEN_DO_BRASIL_2018.parquet
+  Righe: 1,318
+  Piloti: 20
+  Giri: 71
+  Valori mancanti: 1
+  Anni: 2018
+
+File: 2018_21_FORMULA_1_2018_ETIHAD_AIRWAYS_ABU_DHABI_GRAND_PRIX.parquet
+  Righe: 943
+  Piloti: 20
+  Giri: 55
+  Valori mancanti: 77
+  Anni: 2018
+
+File: 2019_01_FORMULA_1_ROLEX_AUSTRALIAN_GRAND_PRIX_2019.parquet
+  Righe: 1,041
+  Piloti: 20
+  Giri: 58
+  Valori mancanti: 13
+  Anni: 2019
+
+File: 2019_02_FORMULA_1_GULF_AIR_BAHRAIN_GRAND_PRIX_2019.parquet
+  Righe: 1,083
+  Piloti: 20
+  Giri: 57
+  Valori mancanti: 13
+  Anni: 2019
+
+File: 2019_03_FORMULA_1_HEINEKEN_CHINESE_GRAND_PRIX_2019.parquet
+  Righe: 1,046
+  Piloti: 20
+  Giri: 56
+  Valori mancanti: 0
+  Anni: 2019
+
+File: 2019_04_FORMULA_1_SOCAR_AZERBAIJAN_GRAND_PRIX_2019.parquet
+  Righe: 948
+  Piloti: 20
+  Giri: 51
+  Valori mancanti: 9
+  Anni: 2019
+
+File: 2019_05_FORMULA_1_EMIRATES_GRAN_PREMIO_DE_ESPAÑA_2019.parquet
+  Righe: 1,276
+  Piloti: 20
+  Giri: 66
+  Valori mancanti: 14
+  Anni: 2019
+
+File: 2019_06_FORMULA_1_GRAND_PRIX_DE_MONACO_2019.parquet
+  Righe: 1,490
+  Piloti: 20
+  Giri: 78
+  Valori mancanti: 1
+  Anni: 2019
+
+File: 2019_07_FORMULA_1_PIRELLI_GRAND_PRIX_DU_CANADA_2019.parquet
+  Righe: 1,312
+  Piloti: 20
+  Giri: 70
+  Valori mancanti: 7
+  Anni: 2019
+
+File: 2019_08_FORMULA_1_PIRELLI_GRAND_PRIX_DE_FRANCE_2019.parquet
+  Righe: 1,037
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 1
+  Anni: 2019
+
+File: 2019_09_FORMULA_1_MYWORLD_GROSSER_PREIS_VON_ÖSTERREICH_2019.parquet
+  Righe: 1,401
+  Piloti: 20
+  Giri: 71
+  Valori mancanti: 0
+  Anni: 2019
+
+File: 2019_10_FORMULA_1_ROLEX_BRITISH_GRAND_PRIX_2019.parquet
+  Righe: 914
+  Piloti: 20
+  Giri: 52
+  Valori mancanti: 7
+  Anni: 2019
+
+File: 2019_11_FORMULA_1_MERCEDES-BENZ_GROSSER_PREIS_VON_DEUTSCHLAND_2019.parquet
+  Righe: 1,059
+  Piloti: 20
+  Giri: 64
+  Valori mancanti: 34
+  Anni: 2019
+
+File: 2019_12_FORMULA_1_ROLEX_MAGYAR_NAGYDÍJ_2019.parquet
+  Righe: 1,358
+  Piloti: 20
+  Giri: 70
+  Valori mancanti: 0
+  Anni: 2019
+
+File: 2019_13_FORMULA_1_JOHNNIE_WALKER_BELGIAN_GRAND_PRIX_2019.parquet
+  Righe: 787
+  Piloti: 20
+  Giri: 44
+  Valori mancanti: 72
+  Anni: 2019
+
+File: 2019_14_FORMULA_1_GRAN_PREMIO_HEINEKEN_DITALIA_2019.parquet
+  Righe: 991
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 6
+  Anni: 2019
+
+File: 2019_15_FORMULA_1_SINGAPORE_AIRLINES_SINGAPORE_GRAND_PRIX_2019.parquet
+  Righe: 1,165
+  Piloti: 20
+  Giri: 61
+  Valori mancanti: 145
+  Anni: 2019
+
+File: 2019_16_FORMULA_1_VTB_RUSSIAN_GRAND_PRIX_2019.parquet
+  Righe: 901
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 61
+  Anni: 2019
+
+File: 2019_17_FORMULA_1_JAPANESE_GRAND_PRIX_2019.parquet
+  Righe: 1,005
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 6
+  Anni: 2019
+
+File: 2019_18_FORMULA_1_GRAN_PREMIO_DE_MÉXICO_2019.parquet
+  Righe: 1,370
+  Piloti: 20
+  Giri: 71
+  Valori mancanti: 1
+  Anni: 2019
+
+File: 2019_19_FORMULA_1_EMIRATES_UNITED_STATES_GRAND_PRIX_2019.parquet
+  Righe: 1,032
+  Piloti: 20
+  Giri: 56
+  Valori mancanti: 7
+  Anni: 2019
+
+File: 2019_20_FORMULA_1_HEINEKEN_GRANDE_PRÊMIO_DO_BRASIL_2019.parquet
+  Righe: 1,385
+  Piloti: 20
+  Giri: 71
+  Valori mancanti: 26
+  Anni: 2019
+
+File: 2019_21_FORMULA_1_ETIHAD_AIRWAYS_ABU_DHABI_GRAND_PRIX_2019.parquet
+  Righe: 1,075
+  Piloti: 20
+  Giri: 55
+  Valori mancanti: 1
+  Anni: 2019
+
+File: 2020_01_FORMULA_1_ROLEX_GROSSER_PREIS_VON_ÖSTERREICH_2020.parquet
+  Righe: 1,052
+  Piloti: 20
+  Giri: 68
+  Valori mancanti: 48
+  Anni: 2020
+
+File: 2020_02_FORMULA_1_PIRELLI_GROSSER_PREIS_DER_STEIERMARK_2020.parquet
+  Righe: 1,226
+  Piloti: 20
+  Giri: 71
+  Valori mancanti: 1
+  Anni: 2020
+
+File: 2020_03_FORMULA_1_ARAMCO_MAGYAR_NAGYDÍJ_2020.parquet
+  Righe: 1,327
+  Piloti: 20
+  Giri: 70
+  Valori mancanti: 1
+  Anni: 2020
+
+File: 2020_04_FORMULA_1_PIRELLI_BRITISH_GRAND_PRIX_2020.parquet
+  Righe: 898
+  Piloti: 20
+  Giri: 52
+  Valori mancanti: 100
+  Anni: 2020
+
+File: 2020_05_EMIRATES_FORMULA_1_70TH_ANNIVERSARY_GRAND_PRIX_2020.parquet
+  Righe: 1,025
+  Piloti: 20
+  Giri: 52
+  Valori mancanti: 0
+  Anni: 2020
+
+File: 2020_06_FORMULA_1_ARAMCO_GRAN_PREMIO_DE_ESPAÑA_2020.parquet
+  Righe: 1,274
+  Piloti: 20
+  Giri: 66
+  Valori mancanti: 0
+  Anni: 2020
+
+File: 2020_07_FORMULA_1_ROLEX_BELGIAN_GRAND_PRIX_2020.parquet
+  Righe: 769
+  Piloti: 20
+  Giri: 44
+  Valori mancanti: 81
+  Anni: 2020
+
+File: 2020_08_FORMULA_1_GRAN_PREMIO_HEINEKEN_DITALIA_2020.parquet
+  Righe: 926
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 37
+  Anni: 2020
+
+File: 2020_09_FORMULA_1_PIRELLI_GRAN_PREMIO_DELLA_TOSCANA_FERRARI_1000_2020.parquet
+  Righe: 786
+  Piloti: 20
+  Giri: 59
+  Valori mancanti: 95
+  Anni: 2020
+
+File: 2020_10_FORMULA_1_VTB_RUSSIAN_GRAND_PRIX_2020.parquet
+  Righe: 948
+  Piloti: 20
+  Giri: 53
+  Valori mancanti: 84
+  Anni: 2020
+
+File: 2020_11_FORMULA_1_ARAMCO_GROSSER_PREIS_DER_EIFEL_2020.parquet
+  Righe: 1,019
+  Piloti: 20
+  Giri: 60
+  Valori mancanti: 18
+  Anni: 2020
+
+File: 2020_12_FORMULA_1_HEINEKEN_GRANDE_PRÉMIO_DE_PORTUGAL_2020.parquet
+  Righe: 1,288
+  Piloti: 20
+  Giri: 66
+  Valori mancanti: 0
+  Anni: 2020
+
+File: 2020_13_FORMULA_1_EMIRATES_GRAN_PREMIO_DELLEMILIA_ROMAGNA_2020.parquet
+  Righe: 1,131
+  Piloti: 20
+  Giri: 63
+  Valori mancanti: 18
+  Anni: 2020
+
+File: 2020_14_FORMULA_1_DHL_TURKISH_GRAND_PRIX_2020.parquet
+  Righe: 1,077
+  Piloti: 20
+  Giri: 58
+  Valori mancanti: 7
+  Anni: 2020
+
+File: 2020_15_FORMULA_1_GULF_AIR_BAHRAIN_GRAND_PRIX_2020.parquet
+  Righe: 1,019
+  Piloti: 20
+  Giri: 57
+  Valori mancanti: 76
+  Anni: 2020
+
+File: 2020_16_FORMULA_1_ROLEX_SAKHIR_GRAND_PRIX_2020.parquet
+  Righe: 1,534
+  Piloti: 20
+  Giri: 87
+  Valori mancanti: 18
+  Anni: 2020
+
+File: 2020_17_FORMULA_1_ETIHAD_AIRWAYS_ABU_DHABI_GRAND_PRIX_2020.parquet
+  Righe: 1,044
+  Piloti: 20
+  Giri: 55
+  Valori mancanti: 29
+  Anni: 2020
+
+File: 2021_01_FORMULA_1_GULF_AIR_BAHRAIN_GRAND_PRIX_2021.parquet
+  Righe: 1,027
+  Piloti: 20
+  Giri: 56
+  Valori mancanti: 14
+  Anni: 2021
+
+File: 2021_02_FORMULA_1_PIRELLI_GRAN_PREMIO_DEL_MADE_IN_ITALY_E_DELLEMILIA_ROMAGNA_2021.parquet
+  Righe: 1,127
+  Piloti: 20
+  Giri: 63
+  Valori mancanti: 48
+  Anni: 2021
+
+File: 2021_03_FORMULA_1_HEINEKEN_GRANDE_PRÉMIO_DE_PORTUGAL_2021.parquet
+  Righe: 1,245
+  Piloti: 20
+  Giri: 66
+  Valori mancanti: 6
+  Anni: 2021
+
+File: 2021_04_FORMULA_1_ARAMCO_GRAN_PREMIO_DE_ESPAÑA_2021.parquet
+  Righe: 1,247
+  Piloti: 20
+  Giri: 66
+  Valori mancanti: 7
+  Anni: 2021
+
+File: 2021_05_FORMULA_1_GRAND_PRIX_DE_MONACO_2021.parquet
+  Righe: 1,420
+  Piloti: 20
+  Giri: 78
+  Valori mancanti: 7
+  Anni: 2021
+
+File: 2021_06_FORMULA_1_AZERBAIJAN_GRAND_PRIX_2021.parquet
+  Righe: 943
+  Piloti: 20
+  Giri: 51
+  Valori mancanti: 121
+  Anni: 2021
+
+File: 2023_01_FORMULA_1_GULF_AIR_BAHRAIN_GRAND_PRIX_2023.parquet
+  Righe: 1,056
+  Piloti: 20
+  Giri: 57
+  Valori mancanti: 6
+  Anni: 2023
+
+File: 2023_02_FORMULA_1_STC_SAUDI_ARABIAN_GRAND_PRIX_2023.parquet
+  Righe: 943
+  Piloti: 20
+  Giri: 50
+  Valori mancanti: 24
+  Anni: 2023
+
+File: 2023_03_FORMULA_1_ROLEX_AUSTRALIAN_GRAND_PRIX_2023.parquet
+  Righe: 1,003
+  Piloti: 20
+  Giri: 58
+  Valori mancanti: 142
+  Anni: 2023
+
+File: 2024_01_FORMULA_1_GULF_AIR_BAHRAIN_GRAND_PRIX_2024.parquet
+  Righe: 1,129
+  Piloti: 20
+  Giri: 57
+  Valori mancanti: 2
+  Anni: 2024
+
+File: 2024_02_FORMULA_1_STC_SAUDI_ARABIAN_GRAND_PRIX_2024.parquet
+  Righe: 901
+  Piloti: 20
+  Giri: 50
+  Valori mancanti: 33
+  Anni: 2024
+
+File: 2024_03_FORMULA_1_ROLEX_AUSTRALIAN_GRAND_PRIX_2024.parquet
+  Righe: 998
+  Piloti: 19
+  Giri: 58
+  Valori mancanti: 13
+  Anni: 2024

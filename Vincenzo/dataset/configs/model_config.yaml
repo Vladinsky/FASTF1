@@ -1,0 +1,245 @@
+# Model Configuration per RNN Tire Change Prediction
+# ==================================================
+# Configurazione completa del modello multi-task RNN
+# Aggiornata con statistiche reali dal dataset consolidato
+
+# Dataset Information (da dataset_explorer.py)
+dataset:
+  total_samples: 77257
+  positive_samples: 2565  # Cambi gomme
+  negative_samples: 74692  # No cambi
+  class_ratio: 29  # 1:29 ratio (molto sbilanciato!)
+  sequence_length: 10  # Giri precedenti per predizione
+  
+# Model Architecture
+model:
+  # RNN Configuration
+  rnn:
+    type: "LSTM"  # o "GRU"
+    input_size: 30  # Features per timestep (da calcolare in preprocessing)
+    hidden_size: 128  # Aumentato per catturare complessità
+    num_layers: 3  # Aggiunto layer extra per pattern complessi
+    dropout: 0.3  # Aumentato per regularization
+    bidirectional: false  # Unidirezionale per predizione tempo reale
+    batch_first: true
+  
+  # Multi-task heads
+  heads:
+    # Task primario: cambio gomme
+    tire_change:
+      type: "binary_classification"
+      hidden_size: 64
+      dropout: 0.2
+      activation: "sigmoid"  # Applicato in loss, non nel modello
+    
+    # Task secondario: tipo mescola
+    tire_type:
+      type: "multiclass_classification"
+      num_classes: 7  # SOFT, MEDIUM, HARD, SUPERSOFT, ULTRASOFT, INTERMEDIATE, WET
+      hidden_size: 32
+      dropout: 0.1
+      activation: "softmax"  # Applicato in loss
+
+# Feature Engineering
+features:
+  # Features temporali (per ogni timestep)
+  temporal:
+    - "TyreLife"           # Età pneumatico
+    - "LapTime"            # Tempo giro
+    - "Position"           # Posizione in gara
+    - "TimeDeltaToDriverAhead"     # Gap pilota davanti
+    - "TimeDeltaToDriverBehind"    # Gap pilota dietro
+    - "AirTemp"            # Temperatura aria
+    - "TrackTemp"          # Temperatura pista
+    - "Humidity"           # Umidità
+    - "WindSpeed"          # Velocità vento
+    - "Rainfall"           # Pioggia (boolean)
+  
+  # Features derivate (da calcolare)
+  derived:
+    - "lap_progress"       # Progresso gara (0-1)
+    - "stint_progress"     # Progresso stint pneumatico
+    - "position_normalized" # Posizione normalizzata
+    - "laptime_trend"      # Trend degradazione tempo
+    - "delta_trend"        # Trend gap con avversari
+    - "tire_degradation_rate" # Velocità degradazione
+    - "compound_age_ratio" # Età relativa per compound
+    - "weather_stability"  # Stabilità condizioni meteo
+  
+  # Features categoriche (one-hot encoded)
+  categorical:
+    - "Compound"           # Tipo mescola corrente
+    - "Team"              # Team (per caratteristiche auto)
+    - "Location"          # Circuito (per caratteristiche pista)
+  
+  # Normalizzazione
+  normalization:
+    method: "robust_scaler"  # Robusto agli outliers
+    clip_outliers: true
+    outlier_factor: 2.5  # IQR multiplier
+
+# Training Configuration
+training:
+  # Loss function multi-task
+  loss:
+    # Pesi task (somma = 1.0)
+    alpha: 0.92  # Task primario (cambio gomme) - aumentato
+    beta: 0.08   # Task secondario (tipo mescola) - ridotto
+    
+    # Weighted loss per class imbalance
+    tire_change_loss:
+      type: "BCEWithLogitsLoss"
+      pos_weight: 29.0  # Basato su ratio reale 1:29
+      
+    tire_type_loss:
+      type: "CrossEntropyLoss"
+      weight: null  # Calcolare da distribuzione mescole
+      
+    # Focal loss (alternativa per esempi difficili)
+    focal_loss:
+      enabled: false  # Inizia con weighted BCE
+      alpha: 0.25
+      gamma: 2.0
+  
+  # Optimizer
+  optimizer:
+    type: "AdamW"
+    lr: 0.001
+    weight_decay: 1e-4
+    betas: [0.9, 0.999]
+  
+  # Learning rate scheduler
+  scheduler:
+    type: "ReduceLROnPlateau"
+    mode: "max"  # Monitor F1-score (higher is better)
+    factor: 0.5
+    patience: 5
+    min_lr: 1e-6
+  
+  # Batch configuration
+  batch_size: 64  # Aumentato per stabilità gradients
+  accumulation_steps: 2  # Effective batch size = 128
+  
+  # Training epochs
+  max_epochs: 100
+  early_stopping:
+    patience: 10
+    monitor: "val_f1_score"
+    mode: "max"
+    restore_best_weights: true
+
+# Data Splitting (temporale per evitare data leakage)
+data_split:
+  train:
+    years: [2018, 2019, 2020, 2021]
+    percentage: ~80
+  
+  validation:
+    years: [2023]
+    percentage: ~10
+  
+  test:
+    years: [2024]  
+    percentage: ~10
+
+# Data Augmentation per Class Imbalance
+augmentation:
+  # Smart oversampling delle sequenze positive
+  positive_sequence_augmentation:
+    enabled: true
+    factor: 3  # Moltiplica esempi positivi per 3
+    noise_std: 0.01  # Rumore gaussiano 1%
+    preserve_temporal_structure: true
+  
+  # Synthetic minority oversampling (SMOTE per sequenze)
+  smote:
+    enabled: false  # Inizia senza, valuta se necessario
+    k_neighbors: 5
+
+# Evaluation Metrics
+evaluation:
+  # Metriche primarie
+  primary_metrics:
+    - "f1_score"
+    - "precision"
+    - "recall"
+    - "roc_auc"
+    - "pr_auc"  # Importante per dati sbilanciati
+  
+  # Soglie ottimizzazione
+  threshold_optimization:
+    target_recall: 0.80  # Recall minimo richiesto
+    method: "f1_optimization"  # Ottimizza F1 subject to recall constraint
+    
+  # Cross-validation temporale
+  temporal_cv:
+    enabled: true
+    n_splits: 3
+    test_size_months: 2
+
+# Hardware Configuration
+hardware:
+  device: "auto"  # auto-detect CUDA/MPS/CPU
+  mixed_precision: true  # FP16 per speed-up
+  num_workers: 4  # DataLoader workers
+  pin_memory: true
+
+# Reproducibility
+reproducibility:
+  seed: 42
+  deterministic: true
+  benchmark: false  # True solo se input size è fisso
+
+# Logging and Monitoring
+logging:
+  # Experiment tracking
+  use_wandb: false  # Set true se disponibile
+  use_tensorboard: true
+  
+  # Checkpoint saving
+  save_checkpoints: true
+  checkpoint_frequency: 5  # Every 5 epochs
+  save_top_k: 3  # Keep best 3 models
+  
+  # Logging frequency  
+  log_frequency: 100  # Every 100 batches
+  
+# Paths
+paths:
+  data_dir: "."
+  output_dir: "./outputs"
+  checkpoint_dir: "./checkpoints"
+  logs_dir: "./logs"
+
+# Advanced Settings
+advanced:
+  # Gradient clipping
+  gradient_clipping:
+    enabled: true
+    max_norm: 1.0
+  
+  # Model complexity
+  model_complexity:
+    # Calculato automaticamente e loggato
+    total_params: null
+    trainable_params: null
+    model_size_mb: null
+  
+  # Performance optimization
+  optimization:
+    compile_model: false  # PyTorch 2.0 compile
+    use_channels_last: false
+    
+# Model Interpretability
+interpretability:
+  # Attention analysis (se implementato)
+  attention_analysis: false
+  
+  # Feature importance
+  feature_importance:
+    enabled: true
+    method: "permutation"  # or "shap"
+    
+  # Prediction confidence
+  uncertainty_estimation:
+    enabled: false  # Futuro: ensemble o dropout inference
