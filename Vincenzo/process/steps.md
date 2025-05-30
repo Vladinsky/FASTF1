@@ -165,3 +165,26 @@ Creare una rete neurale ricorrente (RNN) multi-task per predire i cambi gomme in
 - **Fase 3**: 🔄 Pronta per implementazione modello
 - **Infrastruttura**: Solida e production-ready
 - **Dati**: Alta qualità, bilanciamento gestito, features ricche
+
+---
+
+## Troubleshooting
+
+### 30/05/2025 - Problema Formattazione Notebook in Colab
+- **Problema**: Il file `colab_models/notebooks/01_quick_start_pro.ipynb` non viene visualizzato correttamente in Google Colab. Le celle non sono riconosciute, mentre VSCode lo interpreta correttamente.
+- **Causa Probabile**: Il file `.ipynb` potrebbe essere salvato in un formato "script" (con commenti `# %% [markdown]` e `# %% [code]`) invece del formato JSON standard atteso da Colab.
+- **Soluzione Proposta**:
+    1. Aprire `01_quick_start_pro.ipynb` in VSCode.
+    2. Usare "File" > "Save As..." e assicurarsi che il tipo file sia "Jupyter Notebook (\*.ipynb)".
+    3. Salvare il file (sovrascrivendo o con nuovo nome).
+    4. Ricaricare il file su Google Drive e riaprirlo in Colab.
+- **Stato**: ✅ Risolto (Verificato che il file è già in formato JSON corretto dopo il salvataggio dell'utente).
+
+### 30/05/2025 - Percorsi Dati Errati nel Notebook Colab
+- **Problema**: La cella `<check_data>` nel notebook `colab_models/notebooks/01_quick_start_pro.ipynb` utilizza percorsi non corretti (`/content/drive/MyDrive/domenicoDL` e `/content/drive/MyDrive/Vincenzo/processed_races`) per localizzare i file di dati.
+- **Correzione Indicata**: I dati `.parquet` si trovano in un unico percorso: `/content/drive/MyDrive/F1_Project/preprocessed_races`.
+- **Soluzione Proposta**:
+    1. Modificare la cella `<check_data>` per utilizzare il percorso corretto.
+    2. Rimuovere o adattare i riferimenti ai percorsi `domenico_path` e `vincenzo_path` non più validi.
+    3. Verificare che la cella `<unify_data>` (che usa `CompleteDataUnifier`) sia compatibile con la lettura dei dati da questo singolo percorso.
+- **Stato**: ✅ Risolto (Notebook aggiornato con il percorso dati corretto).
