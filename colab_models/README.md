@@ -30,6 +30,33 @@ Versione completa ottimizzata per Google Colab Pro del sistema di predizione cam
 2. **Google Drive** con dati F1 caricati
 3. **Account Google** per mount automatico Drive
 
+## 📖 Panoramica della Cartella `colab_models`
+
+Questa cartella (`colab_models/`) è progettata per contenere tutto il necessario per eseguire il progetto di predizione dei cambi gomme F1 interamente su Google Colab. L'obiettivo è rendere questa cartella il più possibile autonoma dal resto della struttura del progetto locale, facilitando l'esecuzione e il testing in un ambiente cloud standardizzato.
+
+**Componenti Chiave:**
+- **Configurazioni (`configs/`)**: Contiene i file di configurazione specifici per Colab, come `data_config_colab.json` (che definisce i percorsi dei dati su Google Drive) e `model_config_pro.yaml`.
+- **Dati (`data/`)**: Script per la gestione e l'unificazione dei dati (es. `data_unifier_complete.py`). I dati grezzi e processati sono attesi su Google Drive.
+- **Modelli (`models/`)**: Architetture dei modelli neurali (es. `lstm_pro_architecture.py`) e utility per il training e la valutazione.
+- **Notebooks (`notebooks/`)**: Jupyter notebooks per guidare l'utente attraverso i vari step del progetto (es. `01_quick_start_pro.ipynb`).
+- **Training (`training/`)**: Script per avviare e gestire il processo di training dei modelli (es. `train_from_scratch_pro.py`).
+- **Inference (`inference/`)**: Script e strumenti per effettuare predizioni con i modelli addestrati.
+- **Utility (`utils/`)**: Funzioni di supporto e helper specifici per l'ambiente Colab.
+- **`setup_colab_pro.py`**: Script per automatizzare il setup dell'ambiente su Colab.
+- **`requirements_pro.txt`**: Elenco delle dipendenze Python necessarie.
+
+**Flusso di Lavoro Tipico su Colab:**
+1.  Clonare il repository o caricare la cartella `colab_models` su Google Drive.
+2.  Aprire il notebook `notebooks/01_quick_start_pro.ipynb` in Google Colab.
+3.  Eseguire le celle del notebook per:
+    *   Montare Google Drive.
+    *   Eseguire lo script `setup_colab_pro.py` per installare dipendenze e configurare l'ambiente.
+    *   Utilizzare `data_unifier_complete.py` (configurato tramite `data_config_colab.json`) per caricare e unificare i dati da `/content/drive/MyDrive/F1_Project/processed_races/`.
+    *   Avviare il training del modello, che salverà checkpoint e output su `/content/drive/MyDrive/F1_Project/`.
+    *   Valutare il modello e testare l'inference.
+
+L'intera pipeline è pensata per leggere input da Google Drive e scrivere output su Google Drive, mantenendo la portabilità e la riproducibilità su Colab.
+
 ## 🛠️ Quick Start Guide
 
 ### Step 1: Setup Ambiente
@@ -46,14 +73,24 @@ Versione completa ottimizzata per Google Colab Pro del sistema di predizione cam
 ### Step 2: Unione Dati Distribuiti
 
 ```python
-# I dati sono attualmente distribuiti in più cartelle su Drive
-# Lo script li unirà automaticamente in un dataset unico
+# I dati verranno caricati da Google Drive come specificato in data_config_colab.json
+# Il notebook 01_quick_start_pro.ipynb è già configurato per usare data_config_colab.json
 
 from data.data_unifier_complete import CompleteDataUnifier
 
-unifier = CompleteDataUnifier()
-dataset = unifier.unify_all_data()
-print(f"Dataset finale: {len(dataset)} righe")
+# Il notebook chiamerà CompleteDataUnifier con il config corretto:
+# unifier = CompleteDataUnifier(config_path="colab_models/configs/data_config_colab.json")
+# Per esecuzione manuale o test, assicurarsi di passare il config corretto.
+# Qui sotto un esempio di come verrebbe chiamato nel notebook:
+
+# unifier = CompleteDataUnifier(config_path="configs/data_config_colab.json") # Assumendo che il CWD sia colab_models
+# dataset = unifier.unify_all_data()
+# if dataset is not None:
+#     print(f"Dataset finale: {len(dataset)} righe")
+# else:
+#     print("Errore durante l'unificazione del dataset.")
+
+print("Consultare il notebook 01_quick_start_pro.ipynb per l'unificazione dati.")
 ```
 
 ### Step 3: Training Completo
@@ -90,7 +127,8 @@ colab_models/
 ├── 📊 configs/                     # Configurazioni
 │   ├── model_config_pro.yaml      # Config modello Pro
 │   ├── training_config_pro.json   # Parametri training
-│   ├── data_config_unified.json   # Config unione dati
+│   ├── data_config_unified.json   # Config unione dati (per uso locale/generale)
+│   ├── data_config_colab.json     # Config unione dati specifica per Colab (USA QUESTA SU COLAB)
 │   └── inference_config.json      # Config inference
 │
 ├── 🧠 models/                      # Architettura modelli
@@ -136,11 +174,14 @@ colab_models/
 
 ## 🎯 Features Avanzate
 
-### **Gestione Dati da Google Drive**
-- **Fonte unica**: Tutti i dati provengono dalla cartella `/content/drive/MyDrive/F1_Project/processed_races/`
-- **Auto-discovery**: Rileva automaticamente tutti i file Parquet (`*.parquet`)
-- **Consolidamento**: Unisce tutti i file in un unico dataset
-- **Validazione**: Controlli di qualità e consistenza dei dati
+### **Gestione Dati da Google Drive (Configurazione Colab)**
+- **Fonte Dati Primaria**: Tutti i dati di input devono trovarsi su Google Drive nella cartella `/content/drive/MyDrive/F1_Project/processed_races/`.
+- **Configurazione**: Il file `colab_models/configs/data_config_colab.json` definisce questa sorgente dati (sotto la chiave `"drive_processed"`) e specifica che i file sono in formato `*.parquet`.
+- **Script di Unificazione**: `data_unifier_complete.py` (chiamato dal notebook `01_quick_start_pro.ipynb`) utilizza questa configurazione per:
+    - Rilevare automaticamente tutti i file Parquet nella cartella specificata.
+    - Consolidare i file in un unico dataset pandas.
+    - Eseguire validazioni e preprocessing.
+- **Output su Drive**: Il dataset unificato, i log, i checkpoint del modello e i risultati finali vengono salvati in sottocartelle di `/content/drive/MyDrive/F1_Project/` (es. `unified_data/`, `logs/`, `checkpoints/`, `results/`), come definito in `data_config_colab.json`.
 
 ### **Variabili Predittive (52+ Features)**
 
@@ -208,16 +249,28 @@ colab_models/
 
 ## 📊 Dataset e Performance
 
-### **Flusso di Lavoro su Colab**
-1. **Setup**: Esegui `setup_colab_pro.py` per configurare l'ambiente
-2. **Unificazione**: Unisci i dati da `/content/drive/MyDrive/F1_Project/processed_races/`
-3. **Training**: Avvia il training con `train_from_scratch_pro.py`
-4. **Analisi**: Visualizza i risultati con i notebook
-5. **Inference**: Testa il modello con dati di esempio
+### **Flusso di Lavoro su Colab (dettagliato)**
+1. **Preparazione Google Drive**:
+   - Assicurati che i tuoi dati F1 processati (file `.parquet`) siano presenti in `/content/drive/MyDrive/F1_Project/processed_races/`.
+   - Crea le cartelle `/content/drive/MyDrive/F1_Project/unified_data/`, `/content/drive/MyDrive/F1_Project/logs/`, `/content/drive/MyDrive/F1_Project/checkpoints/`, `/content/drive/MyDrive/F1_Project/backups/` e `/content/drive/MyDrive/F1_Project/results/` sul tuo Google Drive se non esistono già (anche se gli script dovrebbero crearle se mancano).
+2. **Apri Notebook in Colab**: Carica e apri `colab_models/notebooks/01_quick_start_pro.ipynb` in Google Colab.
+3. **Esegui Celle Iniziali**:
+   - Monta il tuo Google Drive.
+   - Clona il repository (se non l'hai già fatto e caricato `colab_models` su Drive) e naviga in `FASTF1/colab_models`.
+   - Esegui lo script `setup_colab_pro.py` tramite `%run setup_colab_pro.py`.
+4. **Unificazione Dati**:
+   - La cella relativa all'unificazione dati nel notebook istanzierà `CompleteDataUnifier` usando `config_path="colab_models/configs/data_config_colab.json"`.
+   - Questo assicura che i dati vengano letti da `/content/drive/MyDrive/F1_Project/processed_races/` e che l'output venga salvato in `/content/drive/MyDrive/F1_Project/unified_data/`.
+5. **Training**:
+   - Le celle di training useranno i dati unificati e salveranno i modelli e i checkpoint in `/content/drive/MyDrive/F1_Project/models/checkpoints/` (o percorso simile definito in `model_config_pro.yaml` e gestito da `ProTrainer`).
+6. **Analisi e Inference**: Segui le celle del notebook per analizzare i risultati e testare l'inference.
 
-### **Path Importanti**
-- **Dati**: `/content/drive/MyDrive/F1_Project/processed_races/`
-- **Best Model**: `/content/drive/MyDrive/F1_TireChange_Project/models/checkpoints/best_model.pth`
+### **Path Chiave (configurati in `data_config_colab.json`)**
+- **Sorgente Dati Parquet**: `/content/drive/MyDrive/F1_Project/processed_races/`
+- **Dataset Unificato Output**: `/content/drive/MyDrive/F1_Project/unified_data/f1_complete_dataset_colab.parquet`
+- **Log Unificazione**: `/content/drive/MyDrive/F1_Project/logs/data_unification_colab.log`
+- **Checkpoint Unificazione**: `/content/drive/MyDrive/F1_Project/checkpoints/unification_checkpoint_colab.pkl`
+- **Modelli Addestrati (esempio, il path esatto dipende da `model_config_pro.yaml`)**: `/content/drive/MyDrive/F1_Project/models/checkpoints/best_model.pth`
 
 ### **Dataset Finale Atteso**
 - **Anni coperti**: 2018-2024 (tutti disponibili)

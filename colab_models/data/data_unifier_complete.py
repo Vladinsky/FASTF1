@@ -27,13 +27,14 @@ class CompleteDataUnifier:
         Args:
             config_path: Path al file di configurazione
         """
-        self.config = self._load_config(config_path)
         self.logger = self._setup_logging()
+        self.config = self._load_config(config_path)
         
         # Paths
         self.drive_path = self.config["colab_specific"]["drive_mount_path"]
         self.temp_dir = self.config["colab_specific"]["temp_directory"]
         self.checkpoint_file = self.config["colab_specific"]["checkpoint_recovery"]["checkpoint_file"]
+        self.problematic_files_log_path = self.config.get("logging", {}).get("problematic_files_log", "problematic_parquet_files.txt") # Get path, with a default
         
         # Data tracking
         self.processed_files = set()
@@ -165,10 +166,19 @@ class CompleteDataUnifier:
             self.logger.error(f"Error loading {file_path}: {e}")
             return None
     
-    def load_vincenzo_data(self, file_path: str) -> Optional[pd.DataFrame]:
-        """Carica dati Parquet da cartella Vincenzo"""
+    def load_data_from_drive(self, file_path: str) -> Optional[pd.DataFrame]:
+        """Carica dati Parquet da Google Drive (specificamente da F1_Project/processed_races)"""
         try:
+            # Ensure the directory for problematic files log exists
+            os.makedirs(os.path.dirname(self.problematic_files_log_path), exist_ok=True)
+
             df = pd.read_parquet(file_path)
+
+            if df.empty:
+                self.logger.warning(f"File is empty: {file_path}")
+                with open(self.problematic_files_log_path, 'a') as f_log:
+                    f_log.write(f"EMPTY_FILE: {file_path}\n")
+                return None
             
             # Parse anno dal filename se non presente
             if 'Year' not in df.columns:
@@ -184,6 +194,10 @@ class CompleteDataUnifier:
             
         except Exception as e:
             self.logger.error(f"Error loading {file_path}: {e}")
+            # Ensure the directory for problematic files log exists before writing
+            os.makedirs(os.path.dirname(self.problematic_files_log_path), exist_ok=True)
+            with open(self.problematic_files_log_path, 'a') as f_log:
+                f_log.write(f"LOAD_ERROR: {file_path} - Error: {str(e)}\n")
             return None
     
     def _standardize_column_names(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -363,10 +377,10 @@ class CompleteDataUnifier:
                     continue
                 
                 # Carica dati in base alla sorgente
-                if source_name == "domenico_data":
-                    df = self.load_domenico_data(file_path)
-                elif source_name == "vincenzo_processed":
-                    df = self.load_vincenzo_data(file_path)
+                # La sorgente "domenico_data" non è più prevista nella configurazione per Colab.
+                # Se presente per errore, verrà loggato come "Unknown source".
+                if source_name == "drive_processed": # Chiave aggiornata per Colab
+                    df = self.load_data_from_drive(file_path) # Funzione rinominata
                 else:
                     self.logger.warning(f"Unknown source: {source_name}")
                     continue
